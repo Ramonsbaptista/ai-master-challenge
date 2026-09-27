@@ -57,7 +57,7 @@ As faixas A/B/C e a assistência por LLM descrevem processo futuro: não estão 
 
 Mais telas: [direto para a fila](process-log/screenshots/04-tela-classificar-direto-para-fila.png) · [baixa confiança](process-log/screenshots/05-tela-classificar-baixa-confianca-pessoa.png) · [português](process-log/screenshots/06-tela-classificar-portugues-barreira-idioma.png) · [kill switch ligado](process-log/screenshots/09-kill-switch-ligado-tudo-para-pessoa.png).
 
-Demo online no Render: **[LINK DA DEMO]**. O plano gratuito pode levar cerca de **1 minuto (premissa do provedor, não medida nas bases)** para acordar na primeira visita. A publicação será feita pelo Ramon.
+Demo online no Render: **https://triagem-assistida-ramon.onrender.com**. O plano gratuito pode levar cerca de **1 minuto (premissa do provedor, não medida nas bases)** para acordar na primeira visita.
 
 ### Resultados / Findings
 
@@ -192,7 +192,7 @@ O resultado executivo está em [“Quanto desperdiçamos?”](#as-três-pergunta
 - [x] Screenshots do processo: [`process-log/screenshots/`](process-log/screenshots/) — por exemplo, o momento em que pedi o README em texto editável para reescrever com as minhas palavras ([ver print](process-log/screenshots/01-pedido-readme-editavel.jpeg))
 - [ ] Screen recording: não utilizado
 - [x] Git history: o PR está organizado em commits por camada da entrega (escopo, diagnóstico, protótipo, avaliação, process log e README), todos feitos no dia do envio. O trabalho não foi versionado ao longo do caminho; a evolução real está registrada no process log.
-- [x] Outro: o protótipo roda na máquina do avaliador com um comando (`run.ps1` no Windows, `run.sh` no macOS/Linux), no Google Colab ou pela demo no Render após a publicação do Ramon: **[LINK DA DEMO]**
+- [x] Outro: o protótipo roda na máquina do avaliador com um comando (`run.ps1` no Windows, `run.sh` no macOS/Linux), no Google Colab ou pela demo pública no Render: **https://triagem-assistida-ramon.onrender.com**
 
 ---
 

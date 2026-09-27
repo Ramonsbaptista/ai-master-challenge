@@ -187,3 +187,14 @@ caminhos com barra invertida, que o Linux não reconhece como pastas.
 - **O que o Codex fez:** alinhou README, interface e diário; simplificou as premissas econômicas sem mudar números.
 - **O que o Claude Code auditou:** a rodada de fechamento será conferida pela suíte completa e pela revisão dos arquivos alterados.
 - **O que decidi:** manter modelo, split, teste congelado, limiares, números oficiais e barreira desligada.
+
+### 23. Rodadas 49 a 52: três perguntas no topo e o avaliador final
+- **O que pedi:** as três perguntas do diretor logo no início do README, com respostas diretas; trocar "Claude" e "GPT" por "Claude Code" e "Codex"; depois, uma avaliação independente simulando o revisor do G4.
+- **O que o Codex fez:** respondeu às três perguntas com número, n e primeiro passo; uma sessão nova, só de leitura, comparou a entrega com os três concorrentes mais bem avaliados e deu **8,7/10**, apontando dez correções (entre elas, "86,51%" chamado de acurácia quando é macro-F1).
+- **O que o Claude Code auditou:** retirou da primeira resposta o ranking "Chat × cancelamento", que os horários sorteados não sustentam; conferiu as correções, a varredura de chaves e os 21 testes; gerou os prints das telas direto do sistema.
+- **O que decidi:** aplicar as correções e enviar com a segunda avaliação independente em **8,8/10**, "Forte, muito perto de Excepcional".
+
+### 24. Publicação: a verificação de integridade barrou o próprio deploy
+- **O que aconteceu:** no Render, o sistema subiu mas recusou-se a classificar. O git convertera o fim de linha de três arquivos protegidos por SHA-256 (base de treino, divisão treino/teste e proteção de idioma); no Linux o hash deixou de bater e a trava de integridade bloqueou a análise, exatamente como promete.
+- **O que o Claude Code fez:** comparou o hash de cada arquivo no git com o do disco, confirmou a causa e adicionou um `.gitattributes` que guarda esses arquivos byte a byte.
+- **Resultado:** a demo pública respondeu com `{"status":"ok"}`, classificou os exemplos e reproduziu a avaliação.
