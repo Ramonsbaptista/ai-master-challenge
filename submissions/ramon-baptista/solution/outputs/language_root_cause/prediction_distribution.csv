@@ -1,0 +1,17 @@
+language,class,n,predicted_n,predicted_fraction
+en,Access,800,88,0.11
+en,Administrative rights,800,89,0.11125
+en,HR Support,800,103,0.12875
+en,Hardware,800,127,0.15875
+en,Internal Project,800,91,0.11375
+en,Miscellaneous,800,110,0.1375
+en,Purchase,800,97,0.12125
+en,Storage,800,95,0.11875
+pt,Access,800,21,0.02625
+pt,Administrative rights,800,60,0.075
+pt,HR Support,800,59,0.07375
+pt,Hardware,800,475,0.59375
+pt,Internal Project,800,41,0.05125
+pt,Miscellaneous,800,60,0.075
+pt,Purchase,800,76,0.095
+pt,Storage,800,8,0.01

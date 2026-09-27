@@ -1,0 +1,1169 @@
+﻿case_id,group,language,text,expected_label,origin
+R0001,reformulacoes_8_filas,ingles,The VPN rejects my password.,Access,sintetico_gerado_por_IA
+R0002,reformulacoes_8_filas,ingles,The VPN locks me out.,Access,sintetico_gerado_por_IA
+R0003,reformulacoes_8_filas,ingles,The VPN denies my login.,Access,sintetico_gerado_por_IA
+R0004,reformulacoes_8_filas,ingles,The VPN ends my session.,Access,sintetico_gerado_por_IA
+R0005,reformulacoes_8_filas,ingles,The payroll portal rejects my password.,Access,sintetico_gerado_por_IA
+R0006,reformulacoes_8_filas,ingles,The payroll portal locks me out.,Access,sintetico_gerado_por_IA
+R0007,reformulacoes_8_filas,ingles,The payroll portal denies my login.,Access,sintetico_gerado_por_IA
+R0008,reformulacoes_8_filas,ingles,The payroll portal ends my session.,Access,sintetico_gerado_por_IA
+R0009,reformulacoes_8_filas,ingles,The corporate email rejects my password.,Access,sintetico_gerado_por_IA
+R0010,reformulacoes_8_filas,ingles,The corporate email locks me out.,Access,sintetico_gerado_por_IA
+R0011,reformulacoes_8_filas,ingles,The corporate email denies my login.,Access,sintetico_gerado_por_IA
+R0012,reformulacoes_8_filas,ingles,The corporate email ends my session.,Access,sintetico_gerado_por_IA
+R0013,reformulacoes_8_filas,ingles,The timesheet rejects my password.,Access,sintetico_gerado_por_IA
+R0014,reformulacoes_8_filas,ingles,The timesheet locks me out.,Access,sintetico_gerado_por_IA
+R0015,reformulacoes_8_filas,ingles,The timesheet denies my login.,Access,sintetico_gerado_por_IA
+R0016,reformulacoes_8_filas,ingles,The timesheet ends my session.,Access,sintetico_gerado_por_IA
+R0017,reformulacoes_8_filas,ingles,The intranet rejects my password.,Access,sintetico_gerado_por_IA
+R0018,reformulacoes_8_filas,ingles,The intranet locks me out.,Access,sintetico_gerado_por_IA
+R0019,reformulacoes_8_filas,ingles,The intranet denies my login.,Access,sintetico_gerado_por_IA
+R0020,reformulacoes_8_filas,ingles,The intranet ends my session.,Access,sintetico_gerado_por_IA
+R0021,erros_de_digitacao,ingles,Plesae assist because the vpn rejects my password.,Access,sintetico_gerado_por_IA
+R0022,erros_de_digitacao,ingles,Please asssit because the vpn locks me out.,Access,sintetico_gerado_por_IA
+R0023,erros_de_digitacao,ingles,Please assist becuase the vpn denies my login.,Access,sintetico_gerado_por_IA
+R0024,erros_de_digitacao,ingles,Please assist because the vpn ends my sessoin.,Access,sintetico_gerado_por_IA
+R0025,erros_de_digitacao,ingles,Please assist because the payroll poratl rejects my password.,Access,sintetico_gerado_por_IA
+R0026,erros_de_digitacao,ingles,Plesae assist because the payroll portal locks me out.,Access,sintetico_gerado_por_IA
+R0027,erros_de_digitacao,ingles,Plesae assist because the payroll portal denies my login.,Access,sintetico_gerado_por_IA
+R0028,erros_de_digitacao,ingles,Please asssit because the payroll portal ends my session.,Access,sintetico_gerado_por_IA
+R0029,erros_de_digitacao,ingles,Please assist becuase the corporate email rejects my password.,Access,sintetico_gerado_por_IA
+R0030,erros_de_digitacao,ingles,Please asssit because the corporate email locks me out.,Access,sintetico_gerado_por_IA
+R0031,erros_de_digitacao,ingles,Plesae assist because the corporate email denies my login.,Access,sintetico_gerado_por_IA
+R0032,erros_de_digitacao,ingles,Please asssit because the corporate email ends my session.,Access,sintetico_gerado_por_IA
+R0033,erros_de_digitacao,ingles,Plesae assist because the timesheet rejects my password.,Access,sintetico_gerado_por_IA
+R0034,erros_de_digitacao,ingles,Please asssit because the timesheet locks me out.,Access,sintetico_gerado_por_IA
+R0035,erros_de_digitacao,ingles,Please assist because the timesheet deneis my login.,Access,sintetico_gerado_por_IA
+R0036,erros_de_digitacao,ingles,Plesae assist because the timesheet ends my session.,Access,sintetico_gerado_por_IA
+R0037,erros_de_digitacao,ingles,Please assist because the intranet rejcets my password.,Access,sintetico_gerado_por_IA
+R0038,erros_de_digitacao,ingles,Please asssit because the intranet locks me out.,Access,sintetico_gerado_por_IA
+R0039,erros_de_digitacao,ingles,Please assist because the intrnaet denies my login.,Access,sintetico_gerado_por_IA
+R0040,erros_de_digitacao,ingles,Please assist because the intranet ends my sessoin.,Access,sintetico_gerado_por_IA
+R0041,textos_curtos,ingles,VPN blocked,Access,sintetico_gerado_por_IA
+R0042,mistura_de_idiomas,misto,No puedo VPN because it rejects my password,Access,sintetico_gerado_por_IA
+R0043,textos_curtos,ingles,email unavailable,Access,sintetico_gerado_por_IA
+R0044,mistura_de_idiomas,misto,Necesito ayuda para payroll portal because it locks me out,Access,sintetico_gerado_por_IA
+R0045,textos_curtos,ingles,intranet problem,Access,sintetico_gerado_por_IA
+R0046,mistura_de_idiomas,misto,Por favor necesito corporate email because it denies my login,Access,sintetico_gerado_por_IA
+R0047,textos_curtos,ingles,timesheet request,Access,sintetico_gerado_por_IA
+R0048,mistura_de_idiomas,misto,Mi equipo dice que timesheet because it ends my session,Access,sintetico_gerado_por_IA
+R0049,textos_curtos,ingles,portal needed,Access,sintetico_gerado_por_IA
+R0050,mistura_de_idiomas,misto,Hoje não consigo intranet because it rejects my password,Access,sintetico_gerado_por_IA
+R0051,textos_curtos,ingles,account failed,Access,sintetico_gerado_por_IA
+R0052,mistura_de_idiomas,misto,Preciso resolver VPN because it locks me out,Access,sintetico_gerado_por_IA
+R0053,textos_curtos,ingles,login urgent,Access,sintetico_gerado_por_IA
+R0054,mistura_de_idiomas,misto,Pode ajudar com payroll portal because it denies my login,Access,sintetico_gerado_por_IA
+R0055,textos_curtos,ingles,VPN incorrect,Access,sintetico_gerado_por_IA
+R0056,mistura_de_idiomas,misto,Meu colega reportou que corporate email because it ends my session,Access,sintetico_gerado_por_IA
+R0057,textos_curtos,ingles,email missing,Access,sintetico_gerado_por_IA
+R0058,mistura_de_idiomas,misto,La oficina informa que timesheet because it rejects my password,Access,sintetico_gerado_por_IA
+R0059,textos_curtos,ingles,intranet full,Access,sintetico_gerado_por_IA
+R0060,mistura_de_idiomas,misto,Quiero corregir intranet because it locks me out,Access,sintetico_gerado_por_IA
+R0061,textos_curtos,ingles,timesheet broken,Access,sintetico_gerado_por_IA
+R0062,mistura_de_idiomas,misto,Não funciona VPN because it denies my login,Access,sintetico_gerado_por_IA
+R0063,textos_curtos,ingles,portal approval,Access,sintetico_gerado_por_IA
+R0064,mistura_de_idiomas,misto,Tenemos un problema con payroll portal because it ends my session,Access,sintetico_gerado_por_IA
+R0065,textos_curtos,ingles,account support,Access,sintetico_gerado_por_IA
+R0066,mistura_de_idiomas,misto,Favor verificar corporate email because it rejects my password,Access,sintetico_gerado_por_IA
+R0067,reformulacoes_8_filas,ingles,The analytics client requires administrator approval.,Administrative rights,sintetico_gerado_por_IA
+R0068,reformulacoes_8_filas,ingles,The analytics client is blocked by policy.,Administrative rights,sintetico_gerado_por_IA
+R0069,reformulacoes_8_filas,ingles,The analytics client needs elevated permission.,Administrative rights,sintetico_gerado_por_IA
+R0070,reformulacoes_8_filas,ingles,The analytics client requests privileged access.,Administrative rights,sintetico_gerado_por_IA
+R0071,reformulacoes_8_filas,ingles,The graphics driver requires administrator approval.,Administrative rights,sintetico_gerado_por_IA
+R0072,reformulacoes_8_filas,ingles,The graphics driver is blocked by policy.,Administrative rights,sintetico_gerado_por_IA
+R0073,reformulacoes_8_filas,ingles,The graphics driver needs elevated permission.,Administrative rights,sintetico_gerado_por_IA
+R0074,reformulacoes_8_filas,ingles,The graphics driver requests privileged access.,Administrative rights,sintetico_gerado_por_IA
+R0075,reformulacoes_8_filas,ingles,The audit utility requires administrator approval.,Administrative rights,sintetico_gerado_por_IA
+R0076,reformulacoes_8_filas,ingles,The audit utility is blocked by policy.,Administrative rights,sintetico_gerado_por_IA
+R0077,reformulacoes_8_filas,ingles,The audit utility needs elevated permission.,Administrative rights,sintetico_gerado_por_IA
+R0078,reformulacoes_8_filas,ingles,The audit utility requests privileged access.,Administrative rights,sintetico_gerado_por_IA
+R0079,reformulacoes_8_filas,ingles,The firewall settings requires administrator approval.,Administrative rights,sintetico_gerado_por_IA
+R0080,reformulacoes_8_filas,ingles,The firewall settings is blocked by policy.,Administrative rights,sintetico_gerado_por_IA
+R0081,reformulacoes_8_filas,ingles,The firewall settings needs elevated permission.,Administrative rights,sintetico_gerado_por_IA
+R0082,reformulacoes_8_filas,ingles,The firewall settings requests privileged access.,Administrative rights,sintetico_gerado_por_IA
+R0083,reformulacoes_8_filas,ingles,The Java console requires administrator approval.,Administrative rights,sintetico_gerado_por_IA
+R0084,reformulacoes_8_filas,ingles,The Java console is blocked by policy.,Administrative rights,sintetico_gerado_por_IA
+R0085,reformulacoes_8_filas,ingles,The Java console needs elevated permission.,Administrative rights,sintetico_gerado_por_IA
+R0086,reformulacoes_8_filas,ingles,The Java console requests privileged access.,Administrative rights,sintetico_gerado_por_IA
+R0087,erros_de_digitacao,ingles,Plesae assist because the analytics client requires administrator approval.,Administrative rights,sintetico_gerado_por_IA
+R0088,erros_de_digitacao,ingles,Please asssit because the analytics client is blocked by policy.,Administrative rights,sintetico_gerado_por_IA
+R0089,erros_de_digitacao,ingles,Please assist becuase the analytics client needs elevated permission.,Administrative rights,sintetico_gerado_por_IA
+R0090,erros_de_digitacao,ingles,Please assist because the analtyics client requests privileged access.,Administrative rights,sintetico_gerado_por_IA
+R0091,erros_de_digitacao,ingles,Please assist because the graphics drievr requires administrator approval.,Administrative rights,sintetico_gerado_por_IA
+R0092,erros_de_digitacao,ingles,Please assist because the graphics driver is blokced by policy.,Administrative rights,sintetico_gerado_por_IA
+R0093,erros_de_digitacao,ingles,Please assist because the graphics driver needs elevated permission.,Administrative rights,sintetico_gerado_por_IA
+R0094,erros_de_digitacao,ingles,Please assist because the graphics driver requests privileged accses.,Administrative rights,sintetico_gerado_por_IA
+R0095,erros_de_digitacao,ingles,Please asssit because the audit utility requires administrator approval.,Administrative rights,sintetico_gerado_por_IA
+R0096,erros_de_digitacao,ingles,Please assist because the audit utiilty is blocked by policy.,Administrative rights,sintetico_gerado_por_IA
+R0097,erros_de_digitacao,ingles,Please assist because the audit utility needs elevtaed permission.,Administrative rights,sintetico_gerado_por_IA
+R0098,erros_de_digitacao,ingles,Please assist because the audit utility requsets privileged access.,Administrative rights,sintetico_gerado_por_IA
+R0099,erros_de_digitacao,ingles,Please assist because the firewall settnigs requires administrator approval.,Administrative rights,sintetico_gerado_por_IA
+R0100,erros_de_digitacao,ingles,Please assist because the firewall settings is blocked by polciy.,Administrative rights,sintetico_gerado_por_IA
+R0101,erros_de_digitacao,ingles,Plesae assist because the firewall settings needs elevated permission.,Administrative rights,sintetico_gerado_por_IA
+R0102,erros_de_digitacao,ingles,Please assist because the firewall settings requests privileged accses.,Administrative rights,sintetico_gerado_por_IA
+R0103,erros_de_digitacao,ingles,Please assist becuase the java console requires administrator approval.,Administrative rights,sintetico_gerado_por_IA
+R0104,erros_de_digitacao,ingles,Please assist because the java console is blocked by polciy.,Administrative rights,sintetico_gerado_por_IA
+R0105,erros_de_digitacao,ingles,Plesae assist because the java console needs elevated permission.,Administrative rights,sintetico_gerado_por_IA
+R0106,erros_de_digitacao,ingles,Please assist because the java console requests privielged access.,Administrative rights,sintetico_gerado_por_IA
+R0107,textos_curtos,ingles,admin blocked,Administrative rights,sintetico_gerado_por_IA
+R0108,mistura_de_idiomas,misto,No puedo analytics client because it requires administrator approval,Administrative rights,sintetico_gerado_por_IA
+R0109,textos_curtos,ingles,elevation unavailable,Administrative rights,sintetico_gerado_por_IA
+R0110,mistura_de_idiomas,misto,Necesito ayuda para graphics driver because it is blocked by policy,Administrative rights,sintetico_gerado_por_IA
+R0111,textos_curtos,ingles,privileges problem,Administrative rights,sintetico_gerado_por_IA
+R0112,mistura_de_idiomas,misto,Por favor necesito audit utility because it needs elevated permission,Administrative rights,sintetico_gerado_por_IA
+R0113,textos_curtos,ingles,administrator request,Administrative rights,sintetico_gerado_por_IA
+R0114,mistura_de_idiomas,misto,Mi equipo dice que firewall settings because it requests privileged access,Administrative rights,sintetico_gerado_por_IA
+R0115,textos_curtos,ingles,sudo needed,Administrative rights,sintetico_gerado_por_IA
+R0116,mistura_de_idiomas,misto,Hoje não consigo Java console because it requires administrator approval,Administrative rights,sintetico_gerado_por_IA
+R0117,textos_curtos,ingles,permission failed,Administrative rights,sintetico_gerado_por_IA
+R0118,mistura_de_idiomas,misto,Preciso resolver analytics client because it is blocked by policy,Administrative rights,sintetico_gerado_por_IA
+R0119,textos_curtos,ingles,rights urgent,Administrative rights,sintetico_gerado_por_IA
+R0120,mistura_de_idiomas,misto,Pode ajudar com graphics driver because it needs elevated permission,Administrative rights,sintetico_gerado_por_IA
+R0121,textos_curtos,ingles,admin incorrect,Administrative rights,sintetico_gerado_por_IA
+R0122,mistura_de_idiomas,misto,Meu colega reportou que audit utility because it requests privileged access,Administrative rights,sintetico_gerado_por_IA
+R0123,textos_curtos,ingles,elevation missing,Administrative rights,sintetico_gerado_por_IA
+R0124,mistura_de_idiomas,misto,La oficina informa que firewall settings because it requires administrator approval,Administrative rights,sintetico_gerado_por_IA
+R0125,textos_curtos,ingles,privileges full,Administrative rights,sintetico_gerado_por_IA
+R0126,mistura_de_idiomas,misto,Quiero corregir Java console because it is blocked by policy,Administrative rights,sintetico_gerado_por_IA
+R0127,textos_curtos,ingles,administrator broken,Administrative rights,sintetico_gerado_por_IA
+R0128,mistura_de_idiomas,misto,Não funciona analytics client because it needs elevated permission,Administrative rights,sintetico_gerado_por_IA
+R0129,textos_curtos,ingles,sudo approval,Administrative rights,sintetico_gerado_por_IA
+R0130,mistura_de_idiomas,misto,Tenemos un problema con graphics driver because it requests privileged access,Administrative rights,sintetico_gerado_por_IA
+R0131,textos_curtos,ingles,permission support,Administrative rights,sintetico_gerado_por_IA
+R0132,mistura_de_idiomas,misto,Favor verificar audit utility because it requires administrator approval,Administrative rights,sintetico_gerado_por_IA
+R0133,reformulacoes_8_filas,ingles,The salary record shows the wrong value.,HR Support,sintetico_gerado_por_IA
+R0134,reformulacoes_8_filas,ingles,The salary record needs correction.,HR Support,sintetico_gerado_por_IA
+R0135,reformulacoes_8_filas,ingles,The salary record is missing an update.,HR Support,sintetico_gerado_por_IA
+R0136,reformulacoes_8_filas,ingles,The salary record disagrees with my documents.,HR Support,sintetico_gerado_por_IA
+R0137,reformulacoes_8_filas,ingles,The vacation balance shows the wrong value.,HR Support,sintetico_gerado_por_IA
+R0138,reformulacoes_8_filas,ingles,The vacation balance needs correction.,HR Support,sintetico_gerado_por_IA
+R0139,reformulacoes_8_filas,ingles,The vacation balance is missing an update.,HR Support,sintetico_gerado_por_IA
+R0140,reformulacoes_8_filas,ingles,The vacation balance disagrees with my documents.,HR Support,sintetico_gerado_por_IA
+R0141,reformulacoes_8_filas,ingles,The health benefit shows the wrong value.,HR Support,sintetico_gerado_por_IA
+R0142,reformulacoes_8_filas,ingles,The health benefit needs correction.,HR Support,sintetico_gerado_por_IA
+R0143,reformulacoes_8_filas,ingles,The health benefit is missing an update.,HR Support,sintetico_gerado_por_IA
+R0144,reformulacoes_8_filas,ingles,The health benefit disagrees with my documents.,HR Support,sintetico_gerado_por_IA
+R0145,reformulacoes_8_filas,ingles,The job title shows the wrong value.,HR Support,sintetico_gerado_por_IA
+R0146,reformulacoes_8_filas,ingles,The job title needs correction.,HR Support,sintetico_gerado_por_IA
+R0147,reformulacoes_8_filas,ingles,The job title is missing an update.,HR Support,sintetico_gerado_por_IA
+R0148,reformulacoes_8_filas,ingles,The job title disagrees with my documents.,HR Support,sintetico_gerado_por_IA
+R0149,reformulacoes_8_filas,ingles,The tax withholding shows the wrong value.,HR Support,sintetico_gerado_por_IA
+R0150,reformulacoes_8_filas,ingles,The tax withholding needs correction.,HR Support,sintetico_gerado_por_IA
+R0151,reformulacoes_8_filas,ingles,The tax withholding is missing an update.,HR Support,sintetico_gerado_por_IA
+R0152,reformulacoes_8_filas,ingles,The tax withholding disagrees with my documents.,HR Support,sintetico_gerado_por_IA
+R0153,erros_de_digitacao,ingles,Plesae assist because the salary record shows the wrong value.,HR Support,sintetico_gerado_por_IA
+R0154,erros_de_digitacao,ingles,Please asssit because the salary record needs correction.,HR Support,sintetico_gerado_por_IA
+R0155,erros_de_digitacao,ingles,Please assist becuase the salary record is missing an update.,HR Support,sintetico_gerado_por_IA
+R0156,erros_de_digitacao,ingles,Please assist because the salray record disagrees with my documents.,HR Support,sintetico_gerado_por_IA
+R0157,erros_de_digitacao,ingles,Please assist because the vacation balnace shows the wrong value.,HR Support,sintetico_gerado_por_IA
+R0158,erros_de_digitacao,ingles,Please assist because the vacation balance needs corretcion.,HR Support,sintetico_gerado_por_IA
+R0159,erros_de_digitacao,ingles,Please assist because the vacation balance is missing an updtae.,HR Support,sintetico_gerado_por_IA
+R0160,erros_de_digitacao,ingles,Plesae assist because the vacation balance disagrees with my documents.,HR Support,sintetico_gerado_por_IA
+R0161,erros_de_digitacao,ingles,Please assist because the heatlh benefit shows the wrong value.,HR Support,sintetico_gerado_por_IA
+R0162,erros_de_digitacao,ingles,Please assist because the heatlh benefit needs correction.,HR Support,sintetico_gerado_por_IA
+R0163,erros_de_digitacao,ingles,Please assist because the heatlh benefit is missing an update.,HR Support,sintetico_gerado_por_IA
+R0164,erros_de_digitacao,ingles,Please assist because the health benfeit disagrees with my documents.,HR Support,sintetico_gerado_por_IA
+R0165,erros_de_digitacao,ingles,Plesae assist because the job title shows the wrong value.,HR Support,sintetico_gerado_por_IA
+R0166,erros_de_digitacao,ingles,Please asssit because the job title needs correction.,HR Support,sintetico_gerado_por_IA
+R0167,erros_de_digitacao,ingles,Please assist because the job title is missing an updtae.,HR Support,sintetico_gerado_por_IA
+R0168,erros_de_digitacao,ingles,Plesae assist because the job title disagrees with my documents.,HR Support,sintetico_gerado_por_IA
+R0169,erros_de_digitacao,ingles,Plesae assist because the tax withholding shows the wrong value.,HR Support,sintetico_gerado_por_IA
+R0170,erros_de_digitacao,ingles,Please assist becuase the tax withholding needs correction.,HR Support,sintetico_gerado_por_IA
+R0171,erros_de_digitacao,ingles,Plesae assist because the tax withholding is missing an update.,HR Support,sintetico_gerado_por_IA
+R0172,erros_de_digitacao,ingles,Please asssit because the tax withholding disagrees with my documents.,HR Support,sintetico_gerado_por_IA
+R0173,textos_curtos,ingles,payroll blocked,HR Support,sintetico_gerado_por_IA
+R0174,mistura_de_idiomas,misto,No puedo salary record because it shows the wrong value,HR Support,sintetico_gerado_por_IA
+R0175,textos_curtos,ingles,vacation unavailable,HR Support,sintetico_gerado_por_IA
+R0176,mistura_de_idiomas,misto,Necesito ayuda para vacation balance because it needs correction,HR Support,sintetico_gerado_por_IA
+R0177,textos_curtos,ingles,benefits problem,HR Support,sintetico_gerado_por_IA
+R0178,mistura_de_idiomas,misto,Por favor necesito health benefit because it is missing an update,HR Support,sintetico_gerado_por_IA
+R0179,textos_curtos,ingles,salary request,HR Support,sintetico_gerado_por_IA
+R0180,mistura_de_idiomas,misto,Mi equipo dice que job title because it disagrees with my documents,HR Support,sintetico_gerado_por_IA
+R0181,textos_curtos,ingles,title needed,HR Support,sintetico_gerado_por_IA
+R0182,mistura_de_idiomas,misto,Hoje não consigo tax withholding because it shows the wrong value,HR Support,sintetico_gerado_por_IA
+R0183,textos_curtos,ingles,tax failed,HR Support,sintetico_gerado_por_IA
+R0184,mistura_de_idiomas,misto,Preciso resolver salary record because it needs correction,HR Support,sintetico_gerado_por_IA
+R0185,textos_curtos,ingles,leave urgent,HR Support,sintetico_gerado_por_IA
+R0186,mistura_de_idiomas,misto,Pode ajudar com vacation balance because it is missing an update,HR Support,sintetico_gerado_por_IA
+R0187,textos_curtos,ingles,payroll incorrect,HR Support,sintetico_gerado_por_IA
+R0188,mistura_de_idiomas,misto,Meu colega reportou que health benefit because it disagrees with my documents,HR Support,sintetico_gerado_por_IA
+R0189,textos_curtos,ingles,vacation missing,HR Support,sintetico_gerado_por_IA
+R0190,mistura_de_idiomas,misto,La oficina informa que job title because it shows the wrong value,HR Support,sintetico_gerado_por_IA
+R0191,textos_curtos,ingles,benefits full,HR Support,sintetico_gerado_por_IA
+R0192,mistura_de_idiomas,misto,Quiero corregir tax withholding because it needs correction,HR Support,sintetico_gerado_por_IA
+R0193,textos_curtos,ingles,salary broken,HR Support,sintetico_gerado_por_IA
+R0194,mistura_de_idiomas,misto,Não funciona salary record because it is missing an update,HR Support,sintetico_gerado_por_IA
+R0195,textos_curtos,ingles,title approval,HR Support,sintetico_gerado_por_IA
+R0196,mistura_de_idiomas,misto,Tenemos un problema con vacation balance because it disagrees with my documents,HR Support,sintetico_gerado_por_IA
+R0197,textos_curtos,ingles,tax support,HR Support,sintetico_gerado_por_IA
+R0198,mistura_de_idiomas,misto,Favor verificar health benefit because it shows the wrong value,HR Support,sintetico_gerado_por_IA
+R0199,reformulacoes_8_filas,ingles,The laptop screen has stopped working.,Hardware,sintetico_gerado_por_IA
+R0200,reformulacoes_8_filas,ingles,The laptop screen is physically damaged.,Hardware,sintetico_gerado_por_IA
+R0201,reformulacoes_8_filas,ingles,The laptop screen needs replacement.,Hardware,sintetico_gerado_por_IA
+R0202,reformulacoes_8_filas,ingles,The laptop screen shows a hardware fault.,Hardware,sintetico_gerado_por_IA
+R0203,reformulacoes_8_filas,ingles,The office monitor has stopped working.,Hardware,sintetico_gerado_por_IA
+R0204,reformulacoes_8_filas,ingles,The office monitor is physically damaged.,Hardware,sintetico_gerado_por_IA
+R0205,reformulacoes_8_filas,ingles,The office monitor needs replacement.,Hardware,sintetico_gerado_por_IA
+R0206,reformulacoes_8_filas,ingles,The office monitor shows a hardware fault.,Hardware,sintetico_gerado_por_IA
+R0207,reformulacoes_8_filas,ingles,The wireless keyboard has stopped working.,Hardware,sintetico_gerado_por_IA
+R0208,reformulacoes_8_filas,ingles,The wireless keyboard is physically damaged.,Hardware,sintetico_gerado_por_IA
+R0209,reformulacoes_8_filas,ingles,The wireless keyboard needs replacement.,Hardware,sintetico_gerado_por_IA
+R0210,reformulacoes_8_filas,ingles,The wireless keyboard shows a hardware fault.,Hardware,sintetico_gerado_por_IA
+R0211,reformulacoes_8_filas,ingles,The desk mouse has stopped working.,Hardware,sintetico_gerado_por_IA
+R0212,reformulacoes_8_filas,ingles,The desk mouse is physically damaged.,Hardware,sintetico_gerado_por_IA
+R0213,reformulacoes_8_filas,ingles,The desk mouse needs replacement.,Hardware,sintetico_gerado_por_IA
+R0214,reformulacoes_8_filas,ingles,The desk mouse shows a hardware fault.,Hardware,sintetico_gerado_por_IA
+R0215,reformulacoes_8_filas,ingles,The network printer has stopped working.,Hardware,sintetico_gerado_por_IA
+R0216,reformulacoes_8_filas,ingles,The network printer is physically damaged.,Hardware,sintetico_gerado_por_IA
+R0217,reformulacoes_8_filas,ingles,The network printer needs replacement.,Hardware,sintetico_gerado_por_IA
+R0218,reformulacoes_8_filas,ingles,The network printer shows a hardware fault.,Hardware,sintetico_gerado_por_IA
+R0219,erros_de_digitacao,ingles,Plesae assist because the laptop screen has stopped working.,Hardware,sintetico_gerado_por_IA
+R0220,erros_de_digitacao,ingles,Please asssit because the laptop screen is physically damaged.,Hardware,sintetico_gerado_por_IA
+R0221,erros_de_digitacao,ingles,Please assist becuase the laptop screen needs replacement.,Hardware,sintetico_gerado_por_IA
+R0222,erros_de_digitacao,ingles,Please assist because the lapotp screen shows a hardware fault.,Hardware,sintetico_gerado_por_IA
+R0223,erros_de_digitacao,ingles,Please assist because the office montior has stopped working.,Hardware,sintetico_gerado_por_IA
+R0224,erros_de_digitacao,ingles,Please assist because the office monitor is physiaclly damaged.,Hardware,sintetico_gerado_por_IA
+R0225,erros_de_digitacao,ingles,Plesae assist because the office monitor needs replacement.,Hardware,sintetico_gerado_por_IA
+R0226,erros_de_digitacao,ingles,Please asssit because the office monitor shows a hardware fault.,Hardware,sintetico_gerado_por_IA
+R0227,erros_de_digitacao,ingles,Please asssit because the wireless keyboard has stopped working.,Hardware,sintetico_gerado_por_IA
+R0228,erros_de_digitacao,ingles,Please assist becuase the wireless keyboard is physically damaged.,Hardware,sintetico_gerado_por_IA
+R0229,erros_de_digitacao,ingles,Please assist because the wireless keybaord needs replacement.,Hardware,sintetico_gerado_por_IA
+R0230,erros_de_digitacao,ingles,Please assist because the wireless keyboard shows a hardawre fault.,Hardware,sintetico_gerado_por_IA
+R0231,erros_de_digitacao,ingles,Please assist becuase the desk mouse has stopped working.,Hardware,sintetico_gerado_por_IA
+R0232,erros_de_digitacao,ingles,Please assist because the desk mouse is physiaclly damaged.,Hardware,sintetico_gerado_por_IA
+R0233,erros_de_digitacao,ingles,Please assist becuase the desk mouse needs replacement.,Hardware,sintetico_gerado_por_IA
+R0234,erros_de_digitacao,ingles,Please assist because the desk mouse shows a hardawre fault.,Hardware,sintetico_gerado_por_IA
+R0235,erros_de_digitacao,ingles,Please assist becuase the network printer has stopped working.,Hardware,sintetico_gerado_por_IA
+R0236,erros_de_digitacao,ingles,Please assist because the netowrk printer is physically damaged.,Hardware,sintetico_gerado_por_IA
+R0237,erros_de_digitacao,ingles,Plesae assist because the network printer needs replacement.,Hardware,sintetico_gerado_por_IA
+R0238,erros_de_digitacao,ingles,Please asssit because the network printer shows a hardware fault.,Hardware,sintetico_gerado_por_IA
+R0239,textos_curtos,ingles,laptop blocked,Hardware,sintetico_gerado_por_IA
+R0240,mistura_de_idiomas,misto,No puedo laptop screen because it has stopped working,Hardware,sintetico_gerado_por_IA
+R0241,textos_curtos,ingles,monitor unavailable,Hardware,sintetico_gerado_por_IA
+R0242,mistura_de_idiomas,misto,Necesito ayuda para office monitor because it is physically damaged,Hardware,sintetico_gerado_por_IA
+R0243,textos_curtos,ingles,keyboard problem,Hardware,sintetico_gerado_por_IA
+R0244,mistura_de_idiomas,misto,Por favor necesito wireless keyboard because it needs replacement,Hardware,sintetico_gerado_por_IA
+R0245,textos_curtos,ingles,mouse request,Hardware,sintetico_gerado_por_IA
+R0246,mistura_de_idiomas,misto,Mi equipo dice que desk mouse because it shows a hardware fault,Hardware,sintetico_gerado_por_IA
+R0247,textos_curtos,ingles,printer needed,Hardware,sintetico_gerado_por_IA
+R0248,mistura_de_idiomas,misto,Hoje não consigo network printer because it has stopped working,Hardware,sintetico_gerado_por_IA
+R0249,textos_curtos,ingles,screen failed,Hardware,sintetico_gerado_por_IA
+R0250,mistura_de_idiomas,misto,Preciso resolver laptop screen because it is physically damaged,Hardware,sintetico_gerado_por_IA
+R0251,textos_curtos,ingles,charger urgent,Hardware,sintetico_gerado_por_IA
+R0252,mistura_de_idiomas,misto,Pode ajudar com office monitor because it needs replacement,Hardware,sintetico_gerado_por_IA
+R0253,textos_curtos,ingles,laptop incorrect,Hardware,sintetico_gerado_por_IA
+R0254,mistura_de_idiomas,misto,Meu colega reportou que wireless keyboard because it shows a hardware fault,Hardware,sintetico_gerado_por_IA
+R0255,textos_curtos,ingles,monitor missing,Hardware,sintetico_gerado_por_IA
+R0256,mistura_de_idiomas,misto,La oficina informa que desk mouse because it has stopped working,Hardware,sintetico_gerado_por_IA
+R0257,textos_curtos,ingles,keyboard full,Hardware,sintetico_gerado_por_IA
+R0258,mistura_de_idiomas,misto,Quiero corregir network printer because it is physically damaged,Hardware,sintetico_gerado_por_IA
+R0259,textos_curtos,ingles,mouse broken,Hardware,sintetico_gerado_por_IA
+R0260,mistura_de_idiomas,misto,Não funciona laptop screen because it needs replacement,Hardware,sintetico_gerado_por_IA
+R0261,textos_curtos,ingles,printer approval,Hardware,sintetico_gerado_por_IA
+R0262,mistura_de_idiomas,misto,Tenemos un problema con office monitor because it shows a hardware fault,Hardware,sintetico_gerado_por_IA
+R0263,textos_curtos,ingles,screen support,Hardware,sintetico_gerado_por_IA
+R0264,mistura_de_idiomas,misto,Favor verificar wireless keyboard because it has stopped working,Hardware,sintetico_gerado_por_IA
+R0265,reformulacoes_8_filas,ingles,The Orion migration needs a shared workspace.,Internal Project,sintetico_gerado_por_IA
+R0266,reformulacoes_8_filas,ingles,The Orion migration requires technical setup.,Internal Project,sintetico_gerado_por_IA
+R0267,reformulacoes_8_filas,ingles,The Orion migration needs the team added.,Internal Project,sintetico_gerado_por_IA
+R0268,reformulacoes_8_filas,ingles,The Orion migration requires deployment support.,Internal Project,sintetico_gerado_por_IA
+R0269,reformulacoes_8_filas,ingles,The Atlas launch needs a shared workspace.,Internal Project,sintetico_gerado_por_IA
+R0270,reformulacoes_8_filas,ingles,The Atlas launch requires technical setup.,Internal Project,sintetico_gerado_por_IA
+R0271,reformulacoes_8_filas,ingles,The Atlas launch needs the team added.,Internal Project,sintetico_gerado_por_IA
+R0272,reformulacoes_8_filas,ingles,The Atlas launch requires deployment support.,Internal Project,sintetico_gerado_por_IA
+R0273,reformulacoes_8_filas,ingles,The Phoenix rollout needs a shared workspace.,Internal Project,sintetico_gerado_por_IA
+R0274,reformulacoes_8_filas,ingles,The Phoenix rollout requires technical setup.,Internal Project,sintetico_gerado_por_IA
+R0275,reformulacoes_8_filas,ingles,The Phoenix rollout needs the team added.,Internal Project,sintetico_gerado_por_IA
+R0276,reformulacoes_8_filas,ingles,The Phoenix rollout requires deployment support.,Internal Project,sintetico_gerado_por_IA
+R0277,reformulacoes_8_filas,ingles,The Nimbus pilot needs a shared workspace.,Internal Project,sintetico_gerado_por_IA
+R0278,reformulacoes_8_filas,ingles,The Nimbus pilot requires technical setup.,Internal Project,sintetico_gerado_por_IA
+R0279,reformulacoes_8_filas,ingles,The Nimbus pilot needs the team added.,Internal Project,sintetico_gerado_por_IA
+R0280,reformulacoes_8_filas,ingles,The Nimbus pilot requires deployment support.,Internal Project,sintetico_gerado_por_IA
+R0281,reformulacoes_8_filas,ingles,The Mercury program needs a shared workspace.,Internal Project,sintetico_gerado_por_IA
+R0282,reformulacoes_8_filas,ingles,The Mercury program requires technical setup.,Internal Project,sintetico_gerado_por_IA
+R0283,reformulacoes_8_filas,ingles,The Mercury program needs the team added.,Internal Project,sintetico_gerado_por_IA
+R0284,reformulacoes_8_filas,ingles,The Mercury program requires deployment support.,Internal Project,sintetico_gerado_por_IA
+R0285,erros_de_digitacao,ingles,Plesae assist because the orion migration needs a shared workspace.,Internal Project,sintetico_gerado_por_IA
+R0286,erros_de_digitacao,ingles,Please asssit because the orion migration requires technical setup.,Internal Project,sintetico_gerado_por_IA
+R0287,erros_de_digitacao,ingles,Please assist becuase the orion migration needs the team added.,Internal Project,sintetico_gerado_por_IA
+R0288,erros_de_digitacao,ingles,Please assist because the orion migrtaion requires deployment support.,Internal Project,sintetico_gerado_por_IA
+R0289,erros_de_digitacao,ingles,Please assist because the atlas launch needs a shaerd workspace.,Internal Project,sintetico_gerado_por_IA
+R0290,erros_de_digitacao,ingles,Please assist because the atlas launch requires techincal setup.,Internal Project,sintetico_gerado_por_IA
+R0291,erros_de_digitacao,ingles,Please assist becuase the atlas launch needs the team added.,Internal Project,sintetico_gerado_por_IA
+R0292,erros_de_digitacao,ingles,Plesae assist because the atlas launch requires deployment support.,Internal Project,sintetico_gerado_por_IA
+R0293,erros_de_digitacao,ingles,Please asssit because the phoenix rollout needs a shared workspace.,Internal Project,sintetico_gerado_por_IA
+R0294,erros_de_digitacao,ingles,Please assist becuase the phoenix rollout requires technical setup.,Internal Project,sintetico_gerado_por_IA
+R0295,erros_de_digitacao,ingles,Plesae assist because the phoenix rollout needs the team added.,Internal Project,sintetico_gerado_por_IA
+R0296,erros_de_digitacao,ingles,Please assist because the phoneix rollout requires deployment support.,Internal Project,sintetico_gerado_por_IA
+R0297,erros_de_digitacao,ingles,Plesae assist because the nimbus pilot needs a shared workspace.,Internal Project,sintetico_gerado_por_IA
+R0298,erros_de_digitacao,ingles,Please asssit because the nimbus pilot requires technical setup.,Internal Project,sintetico_gerado_por_IA
+R0299,erros_de_digitacao,ingles,Please assist becuase the nimbus pilot needs the team added.,Internal Project,sintetico_gerado_por_IA
+R0300,erros_de_digitacao,ingles,Please asssit because the nimbus pilot requires deployment support.,Internal Project,sintetico_gerado_por_IA
+R0301,erros_de_digitacao,ingles,Please assist becuase the mercury program needs a shared workspace.,Internal Project,sintetico_gerado_por_IA
+R0302,erros_de_digitacao,ingles,Please assist because the merucry program requires technical setup.,Internal Project,sintetico_gerado_por_IA
+R0303,erros_de_digitacao,ingles,Please assist because the merucry program needs the team added.,Internal Project,sintetico_gerado_por_IA
+R0304,erros_de_digitacao,ingles,Please assist because the merucry program requires deployment support.,Internal Project,sintetico_gerado_por_IA
+R0305,textos_curtos,ingles,Orion blocked,Internal Project,sintetico_gerado_por_IA
+R0306,mistura_de_idiomas,misto,No puedo Orion migration because it needs a shared workspace,Internal Project,sintetico_gerado_por_IA
+R0307,textos_curtos,ingles,Atlas unavailable,Internal Project,sintetico_gerado_por_IA
+R0308,mistura_de_idiomas,misto,Necesito ayuda para Atlas launch because it requires technical setup,Internal Project,sintetico_gerado_por_IA
+R0309,textos_curtos,ingles,Phoenix problem,Internal Project,sintetico_gerado_por_IA
+R0310,mistura_de_idiomas,misto,Por favor necesito Phoenix rollout because it needs the team added,Internal Project,sintetico_gerado_por_IA
+R0311,textos_curtos,ingles,Nimbus request,Internal Project,sintetico_gerado_por_IA
+R0312,mistura_de_idiomas,misto,Mi equipo dice que Nimbus pilot because it requires deployment support,Internal Project,sintetico_gerado_por_IA
+R0313,textos_curtos,ingles,Mercury needed,Internal Project,sintetico_gerado_por_IA
+R0314,mistura_de_idiomas,misto,Hoje não consigo Mercury program because it needs a shared workspace,Internal Project,sintetico_gerado_por_IA
+R0315,textos_curtos,ingles,project failed,Internal Project,sintetico_gerado_por_IA
+R0316,mistura_de_idiomas,misto,Preciso resolver Orion migration because it requires technical setup,Internal Project,sintetico_gerado_por_IA
+R0317,textos_curtos,ingles,rollout urgent,Internal Project,sintetico_gerado_por_IA
+R0318,mistura_de_idiomas,misto,Pode ajudar com Atlas launch because it needs the team added,Internal Project,sintetico_gerado_por_IA
+R0319,textos_curtos,ingles,Orion incorrect,Internal Project,sintetico_gerado_por_IA
+R0320,mistura_de_idiomas,misto,Meu colega reportou que Phoenix rollout because it requires deployment support,Internal Project,sintetico_gerado_por_IA
+R0321,textos_curtos,ingles,Atlas missing,Internal Project,sintetico_gerado_por_IA
+R0322,mistura_de_idiomas,misto,La oficina informa que Nimbus pilot because it needs a shared workspace,Internal Project,sintetico_gerado_por_IA
+R0323,textos_curtos,ingles,Phoenix full,Internal Project,sintetico_gerado_por_IA
+R0324,mistura_de_idiomas,misto,Quiero corregir Mercury program because it requires technical setup,Internal Project,sintetico_gerado_por_IA
+R0325,textos_curtos,ingles,Nimbus broken,Internal Project,sintetico_gerado_por_IA
+R0326,mistura_de_idiomas,misto,Não funciona Orion migration because it needs the team added,Internal Project,sintetico_gerado_por_IA
+R0327,textos_curtos,ingles,Mercury approval,Internal Project,sintetico_gerado_por_IA
+R0328,mistura_de_idiomas,misto,Tenemos un problema con Atlas launch because it requires deployment support,Internal Project,sintetico_gerado_por_IA
+R0329,textos_curtos,ingles,project support,Internal Project,sintetico_gerado_por_IA
+R0330,mistura_de_idiomas,misto,Favor verificar Phoenix rollout because it needs a shared workspace,Internal Project,sintetico_gerado_por_IA
+R0331,reformulacoes_8_filas,ingles,The office directory is unclear to me.,Miscellaneous,sintetico_gerado_por_IA
+R0332,reformulacoes_8_filas,ingles,The office directory needs a general explanation.,Miscellaneous,sintetico_gerado_por_IA
+R0333,reformulacoes_8_filas,ingles,The office directory is not listed online.,Miscellaneous,sintetico_gerado_por_IA
+R0334,reformulacoes_8_filas,ingles,The office directory requires guidance.,Miscellaneous,sintetico_gerado_por_IA
+R0335,reformulacoes_8_filas,ingles,The IT opening hours is unclear to me.,Miscellaneous,sintetico_gerado_por_IA
+R0336,reformulacoes_8_filas,ingles,The IT opening hours needs a general explanation.,Miscellaneous,sintetico_gerado_por_IA
+R0337,reformulacoes_8_filas,ingles,The IT opening hours is not listed online.,Miscellaneous,sintetico_gerado_por_IA
+R0338,reformulacoes_8_filas,ingles,The IT opening hours requires guidance.,Miscellaneous,sintetico_gerado_por_IA
+R0339,reformulacoes_8_filas,ingles,The support policy is unclear to me.,Miscellaneous,sintetico_gerado_por_IA
+R0340,reformulacoes_8_filas,ingles,The support policy needs a general explanation.,Miscellaneous,sintetico_gerado_por_IA
+R0341,reformulacoes_8_filas,ingles,The support policy is not listed online.,Miscellaneous,sintetico_gerado_por_IA
+R0342,reformulacoes_8_filas,ingles,The support policy requires guidance.,Miscellaneous,sintetico_gerado_por_IA
+R0343,reformulacoes_8_filas,ingles,The help desk location is unclear to me.,Miscellaneous,sintetico_gerado_por_IA
+R0344,reformulacoes_8_filas,ingles,The help desk location needs a general explanation.,Miscellaneous,sintetico_gerado_por_IA
+R0345,reformulacoes_8_filas,ingles,The help desk location is not listed online.,Miscellaneous,sintetico_gerado_por_IA
+R0346,reformulacoes_8_filas,ingles,The help desk location requires guidance.,Miscellaneous,sintetico_gerado_por_IA
+R0347,reformulacoes_8_filas,ingles,The onboarding guide is unclear to me.,Miscellaneous,sintetico_gerado_por_IA
+R0348,reformulacoes_8_filas,ingles,The onboarding guide needs a general explanation.,Miscellaneous,sintetico_gerado_por_IA
+R0349,reformulacoes_8_filas,ingles,The onboarding guide is not listed online.,Miscellaneous,sintetico_gerado_por_IA
+R0350,reformulacoes_8_filas,ingles,The onboarding guide requires guidance.,Miscellaneous,sintetico_gerado_por_IA
+R0351,erros_de_digitacao,ingles,Plesae assist because the office directory is unclear to me.,Miscellaneous,sintetico_gerado_por_IA
+R0352,erros_de_digitacao,ingles,Please asssit because the office directory needs a general explanation.,Miscellaneous,sintetico_gerado_por_IA
+R0353,erros_de_digitacao,ingles,Please assist becuase the office directory is not listed online.,Miscellaneous,sintetico_gerado_por_IA
+R0354,erros_de_digitacao,ingles,Please assist because the offcie directory requires guidance.,Miscellaneous,sintetico_gerado_por_IA
+R0355,erros_de_digitacao,ingles,Please assist because the it opening hours is uncelar to me.,Miscellaneous,sintetico_gerado_por_IA
+R0356,erros_de_digitacao,ingles,Please assist because the it opening hours needs a general explantaion.,Miscellaneous,sintetico_gerado_por_IA
+R0357,erros_de_digitacao,ingles,Plesae assist because the it opening hours is not listed online.,Miscellaneous,sintetico_gerado_por_IA
+R0358,erros_de_digitacao,ingles,Please asssit because the it opening hours requires guidance.,Miscellaneous,sintetico_gerado_por_IA
+R0359,erros_de_digitacao,ingles,Please assist becuase the support policy is unclear to me.,Miscellaneous,sintetico_gerado_por_IA
+R0360,erros_de_digitacao,ingles,Please assist becuase the support policy needs a general explanation.,Miscellaneous,sintetico_gerado_por_IA
+R0361,erros_de_digitacao,ingles,Please assist because the supoprt policy is not listed online.,Miscellaneous,sintetico_gerado_por_IA
+R0362,erros_de_digitacao,ingles,Please assist because the support polciy requires guidance.,Miscellaneous,sintetico_gerado_por_IA
+R0363,erros_de_digitacao,ingles,Please assist becuase the help desk location is unclear to me.,Miscellaneous,sintetico_gerado_por_IA
+R0364,erros_de_digitacao,ingles,Please asssit because the help desk location needs a general explanation.,Miscellaneous,sintetico_gerado_por_IA
+R0365,erros_de_digitacao,ingles,Please assist becuase the help desk location is not listed online.,Miscellaneous,sintetico_gerado_por_IA
+R0366,erros_de_digitacao,ingles,Please assist because the help desk locaiton requires guidance.,Miscellaneous,sintetico_gerado_por_IA
+R0367,erros_de_digitacao,ingles,Please asssit because the onboarding guide is unclear to me.,Miscellaneous,sintetico_gerado_por_IA
+R0368,erros_de_digitacao,ingles,Please assist because the onboarding guide needs a general explantaion.,Miscellaneous,sintetico_gerado_por_IA
+R0369,erros_de_digitacao,ingles,Plesae assist because the onboarding guide is not listed online.,Miscellaneous,sintetico_gerado_por_IA
+R0370,erros_de_digitacao,ingles,Please asssit because the onboarding guide requires guidance.,Miscellaneous,sintetico_gerado_por_IA
+R0371,textos_curtos,ingles,directory blocked,Miscellaneous,sintetico_gerado_por_IA
+R0372,mistura_de_idiomas,misto,No puedo office directory because it is unclear to me,Miscellaneous,sintetico_gerado_por_IA
+R0373,textos_curtos,ingles,policy unavailable,Miscellaneous,sintetico_gerado_por_IA
+R0374,mistura_de_idiomas,misto,Necesito ayuda para IT opening hours because it needs a general explanation,Miscellaneous,sintetico_gerado_por_IA
+R0375,textos_curtos,ingles,guidance problem,Miscellaneous,sintetico_gerado_por_IA
+R0376,mistura_de_idiomas,misto,Por favor necesito support policy because it is not listed online,Miscellaneous,sintetico_gerado_por_IA
+R0377,textos_curtos,ingles,helpdesk request,Miscellaneous,sintetico_gerado_por_IA
+R0378,mistura_de_idiomas,misto,Mi equipo dice que help desk location because it requires guidance,Miscellaneous,sintetico_gerado_por_IA
+R0379,textos_curtos,ingles,hours needed,Miscellaneous,sintetico_gerado_por_IA
+R0380,mistura_de_idiomas,misto,Hoje não consigo onboarding guide because it is unclear to me,Miscellaneous,sintetico_gerado_por_IA
+R0381,textos_curtos,ingles,onboarding failed,Miscellaneous,sintetico_gerado_por_IA
+R0382,mistura_de_idiomas,misto,Preciso resolver office directory because it needs a general explanation,Miscellaneous,sintetico_gerado_por_IA
+R0383,textos_curtos,ingles,information urgent,Miscellaneous,sintetico_gerado_por_IA
+R0384,mistura_de_idiomas,misto,Pode ajudar com IT opening hours because it is not listed online,Miscellaneous,sintetico_gerado_por_IA
+R0385,textos_curtos,ingles,directory incorrect,Miscellaneous,sintetico_gerado_por_IA
+R0386,mistura_de_idiomas,misto,Meu colega reportou que support policy because it requires guidance,Miscellaneous,sintetico_gerado_por_IA
+R0387,textos_curtos,ingles,policy missing,Miscellaneous,sintetico_gerado_por_IA
+R0388,mistura_de_idiomas,misto,La oficina informa que help desk location because it is unclear to me,Miscellaneous,sintetico_gerado_por_IA
+R0389,textos_curtos,ingles,guidance full,Miscellaneous,sintetico_gerado_por_IA
+R0390,mistura_de_idiomas,misto,Quiero corregir onboarding guide because it needs a general explanation,Miscellaneous,sintetico_gerado_por_IA
+R0391,textos_curtos,ingles,helpdesk broken,Miscellaneous,sintetico_gerado_por_IA
+R0392,mistura_de_idiomas,misto,Não funciona office directory because it is not listed online,Miscellaneous,sintetico_gerado_por_IA
+R0393,textos_curtos,ingles,hours approval,Miscellaneous,sintetico_gerado_por_IA
+R0394,mistura_de_idiomas,misto,Tenemos un problema con IT opening hours because it requires guidance,Miscellaneous,sintetico_gerado_por_IA
+R0395,textos_curtos,ingles,onboarding support,Miscellaneous,sintetico_gerado_por_IA
+R0396,mistura_de_idiomas,misto,Favor verificar support policy because it is unclear to me,Miscellaneous,sintetico_gerado_por_IA
+R0397,reformulacoes_8_filas,ingles,The noise cancelling headset needs a purchase request.,Purchase,sintetico_gerado_por_IA
+R0398,reformulacoes_8_filas,ingles,The noise cancelling headset should be ordered by procurement.,Purchase,sintetico_gerado_por_IA
+R0399,reformulacoes_8_filas,ingles,The noise cancelling headset requires buying approval.,Purchase,sintetico_gerado_por_IA
+R0400,reformulacoes_8_filas,ingles,The noise cancelling headset must be acquired for work.,Purchase,sintetico_gerado_por_IA
+R0401,reformulacoes_8_filas,ingles,The conference webcam needs a purchase request.,Purchase,sintetico_gerado_por_IA
+R0402,reformulacoes_8_filas,ingles,The conference webcam should be ordered by procurement.,Purchase,sintetico_gerado_por_IA
+R0403,reformulacoes_8_filas,ingles,The conference webcam requires buying approval.,Purchase,sintetico_gerado_por_IA
+R0404,reformulacoes_8_filas,ingles,The conference webcam must be acquired for work.,Purchase,sintetico_gerado_por_IA
+R0405,reformulacoes_8_filas,ingles,The design license needs a purchase request.,Purchase,sintetico_gerado_por_IA
+R0406,reformulacoes_8_filas,ingles,The design license should be ordered by procurement.,Purchase,sintetico_gerado_por_IA
+R0407,reformulacoes_8_filas,ingles,The design license requires buying approval.,Purchase,sintetico_gerado_por_IA
+R0408,reformulacoes_8_filas,ingles,The design license must be acquired for work.,Purchase,sintetico_gerado_por_IA
+R0409,reformulacoes_8_filas,ingles,The laptop dock needs a purchase request.,Purchase,sintetico_gerado_por_IA
+R0410,reformulacoes_8_filas,ingles,The laptop dock should be ordered by procurement.,Purchase,sintetico_gerado_por_IA
+R0411,reformulacoes_8_filas,ingles,The laptop dock requires buying approval.,Purchase,sintetico_gerado_por_IA
+R0412,reformulacoes_8_filas,ingles,The laptop dock must be acquired for work.,Purchase,sintetico_gerado_por_IA
+R0413,reformulacoes_8_filas,ingles,The office phone needs a purchase request.,Purchase,sintetico_gerado_por_IA
+R0414,reformulacoes_8_filas,ingles,The office phone should be ordered by procurement.,Purchase,sintetico_gerado_por_IA
+R0415,reformulacoes_8_filas,ingles,The office phone requires buying approval.,Purchase,sintetico_gerado_por_IA
+R0416,reformulacoes_8_filas,ingles,The office phone must be acquired for work.,Purchase,sintetico_gerado_por_IA
+R0417,erros_de_digitacao,ingles,Plesae assist because the noise cancelling headset needs a purchase request.,Purchase,sintetico_gerado_por_IA
+R0418,erros_de_digitacao,ingles,Please asssit because the noise cancelling headset should be ordered by procurement.,Purchase,sintetico_gerado_por_IA
+R0419,erros_de_digitacao,ingles,Please assist becuase the noise cancelling headset requires buying approval.,Purchase,sintetico_gerado_por_IA
+R0420,erros_de_digitacao,ingles,Please assist because the noise cancelling headset must be acquired for work.,Purchase,sintetico_gerado_por_IA
+R0421,erros_de_digitacao,ingles,Please assist because the conference webacm needs a purchase request.,Purchase,sintetico_gerado_por_IA
+R0422,erros_de_digitacao,ingles,Please assist because the conference webcam sholud be ordered by procurement.,Purchase,sintetico_gerado_por_IA
+R0423,erros_de_digitacao,ingles,Please assist because the conference webcam requires buynig approval.,Purchase,sintetico_gerado_por_IA
+R0424,erros_de_digitacao,ingles,Please asssit because the conference webcam must be acquired for work.,Purchase,sintetico_gerado_por_IA
+R0425,erros_de_digitacao,ingles,Please asssit because the design license needs a purchase request.,Purchase,sintetico_gerado_por_IA
+R0426,erros_de_digitacao,ingles,Please asssit because the design license should be ordered by procurement.,Purchase,sintetico_gerado_por_IA
+R0427,erros_de_digitacao,ingles,Please assist becuase the design license requires buying approval.,Purchase,sintetico_gerado_por_IA
+R0428,erros_de_digitacao,ingles,Please assist because the design license must be acquried for work.,Purchase,sintetico_gerado_por_IA
+R0429,erros_de_digitacao,ingles,Plesae assist because the laptop dock needs a purchase request.,Purchase,sintetico_gerado_por_IA
+R0430,erros_de_digitacao,ingles,Please assist because the laptop dock should be ordered by procurmeent.,Purchase,sintetico_gerado_por_IA
+R0431,erros_de_digitacao,ingles,Plesae assist because the laptop dock requires buying approval.,Purchase,sintetico_gerado_por_IA
+R0432,erros_de_digitacao,ingles,Plesae assist because the laptop dock must be acquired for work.,Purchase,sintetico_gerado_por_IA
+R0433,erros_de_digitacao,ingles,Please assist because the office phone needs a purcahse request.,Purchase,sintetico_gerado_por_IA
+R0434,erros_de_digitacao,ingles,Please assist because the offcie phone should be ordered by procurement.,Purchase,sintetico_gerado_por_IA
+R0435,erros_de_digitacao,ingles,Please assist because the office phone requries buying approval.,Purchase,sintetico_gerado_por_IA
+R0436,erros_de_digitacao,ingles,Please assist because the office phone must be acquried for work.,Purchase,sintetico_gerado_por_IA
+R0437,textos_curtos,ingles,headset blocked,Purchase,sintetico_gerado_por_IA
+R0438,mistura_de_idiomas,misto,No puedo noise cancelling headset because it needs a purchase request,Purchase,sintetico_gerado_por_IA
+R0439,textos_curtos,ingles,webcam unavailable,Purchase,sintetico_gerado_por_IA
+R0440,mistura_de_idiomas,misto,Necesito ayuda para conference webcam because it should be ordered by procurement,Purchase,sintetico_gerado_por_IA
+R0441,textos_curtos,ingles,license problem,Purchase,sintetico_gerado_por_IA
+R0442,mistura_de_idiomas,misto,Por favor necesito design license because it requires buying approval,Purchase,sintetico_gerado_por_IA
+R0443,textos_curtos,ingles,dock request,Purchase,sintetico_gerado_por_IA
+R0444,mistura_de_idiomas,misto,Mi equipo dice que laptop dock because it must be acquired for work,Purchase,sintetico_gerado_por_IA
+R0445,textos_curtos,ingles,phone needed,Purchase,sintetico_gerado_por_IA
+R0446,mistura_de_idiomas,misto,Hoje não consigo office phone because it needs a purchase request,Purchase,sintetico_gerado_por_IA
+R0447,textos_curtos,ingles,adapter failed,Purchase,sintetico_gerado_por_IA
+R0448,mistura_de_idiomas,misto,Preciso resolver noise cancelling headset because it should be ordered by procurement,Purchase,sintetico_gerado_por_IA
+R0449,textos_curtos,ingles,tablet urgent,Purchase,sintetico_gerado_por_IA
+R0450,mistura_de_idiomas,misto,Pode ajudar com conference webcam because it requires buying approval,Purchase,sintetico_gerado_por_IA
+R0451,textos_curtos,ingles,headset incorrect,Purchase,sintetico_gerado_por_IA
+R0452,mistura_de_idiomas,misto,Meu colega reportou que design license because it must be acquired for work,Purchase,sintetico_gerado_por_IA
+R0453,textos_curtos,ingles,webcam missing,Purchase,sintetico_gerado_por_IA
+R0454,mistura_de_idiomas,misto,La oficina informa que laptop dock because it needs a purchase request,Purchase,sintetico_gerado_por_IA
+R0455,textos_curtos,ingles,license full,Purchase,sintetico_gerado_por_IA
+R0456,mistura_de_idiomas,misto,Quiero corregir office phone because it should be ordered by procurement,Purchase,sintetico_gerado_por_IA
+R0457,textos_curtos,ingles,dock broken,Purchase,sintetico_gerado_por_IA
+R0458,mistura_de_idiomas,misto,Não funciona noise cancelling headset because it requires buying approval,Purchase,sintetico_gerado_por_IA
+R0459,textos_curtos,ingles,phone approval,Purchase,sintetico_gerado_por_IA
+R0460,mistura_de_idiomas,misto,Tenemos un problema con conference webcam because it must be acquired for work,Purchase,sintetico_gerado_por_IA
+R0461,textos_curtos,ingles,adapter support,Purchase,sintetico_gerado_por_IA
+R0462,mistura_de_idiomas,misto,Favor verificar design license because it needs a purchase request,Purchase,sintetico_gerado_por_IA
+R0463,reformulacoes_8_filas,ingles,The OneDrive account has reached its quota.,Storage,sintetico_gerado_por_IA
+R0464,reformulacoes_8_filas,ingles,The OneDrive account needs more capacity.,Storage,sintetico_gerado_por_IA
+R0465,reformulacoes_8_filas,ingles,The OneDrive account is out of space.,Storage,sintetico_gerado_por_IA
+R0466,reformulacoes_8_filas,ingles,The OneDrive account requires a storage increase.,Storage,sintetico_gerado_por_IA
+R0467,reformulacoes_8_filas,ingles,The SharePoint library has reached its quota.,Storage,sintetico_gerado_por_IA
+R0468,reformulacoes_8_filas,ingles,The SharePoint library needs more capacity.,Storage,sintetico_gerado_por_IA
+R0469,reformulacoes_8_filas,ingles,The SharePoint library is out of space.,Storage,sintetico_gerado_por_IA
+R0470,reformulacoes_8_filas,ingles,The SharePoint library requires a storage increase.,Storage,sintetico_gerado_por_IA
+R0471,reformulacoes_8_filas,ingles,The network folder has reached its quota.,Storage,sintetico_gerado_por_IA
+R0472,reformulacoes_8_filas,ingles,The network folder needs more capacity.,Storage,sintetico_gerado_por_IA
+R0473,reformulacoes_8_filas,ingles,The network folder is out of space.,Storage,sintetico_gerado_por_IA
+R0474,reformulacoes_8_filas,ingles,The network folder requires a storage increase.,Storage,sintetico_gerado_por_IA
+R0475,reformulacoes_8_filas,ingles,The email mailbox has reached its quota.,Storage,sintetico_gerado_por_IA
+R0476,reformulacoes_8_filas,ingles,The email mailbox needs more capacity.,Storage,sintetico_gerado_por_IA
+R0477,reformulacoes_8_filas,ingles,The email mailbox is out of space.,Storage,sintetico_gerado_por_IA
+R0478,reformulacoes_8_filas,ingles,The email mailbox requires a storage increase.,Storage,sintetico_gerado_por_IA
+R0479,reformulacoes_8_filas,ingles,The project drive has reached its quota.,Storage,sintetico_gerado_por_IA
+R0480,reformulacoes_8_filas,ingles,The project drive needs more capacity.,Storage,sintetico_gerado_por_IA
+R0481,reformulacoes_8_filas,ingles,The project drive is out of space.,Storage,sintetico_gerado_por_IA
+R0482,reformulacoes_8_filas,ingles,The project drive requires a storage increase.,Storage,sintetico_gerado_por_IA
+R0483,erros_de_digitacao,ingles,Plesae assist because the onedrive account has reached its quota.,Storage,sintetico_gerado_por_IA
+R0484,erros_de_digitacao,ingles,Please asssit because the onedrive account needs more capacity.,Storage,sintetico_gerado_por_IA
+R0485,erros_de_digitacao,ingles,Please assist becuase the onedrive account is out of space.,Storage,sintetico_gerado_por_IA
+R0486,erros_de_digitacao,ingles,Please assist because the onedirve account requires a storage increase.,Storage,sintetico_gerado_por_IA
+R0487,erros_de_digitacao,ingles,Please assist because the sharepoint libarry has reached its quota.,Storage,sintetico_gerado_por_IA
+R0488,erros_de_digitacao,ingles,Please assist because the sharepoint library needs more capaicty.,Storage,sintetico_gerado_por_IA
+R0489,erros_de_digitacao,ingles,Please asssit because the sharepoint library is out of space.,Storage,sintetico_gerado_por_IA
+R0490,erros_de_digitacao,ingles,Please assist because the sharepoint library requires a storage incraese.,Storage,sintetico_gerado_por_IA
+R0491,erros_de_digitacao,ingles,Please assist becuase the network folder has reached its quota.,Storage,sintetico_gerado_por_IA
+R0492,erros_de_digitacao,ingles,Please assist because the netowrk folder needs more capacity.,Storage,sintetico_gerado_por_IA
+R0493,erros_de_digitacao,ingles,Plesae assist because the network folder is out of space.,Storage,sintetico_gerado_por_IA
+R0494,erros_de_digitacao,ingles,Please assist because the netowrk folder requires a storage increase.,Storage,sintetico_gerado_por_IA
+R0495,erros_de_digitacao,ingles,Please assist becuase the email mailbox has reached its quota.,Storage,sintetico_gerado_por_IA
+R0496,erros_de_digitacao,ingles,Please assist because the email maiblox needs more capacity.,Storage,sintetico_gerado_por_IA
+R0497,erros_de_digitacao,ingles,Please assist becuase the email mailbox is out of space.,Storage,sintetico_gerado_por_IA
+R0498,erros_de_digitacao,ingles,Please asssit because the email mailbox requires a storage increase.,Storage,sintetico_gerado_por_IA
+R0499,erros_de_digitacao,ingles,Please asssit because the project drive has reached its quota.,Storage,sintetico_gerado_por_IA
+R0500,erros_de_digitacao,ingles,Please assist becuase the project drive needs more capacity.,Storage,sintetico_gerado_por_IA
+R0501,erros_de_digitacao,ingles,Please assist becuase the project drive is out of space.,Storage,sintetico_gerado_por_IA
+R0502,erros_de_digitacao,ingles,Please assist because the project drive requires a stoarge increase.,Storage,sintetico_gerado_por_IA
+R0503,textos_curtos,ingles,OneDrive blocked,Storage,sintetico_gerado_por_IA
+R0504,mistura_de_idiomas,misto,No puedo OneDrive account because it has reached its quota,Storage,sintetico_gerado_por_IA
+R0505,textos_curtos,ingles,SharePoint unavailable,Storage,sintetico_gerado_por_IA
+R0506,mistura_de_idiomas,misto,Necesito ayuda para SharePoint library because it needs more capacity,Storage,sintetico_gerado_por_IA
+R0507,textos_curtos,ingles,folder problem,Storage,sintetico_gerado_por_IA
+R0508,mistura_de_idiomas,misto,Por favor necesito network folder because it is out of space,Storage,sintetico_gerado_por_IA
+R0509,textos_curtos,ingles,mailbox request,Storage,sintetico_gerado_por_IA
+R0510,mistura_de_idiomas,misto,Mi equipo dice que email mailbox because it requires a storage increase,Storage,sintetico_gerado_por_IA
+R0511,textos_curtos,ingles,drive needed,Storage,sintetico_gerado_por_IA
+R0512,mistura_de_idiomas,misto,Hoje não consigo project drive because it has reached its quota,Storage,sintetico_gerado_por_IA
+R0513,textos_curtos,ingles,quota failed,Storage,sintetico_gerado_por_IA
+R0514,mistura_de_idiomas,misto,Preciso resolver OneDrive account because it needs more capacity,Storage,sintetico_gerado_por_IA
+R0515,textos_curtos,ingles,storage urgent,Storage,sintetico_gerado_por_IA
+R0516,mistura_de_idiomas,misto,Pode ajudar com SharePoint library because it is out of space,Storage,sintetico_gerado_por_IA
+R0517,textos_curtos,ingles,OneDrive incorrect,Storage,sintetico_gerado_por_IA
+R0518,mistura_de_idiomas,misto,Meu colega reportou que network folder because it requires a storage increase,Storage,sintetico_gerado_por_IA
+R0519,textos_curtos,ingles,SharePoint missing,Storage,sintetico_gerado_por_IA
+R0520,mistura_de_idiomas,misto,La oficina informa que email mailbox because it has reached its quota,Storage,sintetico_gerado_por_IA
+R0521,textos_curtos,ingles,folder full,Storage,sintetico_gerado_por_IA
+R0522,mistura_de_idiomas,misto,Quiero corregir project drive because it needs more capacity,Storage,sintetico_gerado_por_IA
+R0523,textos_curtos,ingles,mailbox broken,Storage,sintetico_gerado_por_IA
+R0524,mistura_de_idiomas,misto,Não funciona OneDrive account because it is out of space,Storage,sintetico_gerado_por_IA
+R0525,textos_curtos,ingles,drive approval,Storage,sintetico_gerado_por_IA
+R0526,mistura_de_idiomas,misto,Tenemos un problema con SharePoint library because it requires a storage increase,Storage,sintetico_gerado_por_IA
+R0527,textos_curtos,ingles,quota support,Storage,sintetico_gerado_por_IA
+R0528,mistura_de_idiomas,misto,Favor verificar network folder because it has reached its quota,Storage,sintetico_gerado_por_IA
+R0529,fora_do_escopo,ingles,Please review refund a duplicate order.,fora_do_escopo,sintetico_gerado_por_IA
+R0530,fora_do_escopo,ingles,Please review refund a returned product.,fora_do_escopo,sintetico_gerado_por_IA
+R0531,fora_do_escopo,ingles,Please review refund a cancelled booking.,fora_do_escopo,sintetico_gerado_por_IA
+R0532,fora_do_escopo,ingles,Please review refund my original card.,fora_do_escopo,sintetico_gerado_por_IA
+R0533,fora_do_escopo,ingles,I need help with refund a duplicate order.,fora_do_escopo,sintetico_gerado_por_IA
+R0534,fora_do_escopo,ingles,I need help with refund a returned product.,fora_do_escopo,sintetico_gerado_por_IA
+R0535,fora_do_escopo,ingles,I need help with refund a cancelled booking.,fora_do_escopo,sintetico_gerado_por_IA
+R0536,fora_do_escopo,ingles,I need help with refund my original card.,fora_do_escopo,sintetico_gerado_por_IA
+R0537,fora_do_escopo,ingles,Can someone resolve refund a duplicate order.,fora_do_escopo,sintetico_gerado_por_IA
+R0538,fora_do_escopo,ingles,Can someone resolve refund a returned product.,fora_do_escopo,sintetico_gerado_por_IA
+R0539,fora_do_escopo,ingles,Can someone resolve refund a cancelled booking.,fora_do_escopo,sintetico_gerado_por_IA
+R0540,fora_do_escopo,ingles,Can someone resolve refund my original card.,fora_do_escopo,sintetico_gerado_por_IA
+R0541,fora_do_escopo,ingles,The customer reported refund a duplicate order.,fora_do_escopo,sintetico_gerado_por_IA
+R0542,fora_do_escopo,ingles,The customer reported refund a returned product.,fora_do_escopo,sintetico_gerado_por_IA
+R0543,fora_do_escopo,ingles,The customer reported refund a cancelled booking.,fora_do_escopo,sintetico_gerado_por_IA
+R0544,fora_do_escopo,ingles,The customer reported refund my original card.,fora_do_escopo,sintetico_gerado_por_IA
+R0545,fora_do_escopo,ingles,Our store received refund a duplicate order.,fora_do_escopo,sintetico_gerado_por_IA
+R0546,fora_do_escopo,ingles,Our store received refund a returned product.,fora_do_escopo,sintetico_gerado_por_IA
+R0547,fora_do_escopo,ingles,Our store received refund a cancelled booking.,fora_do_escopo,sintetico_gerado_por_IA
+R0548,fora_do_escopo,ingles,Our store received refund my original card.,fora_do_escopo,sintetico_gerado_por_IA
+R0549,fora_do_escopo,ingles,I am contacting support about refund a duplicate order.,fora_do_escopo,sintetico_gerado_por_IA
+R0550,fora_do_escopo,ingles,I am contacting support about refund a returned product.,fora_do_escopo,sintetico_gerado_por_IA
+R0551,fora_do_escopo,ingles,I am contacting support about refund a cancelled booking.,fora_do_escopo,sintetico_gerado_por_IA
+R0552,fora_do_escopo,ingles,I am contacting support about refund my original card.,fora_do_escopo,sintetico_gerado_por_IA
+R0553,fora_do_escopo,ingles,Please investigate refund a duplicate order.,fora_do_escopo,sintetico_gerado_por_IA
+R0554,fora_do_escopo,ingles,Please investigate refund a returned product.,fora_do_escopo,sintetico_gerado_por_IA
+R0555,fora_do_escopo,ingles,Please investigate refund a cancelled booking.,fora_do_escopo,sintetico_gerado_por_IA
+R0556,fora_do_escopo,ingles,Please investigate refund my original card.,fora_do_escopo,sintetico_gerado_por_IA
+R0557,fora_do_escopo,ingles,The account shows refund a duplicate order.,fora_do_escopo,sintetico_gerado_por_IA
+R0558,fora_do_escopo,ingles,The account shows refund a returned product.,fora_do_escopo,sintetico_gerado_por_IA
+R0559,fora_do_escopo,ingles,The account shows refund a cancelled booking.,fora_do_escopo,sintetico_gerado_por_IA
+R0560,fora_do_escopo,ingles,The account shows refund my original card.,fora_do_escopo,sintetico_gerado_por_IA
+R0561,fora_do_escopo,ingles,I want assistance with refund a duplicate order.,fora_do_escopo,sintetico_gerado_por_IA
+R0562,fora_do_escopo,ingles,I want assistance with refund a returned product.,fora_do_escopo,sintetico_gerado_por_IA
+R0563,fora_do_escopo,ingles,I want assistance with refund a cancelled booking.,fora_do_escopo,sintetico_gerado_por_IA
+R0564,fora_do_escopo,ingles,I want assistance with refund my original card.,fora_do_escopo,sintetico_gerado_por_IA
+R0565,fora_do_escopo,ingles,The sales team escalated refund a duplicate order.,fora_do_escopo,sintetico_gerado_por_IA
+R0566,fora_do_escopo,ingles,The sales team escalated refund a returned product.,fora_do_escopo,sintetico_gerado_por_IA
+R0567,fora_do_escopo,ingles,The sales team escalated refund a cancelled booking.,fora_do_escopo,sintetico_gerado_por_IA
+R0568,fora_do_escopo,ingles,The sales team escalated refund my original card.,fora_do_escopo,sintetico_gerado_por_IA
+R0569,fora_do_escopo,ingles,Please review billing a statement charge.,fora_do_escopo,sintetico_gerado_por_IA
+R0570,fora_do_escopo,ingles,Please review billing an invoice address.,fora_do_escopo,sintetico_gerado_por_IA
+R0571,fora_do_escopo,ingles,Please review billing my subscription cycle.,fora_do_escopo,sintetico_gerado_por_IA
+R0572,fora_do_escopo,ingles,Please review billing this month dispute.,fora_do_escopo,sintetico_gerado_por_IA
+R0573,fora_do_escopo,ingles,I need help with billing a statement charge.,fora_do_escopo,sintetico_gerado_por_IA
+R0574,fora_do_escopo,ingles,I need help with billing an invoice address.,fora_do_escopo,sintetico_gerado_por_IA
+R0575,fora_do_escopo,ingles,I need help with billing my subscription cycle.,fora_do_escopo,sintetico_gerado_por_IA
+R0576,fora_do_escopo,ingles,I need help with billing this month dispute.,fora_do_escopo,sintetico_gerado_por_IA
+R0577,fora_do_escopo,ingles,Can someone resolve billing a statement charge.,fora_do_escopo,sintetico_gerado_por_IA
+R0578,fora_do_escopo,ingles,Can someone resolve billing an invoice address.,fora_do_escopo,sintetico_gerado_por_IA
+R0579,fora_do_escopo,ingles,Can someone resolve billing my subscription cycle.,fora_do_escopo,sintetico_gerado_por_IA
+R0580,fora_do_escopo,ingles,Can someone resolve billing this month dispute.,fora_do_escopo,sintetico_gerado_por_IA
+R0581,fora_do_escopo,ingles,The customer reported billing a statement charge.,fora_do_escopo,sintetico_gerado_por_IA
+R0582,fora_do_escopo,ingles,The customer reported billing an invoice address.,fora_do_escopo,sintetico_gerado_por_IA
+R0583,fora_do_escopo,ingles,The customer reported billing my subscription cycle.,fora_do_escopo,sintetico_gerado_por_IA
+R0584,fora_do_escopo,ingles,The customer reported billing this month dispute.,fora_do_escopo,sintetico_gerado_por_IA
+R0585,fora_do_escopo,ingles,Our store received billing a statement charge.,fora_do_escopo,sintetico_gerado_por_IA
+R0586,fora_do_escopo,ingles,Our store received billing an invoice address.,fora_do_escopo,sintetico_gerado_por_IA
+R0587,fora_do_escopo,ingles,Our store received billing my subscription cycle.,fora_do_escopo,sintetico_gerado_por_IA
+R0588,fora_do_escopo,ingles,Our store received billing this month dispute.,fora_do_escopo,sintetico_gerado_por_IA
+R0589,fora_do_escopo,ingles,I am contacting support about billing a statement charge.,fora_do_escopo,sintetico_gerado_por_IA
+R0590,fora_do_escopo,ingles,I am contacting support about billing an invoice address.,fora_do_escopo,sintetico_gerado_por_IA
+R0591,fora_do_escopo,ingles,I am contacting support about billing my subscription cycle.,fora_do_escopo,sintetico_gerado_por_IA
+R0592,fora_do_escopo,ingles,I am contacting support about billing this month dispute.,fora_do_escopo,sintetico_gerado_por_IA
+R0593,fora_do_escopo,ingles,Please investigate billing a statement charge.,fora_do_escopo,sintetico_gerado_por_IA
+R0594,fora_do_escopo,ingles,Please investigate billing an invoice address.,fora_do_escopo,sintetico_gerado_por_IA
+R0595,fora_do_escopo,ingles,Please investigate billing my subscription cycle.,fora_do_escopo,sintetico_gerado_por_IA
+R0596,fora_do_escopo,ingles,Please investigate billing this month dispute.,fora_do_escopo,sintetico_gerado_por_IA
+R0597,fora_do_escopo,ingles,The account shows billing a statement charge.,fora_do_escopo,sintetico_gerado_por_IA
+R0598,fora_do_escopo,ingles,The account shows billing an invoice address.,fora_do_escopo,sintetico_gerado_por_IA
+R0599,fora_do_escopo,ingles,The account shows billing my subscription cycle.,fora_do_escopo,sintetico_gerado_por_IA
+R0600,fora_do_escopo,ingles,The account shows billing this month dispute.,fora_do_escopo,sintetico_gerado_por_IA
+R0601,fora_do_escopo,ingles,I want assistance with billing a statement charge.,fora_do_escopo,sintetico_gerado_por_IA
+R0602,fora_do_escopo,ingles,I want assistance with billing an invoice address.,fora_do_escopo,sintetico_gerado_por_IA
+R0603,fora_do_escopo,ingles,I want assistance with billing my subscription cycle.,fora_do_escopo,sintetico_gerado_por_IA
+R0604,fora_do_escopo,ingles,I want assistance with billing this month dispute.,fora_do_escopo,sintetico_gerado_por_IA
+R0605,fora_do_escopo,ingles,The sales team escalated billing a statement charge.,fora_do_escopo,sintetico_gerado_por_IA
+R0606,fora_do_escopo,ingles,The sales team escalated billing an invoice address.,fora_do_escopo,sintetico_gerado_por_IA
+R0607,fora_do_escopo,ingles,The sales team escalated billing my subscription cycle.,fora_do_escopo,sintetico_gerado_por_IA
+R0608,fora_do_escopo,ingles,The sales team escalated billing this month dispute.,fora_do_escopo,sintetico_gerado_por_IA
+R0609,fora_do_escopo,ingles,Please review charged twice for one order.,fora_do_escopo,sintetico_gerado_por_IA
+R0610,fora_do_escopo,ingles,Please review charged after cancelling service.,fora_do_escopo,sintetico_gerado_por_IA
+R0611,fora_do_escopo,ingles,Please review charged the wrong amount.,fora_do_escopo,sintetico_gerado_por_IA
+R0612,fora_do_escopo,ingles,Please review charged for a returned item.,fora_do_escopo,sintetico_gerado_por_IA
+R0613,fora_do_escopo,ingles,I need help with charged twice for one order.,fora_do_escopo,sintetico_gerado_por_IA
+R0614,fora_do_escopo,ingles,I need help with charged after cancelling service.,fora_do_escopo,sintetico_gerado_por_IA
+R0615,fora_do_escopo,ingles,I need help with charged the wrong amount.,fora_do_escopo,sintetico_gerado_por_IA
+R0616,fora_do_escopo,ingles,I need help with charged for a returned item.,fora_do_escopo,sintetico_gerado_por_IA
+R0617,fora_do_escopo,ingles,Can someone resolve charged twice for one order.,fora_do_escopo,sintetico_gerado_por_IA
+R0618,fora_do_escopo,ingles,Can someone resolve charged after cancelling service.,fora_do_escopo,sintetico_gerado_por_IA
+R0619,fora_do_escopo,ingles,Can someone resolve charged the wrong amount.,fora_do_escopo,sintetico_gerado_por_IA
+R0620,fora_do_escopo,ingles,Can someone resolve charged for a returned item.,fora_do_escopo,sintetico_gerado_por_IA
+R0621,fora_do_escopo,ingles,The customer reported charged twice for one order.,fora_do_escopo,sintetico_gerado_por_IA
+R0622,fora_do_escopo,ingles,The customer reported charged after cancelling service.,fora_do_escopo,sintetico_gerado_por_IA
+R0623,fora_do_escopo,ingles,The customer reported charged the wrong amount.,fora_do_escopo,sintetico_gerado_por_IA
+R0624,fora_do_escopo,ingles,The customer reported charged for a returned item.,fora_do_escopo,sintetico_gerado_por_IA
+R0625,fora_do_escopo,ingles,Our store received charged twice for one order.,fora_do_escopo,sintetico_gerado_por_IA
+R0626,fora_do_escopo,ingles,Our store received charged after cancelling service.,fora_do_escopo,sintetico_gerado_por_IA
+R0627,fora_do_escopo,ingles,Our store received charged the wrong amount.,fora_do_escopo,sintetico_gerado_por_IA
+R0628,fora_do_escopo,ingles,Our store received charged for a returned item.,fora_do_escopo,sintetico_gerado_por_IA
+R0629,fora_do_escopo,ingles,I am contacting support about charged twice for one order.,fora_do_escopo,sintetico_gerado_por_IA
+R0630,fora_do_escopo,ingles,I am contacting support about charged after cancelling service.,fora_do_escopo,sintetico_gerado_por_IA
+R0631,fora_do_escopo,ingles,I am contacting support about charged the wrong amount.,fora_do_escopo,sintetico_gerado_por_IA
+R0632,fora_do_escopo,ingles,I am contacting support about charged for a returned item.,fora_do_escopo,sintetico_gerado_por_IA
+R0633,fora_do_escopo,ingles,Please investigate charged twice for one order.,fora_do_escopo,sintetico_gerado_por_IA
+R0634,fora_do_escopo,ingles,Please investigate charged after cancelling service.,fora_do_escopo,sintetico_gerado_por_IA
+R0635,fora_do_escopo,ingles,Please investigate charged the wrong amount.,fora_do_escopo,sintetico_gerado_por_IA
+R0636,fora_do_escopo,ingles,Please investigate charged for a returned item.,fora_do_escopo,sintetico_gerado_por_IA
+R0637,fora_do_escopo,ingles,The account shows charged twice for one order.,fora_do_escopo,sintetico_gerado_por_IA
+R0638,fora_do_escopo,ingles,The account shows charged after cancelling service.,fora_do_escopo,sintetico_gerado_por_IA
+R0639,fora_do_escopo,ingles,The account shows charged the wrong amount.,fora_do_escopo,sintetico_gerado_por_IA
+R0640,fora_do_escopo,ingles,The account shows charged for a returned item.,fora_do_escopo,sintetico_gerado_por_IA
+R0641,fora_do_escopo,ingles,I want assistance with charged twice for one order.,fora_do_escopo,sintetico_gerado_por_IA
+R0642,fora_do_escopo,ingles,I want assistance with charged after cancelling service.,fora_do_escopo,sintetico_gerado_por_IA
+R0643,fora_do_escopo,ingles,I want assistance with charged the wrong amount.,fora_do_escopo,sintetico_gerado_por_IA
+R0644,fora_do_escopo,ingles,I want assistance with charged for a returned item.,fora_do_escopo,sintetico_gerado_por_IA
+R0645,fora_do_escopo,ingles,The sales team escalated charged twice for one order.,fora_do_escopo,sintetico_gerado_por_IA
+R0646,fora_do_escopo,ingles,The sales team escalated charged after cancelling service.,fora_do_escopo,sintetico_gerado_por_IA
+R0647,fora_do_escopo,ingles,The sales team escalated charged the wrong amount.,fora_do_escopo,sintetico_gerado_por_IA
+R0648,fora_do_escopo,ingles,The sales team escalated charged for a returned item.,fora_do_escopo,sintetico_gerado_por_IA
+R0649,fora_do_escopo,ingles,Please review delivery past its promised date.,fora_do_escopo,sintetico_gerado_por_IA
+R0650,fora_do_escopo,ingles,Please review delivery sent to a wrong address.,fora_do_escopo,sintetico_gerado_por_IA
+R0651,fora_do_escopo,ingles,Please review delivery with damaged contents.,fora_do_escopo,sintetico_gerado_por_IA
+R0652,fora_do_escopo,ingles,Please review delivery that never arrived.,fora_do_escopo,sintetico_gerado_por_IA
+R0653,fora_do_escopo,ingles,I need help with delivery past its promised date.,fora_do_escopo,sintetico_gerado_por_IA
+R0654,fora_do_escopo,ingles,I need help with delivery sent to a wrong address.,fora_do_escopo,sintetico_gerado_por_IA
+R0655,fora_do_escopo,ingles,I need help with delivery with damaged contents.,fora_do_escopo,sintetico_gerado_por_IA
+R0656,fora_do_escopo,ingles,I need help with delivery that never arrived.,fora_do_escopo,sintetico_gerado_por_IA
+R0657,fora_do_escopo,ingles,Can someone resolve delivery past its promised date.,fora_do_escopo,sintetico_gerado_por_IA
+R0658,fora_do_escopo,ingles,Can someone resolve delivery sent to a wrong address.,fora_do_escopo,sintetico_gerado_por_IA
+R0659,fora_do_escopo,ingles,Can someone resolve delivery with damaged contents.,fora_do_escopo,sintetico_gerado_por_IA
+R0660,fora_do_escopo,ingles,Can someone resolve delivery that never arrived.,fora_do_escopo,sintetico_gerado_por_IA
+R0661,fora_do_escopo,ingles,The customer reported delivery past its promised date.,fora_do_escopo,sintetico_gerado_por_IA
+R0662,fora_do_escopo,ingles,The customer reported delivery sent to a wrong address.,fora_do_escopo,sintetico_gerado_por_IA
+R0663,fora_do_escopo,ingles,The customer reported delivery with damaged contents.,fora_do_escopo,sintetico_gerado_por_IA
+R0664,fora_do_escopo,ingles,The customer reported delivery that never arrived.,fora_do_escopo,sintetico_gerado_por_IA
+R0665,fora_do_escopo,ingles,Our store received delivery past its promised date.,fora_do_escopo,sintetico_gerado_por_IA
+R0666,fora_do_escopo,ingles,Our store received delivery sent to a wrong address.,fora_do_escopo,sintetico_gerado_por_IA
+R0667,fora_do_escopo,ingles,Our store received delivery with damaged contents.,fora_do_escopo,sintetico_gerado_por_IA
+R0668,fora_do_escopo,ingles,Our store received delivery that never arrived.,fora_do_escopo,sintetico_gerado_por_IA
+R0669,fora_do_escopo,ingles,I am contacting support about delivery past its promised date.,fora_do_escopo,sintetico_gerado_por_IA
+R0670,fora_do_escopo,ingles,I am contacting support about delivery sent to a wrong address.,fora_do_escopo,sintetico_gerado_por_IA
+R0671,fora_do_escopo,ingles,I am contacting support about delivery with damaged contents.,fora_do_escopo,sintetico_gerado_por_IA
+R0672,fora_do_escopo,ingles,I am contacting support about delivery that never arrived.,fora_do_escopo,sintetico_gerado_por_IA
+R0673,fora_do_escopo,ingles,Please investigate delivery past its promised date.,fora_do_escopo,sintetico_gerado_por_IA
+R0674,fora_do_escopo,ingles,Please investigate delivery sent to a wrong address.,fora_do_escopo,sintetico_gerado_por_IA
+R0675,fora_do_escopo,ingles,Please investigate delivery with damaged contents.,fora_do_escopo,sintetico_gerado_por_IA
+R0676,fora_do_escopo,ingles,Please investigate delivery that never arrived.,fora_do_escopo,sintetico_gerado_por_IA
+R0677,fora_do_escopo,ingles,The account shows delivery past its promised date.,fora_do_escopo,sintetico_gerado_por_IA
+R0678,fora_do_escopo,ingles,The account shows delivery sent to a wrong address.,fora_do_escopo,sintetico_gerado_por_IA
+R0679,fora_do_escopo,ingles,The account shows delivery with damaged contents.,fora_do_escopo,sintetico_gerado_por_IA
+R0680,fora_do_escopo,ingles,The account shows delivery that never arrived.,fora_do_escopo,sintetico_gerado_por_IA
+R0681,fora_do_escopo,ingles,I want assistance with delivery past its promised date.,fora_do_escopo,sintetico_gerado_por_IA
+R0682,fora_do_escopo,ingles,I want assistance with delivery sent to a wrong address.,fora_do_escopo,sintetico_gerado_por_IA
+R0683,fora_do_escopo,ingles,I want assistance with delivery with damaged contents.,fora_do_escopo,sintetico_gerado_por_IA
+R0684,fora_do_escopo,ingles,I want assistance with delivery that never arrived.,fora_do_escopo,sintetico_gerado_por_IA
+R0685,fora_do_escopo,ingles,The sales team escalated delivery past its promised date.,fora_do_escopo,sintetico_gerado_por_IA
+R0686,fora_do_escopo,ingles,The sales team escalated delivery sent to a wrong address.,fora_do_escopo,sintetico_gerado_por_IA
+R0687,fora_do_escopo,ingles,The sales team escalated delivery with damaged contents.,fora_do_escopo,sintetico_gerado_por_IA
+R0688,fora_do_escopo,ingles,The sales team escalated delivery that never arrived.,fora_do_escopo,sintetico_gerado_por_IA
+R0689,fora_do_escopo,ingles,Please review shipment with frozen tracking.,fora_do_escopo,sintetico_gerado_por_IA
+R0690,fora_do_escopo,ingles,Please review shipment held by the carrier.,fora_do_escopo,sintetico_gerado_por_IA
+R0691,fora_do_escopo,ingles,Please review shipment missing one package.,fora_do_escopo,sintetico_gerado_por_IA
+R0692,fora_do_escopo,ingles,Please review shipment routed to another city.,fora_do_escopo,sintetico_gerado_por_IA
+R0693,fora_do_escopo,ingles,I need help with shipment with frozen tracking.,fora_do_escopo,sintetico_gerado_por_IA
+R0694,fora_do_escopo,ingles,I need help with shipment held by the carrier.,fora_do_escopo,sintetico_gerado_por_IA
+R0695,fora_do_escopo,ingles,I need help with shipment missing one package.,fora_do_escopo,sintetico_gerado_por_IA
+R0696,fora_do_escopo,ingles,I need help with shipment routed to another city.,fora_do_escopo,sintetico_gerado_por_IA
+R0697,fora_do_escopo,ingles,Can someone resolve shipment with frozen tracking.,fora_do_escopo,sintetico_gerado_por_IA
+R0698,fora_do_escopo,ingles,Can someone resolve shipment held by the carrier.,fora_do_escopo,sintetico_gerado_por_IA
+R0699,fora_do_escopo,ingles,Can someone resolve shipment missing one package.,fora_do_escopo,sintetico_gerado_por_IA
+R0700,fora_do_escopo,ingles,Can someone resolve shipment routed to another city.,fora_do_escopo,sintetico_gerado_por_IA
+R0701,fora_do_escopo,ingles,The customer reported shipment with frozen tracking.,fora_do_escopo,sintetico_gerado_por_IA
+R0702,fora_do_escopo,ingles,The customer reported shipment held by the carrier.,fora_do_escopo,sintetico_gerado_por_IA
+R0703,fora_do_escopo,ingles,The customer reported shipment missing one package.,fora_do_escopo,sintetico_gerado_por_IA
+R0704,fora_do_escopo,ingles,The customer reported shipment routed to another city.,fora_do_escopo,sintetico_gerado_por_IA
+R0705,fora_do_escopo,ingles,Our store received shipment with frozen tracking.,fora_do_escopo,sintetico_gerado_por_IA
+R0706,fora_do_escopo,ingles,Our store received shipment held by the carrier.,fora_do_escopo,sintetico_gerado_por_IA
+R0707,fora_do_escopo,ingles,Our store received shipment missing one package.,fora_do_escopo,sintetico_gerado_por_IA
+R0708,fora_do_escopo,ingles,Our store received shipment routed to another city.,fora_do_escopo,sintetico_gerado_por_IA
+R0709,fora_do_escopo,ingles,I am contacting support about shipment with frozen tracking.,fora_do_escopo,sintetico_gerado_por_IA
+R0710,fora_do_escopo,ingles,I am contacting support about shipment held by the carrier.,fora_do_escopo,sintetico_gerado_por_IA
+R0711,fora_do_escopo,ingles,I am contacting support about shipment missing one package.,fora_do_escopo,sintetico_gerado_por_IA
+R0712,fora_do_escopo,ingles,I am contacting support about shipment routed to another city.,fora_do_escopo,sintetico_gerado_por_IA
+R0713,fora_do_escopo,ingles,Please investigate shipment with frozen tracking.,fora_do_escopo,sintetico_gerado_por_IA
+R0714,fora_do_escopo,ingles,Please investigate shipment held by the carrier.,fora_do_escopo,sintetico_gerado_por_IA
+R0715,fora_do_escopo,ingles,Please investigate shipment missing one package.,fora_do_escopo,sintetico_gerado_por_IA
+R0716,fora_do_escopo,ingles,Please investigate shipment routed to another city.,fora_do_escopo,sintetico_gerado_por_IA
+R0717,fora_do_escopo,ingles,The account shows shipment with frozen tracking.,fora_do_escopo,sintetico_gerado_por_IA
+R0718,fora_do_escopo,ingles,The account shows shipment held by the carrier.,fora_do_escopo,sintetico_gerado_por_IA
+R0719,fora_do_escopo,ingles,The account shows shipment missing one package.,fora_do_escopo,sintetico_gerado_por_IA
+R0720,fora_do_escopo,ingles,The account shows shipment routed to another city.,fora_do_escopo,sintetico_gerado_por_IA
+R0721,fora_do_escopo,ingles,I want assistance with shipment with frozen tracking.,fora_do_escopo,sintetico_gerado_por_IA
+R0722,fora_do_escopo,ingles,I want assistance with shipment held by the carrier.,fora_do_escopo,sintetico_gerado_por_IA
+R0723,fora_do_escopo,ingles,I want assistance with shipment missing one package.,fora_do_escopo,sintetico_gerado_por_IA
+R0724,fora_do_escopo,ingles,I want assistance with shipment routed to another city.,fora_do_escopo,sintetico_gerado_por_IA
+R0725,fora_do_escopo,ingles,The sales team escalated shipment with frozen tracking.,fora_do_escopo,sintetico_gerado_por_IA
+R0726,fora_do_escopo,ingles,The sales team escalated shipment held by the carrier.,fora_do_escopo,sintetico_gerado_por_IA
+R0727,fora_do_escopo,ingles,The sales team escalated shipment missing one package.,fora_do_escopo,sintetico_gerado_por_IA
+R0728,fora_do_escopo,ingles,The sales team escalated shipment routed to another city.,fora_do_escopo,sintetico_gerado_por_IA
+R0729,fora_do_escopo,ingles,Please review cancel subscription before renewal.,fora_do_escopo,sintetico_gerado_por_IA
+R0730,fora_do_escopo,ingles,Please review cancel subscription and confirm the end date.,fora_do_escopo,sintetico_gerado_por_IA
+R0731,fora_do_escopo,ingles,Please review cancel subscription because I no longer use it.,fora_do_escopo,sintetico_gerado_por_IA
+R0732,fora_do_escopo,ingles,Please review cancel subscription without another fee.,fora_do_escopo,sintetico_gerado_por_IA
+R0733,fora_do_escopo,ingles,I need help with cancel subscription before renewal.,fora_do_escopo,sintetico_gerado_por_IA
+R0734,fora_do_escopo,ingles,I need help with cancel subscription and confirm the end date.,fora_do_escopo,sintetico_gerado_por_IA
+R0735,fora_do_escopo,ingles,I need help with cancel subscription because I no longer use it.,fora_do_escopo,sintetico_gerado_por_IA
+R0736,fora_do_escopo,ingles,I need help with cancel subscription without another fee.,fora_do_escopo,sintetico_gerado_por_IA
+R0737,fora_do_escopo,ingles,Can someone resolve cancel subscription before renewal.,fora_do_escopo,sintetico_gerado_por_IA
+R0738,fora_do_escopo,ingles,Can someone resolve cancel subscription and confirm the end date.,fora_do_escopo,sintetico_gerado_por_IA
+R0739,fora_do_escopo,ingles,Can someone resolve cancel subscription because I no longer use it.,fora_do_escopo,sintetico_gerado_por_IA
+R0740,fora_do_escopo,ingles,Can someone resolve cancel subscription without another fee.,fora_do_escopo,sintetico_gerado_por_IA
+R0741,fora_do_escopo,ingles,The customer reported cancel subscription before renewal.,fora_do_escopo,sintetico_gerado_por_IA
+R0742,fora_do_escopo,ingles,The customer reported cancel subscription and confirm the end date.,fora_do_escopo,sintetico_gerado_por_IA
+R0743,fora_do_escopo,ingles,The customer reported cancel subscription because I no longer use it.,fora_do_escopo,sintetico_gerado_por_IA
+R0744,fora_do_escopo,ingles,The customer reported cancel subscription without another fee.,fora_do_escopo,sintetico_gerado_por_IA
+R0745,fora_do_escopo,ingles,Our store received cancel subscription before renewal.,fora_do_escopo,sintetico_gerado_por_IA
+R0746,fora_do_escopo,ingles,Our store received cancel subscription and confirm the end date.,fora_do_escopo,sintetico_gerado_por_IA
+R0747,fora_do_escopo,ingles,Our store received cancel subscription because I no longer use it.,fora_do_escopo,sintetico_gerado_por_IA
+R0748,fora_do_escopo,ingles,Our store received cancel subscription without another fee.,fora_do_escopo,sintetico_gerado_por_IA
+R0749,fora_do_escopo,ingles,I am contacting support about cancel subscription before renewal.,fora_do_escopo,sintetico_gerado_por_IA
+R0750,fora_do_escopo,ingles,I am contacting support about cancel subscription and confirm the end date.,fora_do_escopo,sintetico_gerado_por_IA
+R0751,fora_do_escopo,ingles,I am contacting support about cancel subscription because I no longer use it.,fora_do_escopo,sintetico_gerado_por_IA
+R0752,fora_do_escopo,ingles,I am contacting support about cancel subscription without another fee.,fora_do_escopo,sintetico_gerado_por_IA
+R0753,fora_do_escopo,ingles,Please investigate cancel subscription before renewal.,fora_do_escopo,sintetico_gerado_por_IA
+R0754,fora_do_escopo,ingles,Please investigate cancel subscription and confirm the end date.,fora_do_escopo,sintetico_gerado_por_IA
+R0755,fora_do_escopo,ingles,Please investigate cancel subscription because I no longer use it.,fora_do_escopo,sintetico_gerado_por_IA
+R0756,fora_do_escopo,ingles,Please investigate cancel subscription without another fee.,fora_do_escopo,sintetico_gerado_por_IA
+R0757,fora_do_escopo,ingles,The account shows cancel subscription before renewal.,fora_do_escopo,sintetico_gerado_por_IA
+R0758,fora_do_escopo,ingles,The account shows cancel subscription and confirm the end date.,fora_do_escopo,sintetico_gerado_por_IA
+R0759,fora_do_escopo,ingles,The account shows cancel subscription because I no longer use it.,fora_do_escopo,sintetico_gerado_por_IA
+R0760,fora_do_escopo,ingles,The account shows cancel subscription without another fee.,fora_do_escopo,sintetico_gerado_por_IA
+R0761,fora_do_escopo,ingles,I want assistance with cancel subscription before renewal.,fora_do_escopo,sintetico_gerado_por_IA
+R0762,fora_do_escopo,ingles,I want assistance with cancel subscription and confirm the end date.,fora_do_escopo,sintetico_gerado_por_IA
+R0763,fora_do_escopo,ingles,I want assistance with cancel subscription because I no longer use it.,fora_do_escopo,sintetico_gerado_por_IA
+R0764,fora_do_escopo,ingles,I want assistance with cancel subscription without another fee.,fora_do_escopo,sintetico_gerado_por_IA
+R0765,fora_do_escopo,ingles,The sales team escalated cancel subscription before renewal.,fora_do_escopo,sintetico_gerado_por_IA
+R0766,fora_do_escopo,ingles,The sales team escalated cancel subscription and confirm the end date.,fora_do_escopo,sintetico_gerado_por_IA
+R0767,fora_do_escopo,ingles,The sales team escalated cancel subscription because I no longer use it.,fora_do_escopo,sintetico_gerado_por_IA
+R0768,fora_do_escopo,ingles,The sales team escalated cancel subscription without another fee.,fora_do_escopo,sintetico_gerado_por_IA
+R0769,fora_do_escopo,ingles,Please review cancel my order before dispatch.,fora_do_escopo,sintetico_gerado_por_IA
+R0770,fora_do_escopo,ingles,Please review cancel my order because it was a mistake.,fora_do_escopo,sintetico_gerado_por_IA
+R0771,fora_do_escopo,ingles,Please review cancel my order and release the card hold.,fora_do_escopo,sintetico_gerado_por_IA
+R0772,fora_do_escopo,ingles,Please review cancel my order because the address is wrong.,fora_do_escopo,sintetico_gerado_por_IA
+R0773,fora_do_escopo,ingles,I need help with cancel my order before dispatch.,fora_do_escopo,sintetico_gerado_por_IA
+R0774,fora_do_escopo,ingles,I need help with cancel my order because it was a mistake.,fora_do_escopo,sintetico_gerado_por_IA
+R0775,fora_do_escopo,ingles,I need help with cancel my order and release the card hold.,fora_do_escopo,sintetico_gerado_por_IA
+R0776,fora_do_escopo,ingles,I need help with cancel my order because the address is wrong.,fora_do_escopo,sintetico_gerado_por_IA
+R0777,fora_do_escopo,ingles,Can someone resolve cancel my order before dispatch.,fora_do_escopo,sintetico_gerado_por_IA
+R0778,fora_do_escopo,ingles,Can someone resolve cancel my order because it was a mistake.,fora_do_escopo,sintetico_gerado_por_IA
+R0779,fora_do_escopo,ingles,Can someone resolve cancel my order and release the card hold.,fora_do_escopo,sintetico_gerado_por_IA
+R0780,fora_do_escopo,ingles,Can someone resolve cancel my order because the address is wrong.,fora_do_escopo,sintetico_gerado_por_IA
+R0781,fora_do_escopo,ingles,The customer reported cancel my order before dispatch.,fora_do_escopo,sintetico_gerado_por_IA
+R0782,fora_do_escopo,ingles,The customer reported cancel my order because it was a mistake.,fora_do_escopo,sintetico_gerado_por_IA
+R0783,fora_do_escopo,ingles,The customer reported cancel my order and release the card hold.,fora_do_escopo,sintetico_gerado_por_IA
+R0784,fora_do_escopo,ingles,The customer reported cancel my order because the address is wrong.,fora_do_escopo,sintetico_gerado_por_IA
+R0785,fora_do_escopo,ingles,Our store received cancel my order before dispatch.,fora_do_escopo,sintetico_gerado_por_IA
+R0786,fora_do_escopo,ingles,Our store received cancel my order because it was a mistake.,fora_do_escopo,sintetico_gerado_por_IA
+R0787,fora_do_escopo,ingles,Our store received cancel my order and release the card hold.,fora_do_escopo,sintetico_gerado_por_IA
+R0788,fora_do_escopo,ingles,Our store received cancel my order because the address is wrong.,fora_do_escopo,sintetico_gerado_por_IA
+R0789,fora_do_escopo,ingles,I am contacting support about cancel my order before dispatch.,fora_do_escopo,sintetico_gerado_por_IA
+R0790,fora_do_escopo,ingles,I am contacting support about cancel my order because it was a mistake.,fora_do_escopo,sintetico_gerado_por_IA
+R0791,fora_do_escopo,ingles,I am contacting support about cancel my order and release the card hold.,fora_do_escopo,sintetico_gerado_por_IA
+R0792,fora_do_escopo,ingles,I am contacting support about cancel my order because the address is wrong.,fora_do_escopo,sintetico_gerado_por_IA
+R0793,fora_do_escopo,ingles,Please investigate cancel my order before dispatch.,fora_do_escopo,sintetico_gerado_por_IA
+R0794,fora_do_escopo,ingles,Please investigate cancel my order because it was a mistake.,fora_do_escopo,sintetico_gerado_por_IA
+R0795,fora_do_escopo,ingles,Please investigate cancel my order and release the card hold.,fora_do_escopo,sintetico_gerado_por_IA
+R0796,fora_do_escopo,ingles,Please investigate cancel my order because the address is wrong.,fora_do_escopo,sintetico_gerado_por_IA
+R0797,fora_do_escopo,ingles,The account shows cancel my order before dispatch.,fora_do_escopo,sintetico_gerado_por_IA
+R0798,fora_do_escopo,ingles,The account shows cancel my order because it was a mistake.,fora_do_escopo,sintetico_gerado_por_IA
+R0799,fora_do_escopo,ingles,The account shows cancel my order and release the card hold.,fora_do_escopo,sintetico_gerado_por_IA
+R0800,fora_do_escopo,ingles,The account shows cancel my order because the address is wrong.,fora_do_escopo,sintetico_gerado_por_IA
+R0801,fora_do_escopo,ingles,I want assistance with cancel my order before dispatch.,fora_do_escopo,sintetico_gerado_por_IA
+R0802,fora_do_escopo,ingles,I want assistance with cancel my order because it was a mistake.,fora_do_escopo,sintetico_gerado_por_IA
+R0803,fora_do_escopo,ingles,I want assistance with cancel my order and release the card hold.,fora_do_escopo,sintetico_gerado_por_IA
+R0804,fora_do_escopo,ingles,I want assistance with cancel my order because the address is wrong.,fora_do_escopo,sintetico_gerado_por_IA
+R0805,fora_do_escopo,ingles,The sales team escalated cancel my order before dispatch.,fora_do_escopo,sintetico_gerado_por_IA
+R0806,fora_do_escopo,ingles,The sales team escalated cancel my order because it was a mistake.,fora_do_escopo,sintetico_gerado_por_IA
+R0807,fora_do_escopo,ingles,The sales team escalated cancel my order and release the card hold.,fora_do_escopo,sintetico_gerado_por_IA
+R0808,fora_do_escopo,ingles,The sales team escalated cancel my order because the address is wrong.,fora_do_escopo,sintetico_gerado_por_IA
+R0809,fora_do_escopo,ingles,Please review complaint about rude store service.,fora_do_escopo,sintetico_gerado_por_IA
+R0810,fora_do_escopo,ingles,Please review complaint about a damaged parcel.,fora_do_escopo,sintetico_gerado_por_IA
+R0811,fora_do_escopo,ingles,Please review complaint about repeated sales calls.,fora_do_escopo,sintetico_gerado_por_IA
+R0812,fora_do_escopo,ingles,Please review complaint about the return process.,fora_do_escopo,sintetico_gerado_por_IA
+R0813,fora_do_escopo,ingles,I need help with complaint about rude store service.,fora_do_escopo,sintetico_gerado_por_IA
+R0814,fora_do_escopo,ingles,I need help with complaint about a damaged parcel.,fora_do_escopo,sintetico_gerado_por_IA
+R0815,fora_do_escopo,ingles,I need help with complaint about repeated sales calls.,fora_do_escopo,sintetico_gerado_por_IA
+R0816,fora_do_escopo,ingles,I need help with complaint about the return process.,fora_do_escopo,sintetico_gerado_por_IA
+R0817,fora_do_escopo,ingles,Can someone resolve complaint about rude store service.,fora_do_escopo,sintetico_gerado_por_IA
+R0818,fora_do_escopo,ingles,Can someone resolve complaint about a damaged parcel.,fora_do_escopo,sintetico_gerado_por_IA
+R0819,fora_do_escopo,ingles,Can someone resolve complaint about repeated sales calls.,fora_do_escopo,sintetico_gerado_por_IA
+R0820,fora_do_escopo,ingles,Can someone resolve complaint about the return process.,fora_do_escopo,sintetico_gerado_por_IA
+R0821,fora_do_escopo,ingles,The customer reported complaint about rude store service.,fora_do_escopo,sintetico_gerado_por_IA
+R0822,fora_do_escopo,ingles,The customer reported complaint about a damaged parcel.,fora_do_escopo,sintetico_gerado_por_IA
+R0823,fora_do_escopo,ingles,The customer reported complaint about repeated sales calls.,fora_do_escopo,sintetico_gerado_por_IA
+R0824,fora_do_escopo,ingles,The customer reported complaint about the return process.,fora_do_escopo,sintetico_gerado_por_IA
+R0825,fora_do_escopo,ingles,Our store received complaint about rude store service.,fora_do_escopo,sintetico_gerado_por_IA
+R0826,fora_do_escopo,ingles,Our store received complaint about a damaged parcel.,fora_do_escopo,sintetico_gerado_por_IA
+R0827,fora_do_escopo,ingles,Our store received complaint about repeated sales calls.,fora_do_escopo,sintetico_gerado_por_IA
+R0828,fora_do_escopo,ingles,Our store received complaint about the return process.,fora_do_escopo,sintetico_gerado_por_IA
+R0829,fora_do_escopo,ingles,I am contacting support about complaint about rude store service.,fora_do_escopo,sintetico_gerado_por_IA
+R0830,fora_do_escopo,ingles,I am contacting support about complaint about a damaged parcel.,fora_do_escopo,sintetico_gerado_por_IA
+R0831,fora_do_escopo,ingles,I am contacting support about complaint about repeated sales calls.,fora_do_escopo,sintetico_gerado_por_IA
+R0832,fora_do_escopo,ingles,I am contacting support about complaint about the return process.,fora_do_escopo,sintetico_gerado_por_IA
+R0833,fora_do_escopo,ingles,Please investigate complaint about rude store service.,fora_do_escopo,sintetico_gerado_por_IA
+R0834,fora_do_escopo,ingles,Please investigate complaint about a damaged parcel.,fora_do_escopo,sintetico_gerado_por_IA
+R0835,fora_do_escopo,ingles,Please investigate complaint about repeated sales calls.,fora_do_escopo,sintetico_gerado_por_IA
+R0836,fora_do_escopo,ingles,Please investigate complaint about the return process.,fora_do_escopo,sintetico_gerado_por_IA
+R0837,fora_do_escopo,ingles,The account shows complaint about rude store service.,fora_do_escopo,sintetico_gerado_por_IA
+R0838,fora_do_escopo,ingles,The account shows complaint about a damaged parcel.,fora_do_escopo,sintetico_gerado_por_IA
+R0839,fora_do_escopo,ingles,The account shows complaint about repeated sales calls.,fora_do_escopo,sintetico_gerado_por_IA
+R0840,fora_do_escopo,ingles,The account shows complaint about the return process.,fora_do_escopo,sintetico_gerado_por_IA
+R0841,fora_do_escopo,ingles,I want assistance with complaint about rude store service.,fora_do_escopo,sintetico_gerado_por_IA
+R0842,fora_do_escopo,ingles,I want assistance with complaint about a damaged parcel.,fora_do_escopo,sintetico_gerado_por_IA
+R0843,fora_do_escopo,ingles,I want assistance with complaint about repeated sales calls.,fora_do_escopo,sintetico_gerado_por_IA
+R0844,fora_do_escopo,ingles,I want assistance with complaint about the return process.,fora_do_escopo,sintetico_gerado_por_IA
+R0845,fora_do_escopo,ingles,The sales team escalated complaint about rude store service.,fora_do_escopo,sintetico_gerado_por_IA
+R0846,fora_do_escopo,ingles,The sales team escalated complaint about a damaged parcel.,fora_do_escopo,sintetico_gerado_por_IA
+R0847,fora_do_escopo,ingles,The sales team escalated complaint about repeated sales calls.,fora_do_escopo,sintetico_gerado_por_IA
+R0848,fora_do_escopo,ingles,The sales team escalated complaint about the return process.,fora_do_escopo,sintetico_gerado_por_IA
+R0849,fora_do_escopo,ingles,Please review chargeback for an unauthorized purchase.,fora_do_escopo,sintetico_gerado_por_IA
+R0850,fora_do_escopo,ingles,Please review chargeback evidence for my bank.,fora_do_escopo,sintetico_gerado_por_IA
+R0851,fora_do_escopo,ingles,Please review chargeback status after the dispute.,fora_do_escopo,sintetico_gerado_por_IA
+R0852,fora_do_escopo,ingles,Please review chargeback deadline for this transaction.,fora_do_escopo,sintetico_gerado_por_IA
+R0853,fora_do_escopo,ingles,I need help with chargeback for an unauthorized purchase.,fora_do_escopo,sintetico_gerado_por_IA
+R0854,fora_do_escopo,ingles,I need help with chargeback evidence for my bank.,fora_do_escopo,sintetico_gerado_por_IA
+R0855,fora_do_escopo,ingles,I need help with chargeback status after the dispute.,fora_do_escopo,sintetico_gerado_por_IA
+R0856,fora_do_escopo,ingles,I need help with chargeback deadline for this transaction.,fora_do_escopo,sintetico_gerado_por_IA
+R0857,fora_do_escopo,ingles,Can someone resolve chargeback for an unauthorized purchase.,fora_do_escopo,sintetico_gerado_por_IA
+R0858,fora_do_escopo,ingles,Can someone resolve chargeback evidence for my bank.,fora_do_escopo,sintetico_gerado_por_IA
+R0859,fora_do_escopo,ingles,Can someone resolve chargeback status after the dispute.,fora_do_escopo,sintetico_gerado_por_IA
+R0860,fora_do_escopo,ingles,Can someone resolve chargeback deadline for this transaction.,fora_do_escopo,sintetico_gerado_por_IA
+R0861,fora_do_escopo,ingles,The customer reported chargeback for an unauthorized purchase.,fora_do_escopo,sintetico_gerado_por_IA
+R0862,fora_do_escopo,ingles,The customer reported chargeback evidence for my bank.,fora_do_escopo,sintetico_gerado_por_IA
+R0863,fora_do_escopo,ingles,The customer reported chargeback status after the dispute.,fora_do_escopo,sintetico_gerado_por_IA
+R0864,fora_do_escopo,ingles,The customer reported chargeback deadline for this transaction.,fora_do_escopo,sintetico_gerado_por_IA
+R0865,fora_do_escopo,ingles,Our store received chargeback for an unauthorized purchase.,fora_do_escopo,sintetico_gerado_por_IA
+R0866,fora_do_escopo,ingles,Our store received chargeback evidence for my bank.,fora_do_escopo,sintetico_gerado_por_IA
+R0867,fora_do_escopo,ingles,Our store received chargeback status after the dispute.,fora_do_escopo,sintetico_gerado_por_IA
+R0868,fora_do_escopo,ingles,Our store received chargeback deadline for this transaction.,fora_do_escopo,sintetico_gerado_por_IA
+R0869,fora_do_escopo,ingles,I am contacting support about chargeback for an unauthorized purchase.,fora_do_escopo,sintetico_gerado_por_IA
+R0870,fora_do_escopo,ingles,I am contacting support about chargeback evidence for my bank.,fora_do_escopo,sintetico_gerado_por_IA
+R0871,fora_do_escopo,ingles,I am contacting support about chargeback status after the dispute.,fora_do_escopo,sintetico_gerado_por_IA
+R0872,fora_do_escopo,ingles,I am contacting support about chargeback deadline for this transaction.,fora_do_escopo,sintetico_gerado_por_IA
+R0873,fora_do_escopo,ingles,Please investigate chargeback for an unauthorized purchase.,fora_do_escopo,sintetico_gerado_por_IA
+R0874,fora_do_escopo,ingles,Please investigate chargeback evidence for my bank.,fora_do_escopo,sintetico_gerado_por_IA
+R0875,fora_do_escopo,ingles,Please investigate chargeback status after the dispute.,fora_do_escopo,sintetico_gerado_por_IA
+R0876,fora_do_escopo,ingles,Please investigate chargeback deadline for this transaction.,fora_do_escopo,sintetico_gerado_por_IA
+R0877,fora_do_escopo,ingles,The account shows chargeback for an unauthorized purchase.,fora_do_escopo,sintetico_gerado_por_IA
+R0878,fora_do_escopo,ingles,The account shows chargeback evidence for my bank.,fora_do_escopo,sintetico_gerado_por_IA
+R0879,fora_do_escopo,ingles,The account shows chargeback status after the dispute.,fora_do_escopo,sintetico_gerado_por_IA
+R0880,fora_do_escopo,ingles,The account shows chargeback deadline for this transaction.,fora_do_escopo,sintetico_gerado_por_IA
+R0881,fora_do_escopo,ingles,I want assistance with chargeback for an unauthorized purchase.,fora_do_escopo,sintetico_gerado_por_IA
+R0882,fora_do_escopo,ingles,I want assistance with chargeback evidence for my bank.,fora_do_escopo,sintetico_gerado_por_IA
+R0883,fora_do_escopo,ingles,I want assistance with chargeback status after the dispute.,fora_do_escopo,sintetico_gerado_por_IA
+R0884,fora_do_escopo,ingles,I want assistance with chargeback deadline for this transaction.,fora_do_escopo,sintetico_gerado_por_IA
+R0885,fora_do_escopo,ingles,The sales team escalated chargeback for an unauthorized purchase.,fora_do_escopo,sintetico_gerado_por_IA
+R0886,fora_do_escopo,ingles,The sales team escalated chargeback evidence for my bank.,fora_do_escopo,sintetico_gerado_por_IA
+R0887,fora_do_escopo,ingles,The sales team escalated chargeback status after the dispute.,fora_do_escopo,sintetico_gerado_por_IA
+R0888,fora_do_escopo,ingles,The sales team escalated chargeback deadline for this transaction.,fora_do_escopo,sintetico_gerado_por_IA
+R0889,fora_do_escopo,ingles,Please review complain about misleading pricing.,fora_do_escopo,sintetico_gerado_por_IA
+R0890,fora_do_escopo,ingles,Please review complain about courier behavior.,fora_do_escopo,sintetico_gerado_por_IA
+R0891,fora_do_escopo,ingles,Please review complain about a missing refund.,fora_do_escopo,sintetico_gerado_por_IA
+R0892,fora_do_escopo,ingles,Please review complain about cancellation handling.,fora_do_escopo,sintetico_gerado_por_IA
+R0893,fora_do_escopo,ingles,I need help with complain about misleading pricing.,fora_do_escopo,sintetico_gerado_por_IA
+R0894,fora_do_escopo,ingles,I need help with complain about courier behavior.,fora_do_escopo,sintetico_gerado_por_IA
+R0895,fora_do_escopo,ingles,I need help with complain about a missing refund.,fora_do_escopo,sintetico_gerado_por_IA
+R0896,fora_do_escopo,ingles,I need help with complain about cancellation handling.,fora_do_escopo,sintetico_gerado_por_IA
+R0897,fora_do_escopo,ingles,Can someone resolve complain about misleading pricing.,fora_do_escopo,sintetico_gerado_por_IA
+R0898,fora_do_escopo,ingles,Can someone resolve complain about courier behavior.,fora_do_escopo,sintetico_gerado_por_IA
+R0899,fora_do_escopo,ingles,Can someone resolve complain about a missing refund.,fora_do_escopo,sintetico_gerado_por_IA
+R0900,fora_do_escopo,ingles,Can someone resolve complain about cancellation handling.,fora_do_escopo,sintetico_gerado_por_IA
+R0901,fora_do_escopo,ingles,The customer reported complain about misleading pricing.,fora_do_escopo,sintetico_gerado_por_IA
+R0902,fora_do_escopo,ingles,The customer reported complain about courier behavior.,fora_do_escopo,sintetico_gerado_por_IA
+R0903,fora_do_escopo,ingles,The customer reported complain about a missing refund.,fora_do_escopo,sintetico_gerado_por_IA
+R0904,fora_do_escopo,ingles,The customer reported complain about cancellation handling.,fora_do_escopo,sintetico_gerado_por_IA
+R0905,fora_do_escopo,ingles,Our store received complain about misleading pricing.,fora_do_escopo,sintetico_gerado_por_IA
+R0906,fora_do_escopo,ingles,Our store received complain about courier behavior.,fora_do_escopo,sintetico_gerado_por_IA
+R0907,fora_do_escopo,ingles,Our store received complain about a missing refund.,fora_do_escopo,sintetico_gerado_por_IA
+R0908,fora_do_escopo,ingles,Our store received complain about cancellation handling.,fora_do_escopo,sintetico_gerado_por_IA
+R0909,fora_do_escopo,ingles,I am contacting support about complain about misleading pricing.,fora_do_escopo,sintetico_gerado_por_IA
+R0910,fora_do_escopo,ingles,I am contacting support about complain about courier behavior.,fora_do_escopo,sintetico_gerado_por_IA
+R0911,fora_do_escopo,ingles,I am contacting support about complain about a missing refund.,fora_do_escopo,sintetico_gerado_por_IA
+R0912,fora_do_escopo,ingles,I am contacting support about complain about cancellation handling.,fora_do_escopo,sintetico_gerado_por_IA
+R0913,fora_do_escopo,ingles,Please investigate complain about misleading pricing.,fora_do_escopo,sintetico_gerado_por_IA
+R0914,fora_do_escopo,ingles,Please investigate complain about courier behavior.,fora_do_escopo,sintetico_gerado_por_IA
+R0915,fora_do_escopo,ingles,Please investigate complain about a missing refund.,fora_do_escopo,sintetico_gerado_por_IA
+R0916,fora_do_escopo,ingles,Please investigate complain about cancellation handling.,fora_do_escopo,sintetico_gerado_por_IA
+R0917,fora_do_escopo,ingles,The account shows complain about misleading pricing.,fora_do_escopo,sintetico_gerado_por_IA
+R0918,fora_do_escopo,ingles,The account shows complain about courier behavior.,fora_do_escopo,sintetico_gerado_por_IA
+R0919,fora_do_escopo,ingles,The account shows complain about a missing refund.,fora_do_escopo,sintetico_gerado_por_IA
+R0920,fora_do_escopo,ingles,The account shows complain about cancellation handling.,fora_do_escopo,sintetico_gerado_por_IA
+R0921,fora_do_escopo,ingles,I want assistance with complain about misleading pricing.,fora_do_escopo,sintetico_gerado_por_IA
+R0922,fora_do_escopo,ingles,I want assistance with complain about courier behavior.,fora_do_escopo,sintetico_gerado_por_IA
+R0923,fora_do_escopo,ingles,I want assistance with complain about a missing refund.,fora_do_escopo,sintetico_gerado_por_IA
+R0924,fora_do_escopo,ingles,I want assistance with complain about cancellation handling.,fora_do_escopo,sintetico_gerado_por_IA
+R0925,fora_do_escopo,ingles,The sales team escalated complain about misleading pricing.,fora_do_escopo,sintetico_gerado_por_IA
+R0926,fora_do_escopo,ingles,The sales team escalated complain about courier behavior.,fora_do_escopo,sintetico_gerado_por_IA
+R0927,fora_do_escopo,ingles,The sales team escalated complain about a missing refund.,fora_do_escopo,sintetico_gerado_por_IA
+R0928,fora_do_escopo,ingles,The sales team escalated complain about cancellation handling.,fora_do_escopo,sintetico_gerado_por_IA
+R0929,fora_do_escopo,portugues,Preciso de reembolso por uma compra duplicada na compra desta semana.,fora_do_escopo,sintetico_gerado_por_IA
+R0930,fora_do_escopo,portugues,Preciso de reembolso por uma compra duplicada no pedido feito pelo aplicativo.,fora_do_escopo,sintetico_gerado_por_IA
+R0931,fora_do_escopo,portugues,Preciso de reembolso por uma compra duplicada na conta usada pela família.,fora_do_escopo,sintetico_gerado_por_IA
+R0932,fora_do_escopo,portugues,Preciso de reembolso por uma compra duplicada durante o atendimento da loja.,fora_do_escopo,sintetico_gerado_por_IA
+R0933,fora_do_escopo,portugues,Preciso de reembolso por uma compra duplicada na transação mais recente.,fora_do_escopo,sintetico_gerado_por_IA
+R0934,fora_do_escopo,portugues,Preciso de reembolso por uma compra duplicada no contrato do cliente.,fora_do_escopo,sintetico_gerado_por_IA
+R0935,fora_do_escopo,portugues,Quero reembolso depois de devolver o produto na compra desta semana.,fora_do_escopo,sintetico_gerado_por_IA
+R0936,fora_do_escopo,portugues,Quero reembolso depois de devolver o produto no pedido feito pelo aplicativo.,fora_do_escopo,sintetico_gerado_por_IA
+R0937,fora_do_escopo,portugues,Quero reembolso depois de devolver o produto na conta usada pela família.,fora_do_escopo,sintetico_gerado_por_IA
+R0938,fora_do_escopo,portugues,Quero reembolso depois de devolver o produto durante o atendimento da loja.,fora_do_escopo,sintetico_gerado_por_IA
+R0939,fora_do_escopo,portugues,Quero reembolso depois de devolver o produto na transação mais recente.,fora_do_escopo,sintetico_gerado_por_IA
+R0940,fora_do_escopo,portugues,Quero reembolso depois de devolver o produto no contrato do cliente.,fora_do_escopo,sintetico_gerado_por_IA
+R0941,fora_do_escopo,portugues,A cobrança no meu cartão está errada na compra desta semana.,fora_do_escopo,sintetico_gerado_por_IA
+R0942,fora_do_escopo,portugues,A cobrança no meu cartão está errada no pedido feito pelo aplicativo.,fora_do_escopo,sintetico_gerado_por_IA
+R0943,fora_do_escopo,portugues,A cobrança no meu cartão está errada na conta usada pela família.,fora_do_escopo,sintetico_gerado_por_IA
+R0944,fora_do_escopo,portugues,A cobrança no meu cartão está errada durante o atendimento da loja.,fora_do_escopo,sintetico_gerado_por_IA
+R0945,fora_do_escopo,portugues,A cobrança no meu cartão está errada na transação mais recente.,fora_do_escopo,sintetico_gerado_por_IA
+R0946,fora_do_escopo,portugues,A cobrança no meu cartão está errada no contrato do cliente.,fora_do_escopo,sintetico_gerado_por_IA
+R0947,fora_do_escopo,portugues,Fui cobrado mesmo após cancelar o serviço na compra desta semana.,fora_do_escopo,sintetico_gerado_por_IA
+R0948,fora_do_escopo,portugues,Fui cobrado mesmo após cancelar o serviço no pedido feito pelo aplicativo.,fora_do_escopo,sintetico_gerado_por_IA
+R0949,fora_do_escopo,portugues,Fui cobrado mesmo após cancelar o serviço na conta usada pela família.,fora_do_escopo,sintetico_gerado_por_IA
+R0950,fora_do_escopo,portugues,Fui cobrado mesmo após cancelar o serviço durante o atendimento da loja.,fora_do_escopo,sintetico_gerado_por_IA
+R0951,fora_do_escopo,portugues,Fui cobrado mesmo após cancelar o serviço na transação mais recente.,fora_do_escopo,sintetico_gerado_por_IA
+R0952,fora_do_escopo,portugues,Fui cobrado mesmo após cancelar o serviço no contrato do cliente.,fora_do_escopo,sintetico_gerado_por_IA
+R0953,fora_do_escopo,portugues,Minha entrega passou da data prometida na compra desta semana.,fora_do_escopo,sintetico_gerado_por_IA
+R0954,fora_do_escopo,portugues,Minha entrega passou da data prometida no pedido feito pelo aplicativo.,fora_do_escopo,sintetico_gerado_por_IA
+R0955,fora_do_escopo,portugues,Minha entrega passou da data prometida na conta usada pela família.,fora_do_escopo,sintetico_gerado_por_IA
+R0956,fora_do_escopo,portugues,Minha entrega passou da data prometida durante o atendimento da loja.,fora_do_escopo,sintetico_gerado_por_IA
+R0957,fora_do_escopo,portugues,Minha entrega passou da data prometida na transação mais recente.,fora_do_escopo,sintetico_gerado_por_IA
+R0958,fora_do_escopo,portugues,Minha entrega passou da data prometida no contrato do cliente.,fora_do_escopo,sintetico_gerado_por_IA
+R0959,fora_do_escopo,portugues,A entrega foi enviada ao endereço errado na compra desta semana.,fora_do_escopo,sintetico_gerado_por_IA
+R0960,fora_do_escopo,portugues,A entrega foi enviada ao endereço errado no pedido feito pelo aplicativo.,fora_do_escopo,sintetico_gerado_por_IA
+R0961,fora_do_escopo,portugues,A entrega foi enviada ao endereço errado na conta usada pela família.,fora_do_escopo,sintetico_gerado_por_IA
+R0962,fora_do_escopo,portugues,A entrega foi enviada ao endereço errado durante o atendimento da loja.,fora_do_escopo,sintetico_gerado_por_IA
+R0963,fora_do_escopo,portugues,A entrega foi enviada ao endereço errado na transação mais recente.,fora_do_escopo,sintetico_gerado_por_IA
+R0964,fora_do_escopo,portugues,A entrega foi enviada ao endereço errado no contrato do cliente.,fora_do_escopo,sintetico_gerado_por_IA
+R0965,fora_do_escopo,portugues,O rastreamento do pedido não muda há uma semana na compra desta semana.,fora_do_escopo,sintetico_gerado_por_IA
+R0966,fora_do_escopo,portugues,O rastreamento do pedido não muda há uma semana no pedido feito pelo aplicativo.,fora_do_escopo,sintetico_gerado_por_IA
+R0967,fora_do_escopo,portugues,O rastreamento do pedido não muda há uma semana na conta usada pela família.,fora_do_escopo,sintetico_gerado_por_IA
+R0968,fora_do_escopo,portugues,O rastreamento do pedido não muda há uma semana durante o atendimento da loja.,fora_do_escopo,sintetico_gerado_por_IA
+R0969,fora_do_escopo,portugues,O rastreamento do pedido não muda há uma semana na transação mais recente.,fora_do_escopo,sintetico_gerado_por_IA
+R0970,fora_do_escopo,portugues,O rastreamento do pedido não muda há uma semana no contrato do cliente.,fora_do_escopo,sintetico_gerado_por_IA
+R0971,fora_do_escopo,portugues,Meu pedido chegou com um item faltando na compra desta semana.,fora_do_escopo,sintetico_gerado_por_IA
+R0972,fora_do_escopo,portugues,Meu pedido chegou com um item faltando no pedido feito pelo aplicativo.,fora_do_escopo,sintetico_gerado_por_IA
+R0973,fora_do_escopo,portugues,Meu pedido chegou com um item faltando na conta usada pela família.,fora_do_escopo,sintetico_gerado_por_IA
+R0974,fora_do_escopo,portugues,Meu pedido chegou com um item faltando durante o atendimento da loja.,fora_do_escopo,sintetico_gerado_por_IA
+R0975,fora_do_escopo,portugues,Meu pedido chegou com um item faltando na transação mais recente.,fora_do_escopo,sintetico_gerado_por_IA
+R0976,fora_do_escopo,portugues,Meu pedido chegou com um item faltando no contrato do cliente.,fora_do_escopo,sintetico_gerado_por_IA
+R0977,fora_do_escopo,portugues,Quero cancelar minha assinatura antes da renovação na compra desta semana.,fora_do_escopo,sintetico_gerado_por_IA
+R0978,fora_do_escopo,portugues,Quero cancelar minha assinatura antes da renovação no pedido feito pelo aplicativo.,fora_do_escopo,sintetico_gerado_por_IA
+R0979,fora_do_escopo,portugues,Quero cancelar minha assinatura antes da renovação na conta usada pela família.,fora_do_escopo,sintetico_gerado_por_IA
+R0980,fora_do_escopo,portugues,Quero cancelar minha assinatura antes da renovação durante o atendimento da loja.,fora_do_escopo,sintetico_gerado_por_IA
+R0981,fora_do_escopo,portugues,Quero cancelar minha assinatura antes da renovação na transação mais recente.,fora_do_escopo,sintetico_gerado_por_IA
+R0982,fora_do_escopo,portugues,Quero cancelar minha assinatura antes da renovação no contrato do cliente.,fora_do_escopo,sintetico_gerado_por_IA
+R0983,fora_do_escopo,portugues,Preciso cancelar meu pedido antes do envio na compra desta semana.,fora_do_escopo,sintetico_gerado_por_IA
+R0984,fora_do_escopo,portugues,Preciso cancelar meu pedido antes do envio no pedido feito pelo aplicativo.,fora_do_escopo,sintetico_gerado_por_IA
+R0985,fora_do_escopo,portugues,Preciso cancelar meu pedido antes do envio na conta usada pela família.,fora_do_escopo,sintetico_gerado_por_IA
+R0986,fora_do_escopo,portugues,Preciso cancelar meu pedido antes do envio durante o atendimento da loja.,fora_do_escopo,sintetico_gerado_por_IA
+R0987,fora_do_escopo,portugues,Preciso cancelar meu pedido antes do envio na transação mais recente.,fora_do_escopo,sintetico_gerado_por_IA
+R0988,fora_do_escopo,portugues,Preciso cancelar meu pedido antes do envio no contrato do cliente.,fora_do_escopo,sintetico_gerado_por_IA
+R0989,fora_do_escopo,portugues,Tenho uma reclamação sobre o atendimento da loja na compra desta semana.,fora_do_escopo,sintetico_gerado_por_IA
+R0990,fora_do_escopo,portugues,Tenho uma reclamação sobre o atendimento da loja no pedido feito pelo aplicativo.,fora_do_escopo,sintetico_gerado_por_IA
+R0991,fora_do_escopo,portugues,Tenho uma reclamação sobre o atendimento da loja na conta usada pela família.,fora_do_escopo,sintetico_gerado_por_IA
+R0992,fora_do_escopo,portugues,Tenho uma reclamação sobre o atendimento da loja durante o atendimento da loja.,fora_do_escopo,sintetico_gerado_por_IA
+R0993,fora_do_escopo,portugues,Tenho uma reclamação sobre o atendimento da loja na transação mais recente.,fora_do_escopo,sintetico_gerado_por_IA
+R0994,fora_do_escopo,portugues,Tenho uma reclamação sobre o atendimento da loja no contrato do cliente.,fora_do_escopo,sintetico_gerado_por_IA
+R0995,fora_do_escopo,portugues,Quero reclamar das ligações de vendas na compra desta semana.,fora_do_escopo,sintetico_gerado_por_IA
+R0996,fora_do_escopo,portugues,Quero reclamar das ligações de vendas no pedido feito pelo aplicativo.,fora_do_escopo,sintetico_gerado_por_IA
+R0997,fora_do_escopo,portugues,Quero reclamar das ligações de vendas na conta usada pela família.,fora_do_escopo,sintetico_gerado_por_IA
+R0998,fora_do_escopo,portugues,Quero reclamar das ligações de vendas durante o atendimento da loja.,fora_do_escopo,sintetico_gerado_por_IA
+R0999,fora_do_escopo,portugues,Quero reclamar das ligações de vendas na transação mais recente.,fora_do_escopo,sintetico_gerado_por_IA
+R1000,fora_do_escopo,portugues,Quero reclamar das ligações de vendas no contrato do cliente.,fora_do_escopo,sintetico_gerado_por_IA
+R1001,fora_do_escopo,portugues,A fatura mostra um valor que não reconheço na compra desta semana.,fora_do_escopo,sintetico_gerado_por_IA
+R1002,fora_do_escopo,portugues,A fatura mostra um valor que não reconheço no pedido feito pelo aplicativo.,fora_do_escopo,sintetico_gerado_por_IA
+R1003,fora_do_escopo,portugues,A fatura mostra um valor que não reconheço na conta usada pela família.,fora_do_escopo,sintetico_gerado_por_IA
+R1004,fora_do_escopo,portugues,A fatura mostra um valor que não reconheço durante o atendimento da loja.,fora_do_escopo,sintetico_gerado_por_IA
+R1005,fora_do_escopo,portugues,A fatura mostra um valor que não reconheço na transação mais recente.,fora_do_escopo,sintetico_gerado_por_IA
+R1006,fora_do_escopo,portugues,A fatura mostra um valor que não reconheço no contrato do cliente.,fora_do_escopo,sintetico_gerado_por_IA
+R1007,fora_do_escopo,portugues,Solicito cancelamento e estorno da compra na compra desta semana.,fora_do_escopo,sintetico_gerado_por_IA
+R1008,fora_do_escopo,portugues,Solicito cancelamento e estorno da compra no pedido feito pelo aplicativo.,fora_do_escopo,sintetico_gerado_por_IA
+R1009,fora_do_escopo,portugues,Solicito cancelamento e estorno da compra na conta usada pela família.,fora_do_escopo,sintetico_gerado_por_IA
+R1010,fora_do_escopo,portugues,Solicito cancelamento e estorno da compra durante o atendimento da loja.,fora_do_escopo,sintetico_gerado_por_IA
+R1011,fora_do_escopo,portugues,Solicito cancelamento e estorno da compra na transação mais recente.,fora_do_escopo,sintetico_gerado_por_IA
+R1012,fora_do_escopo,portugues,Solicito cancelamento e estorno da compra no contrato do cliente.,fora_do_escopo,sintetico_gerado_por_IA
+R1013,fora_do_escopo,portugues,A transportadora perdeu minha encomenda na compra desta semana.,fora_do_escopo,sintetico_gerado_por_IA
+R1014,fora_do_escopo,portugues,A transportadora perdeu minha encomenda no pedido feito pelo aplicativo.,fora_do_escopo,sintetico_gerado_por_IA
+R1015,fora_do_escopo,portugues,A transportadora perdeu minha encomenda na conta usada pela família.,fora_do_escopo,sintetico_gerado_por_IA
+R1016,fora_do_escopo,portugues,A transportadora perdeu minha encomenda durante o atendimento da loja.,fora_do_escopo,sintetico_gerado_por_IA
+R1017,fora_do_escopo,portugues,A transportadora perdeu minha encomenda na transação mais recente.,fora_do_escopo,sintetico_gerado_por_IA
+R1018,fora_do_escopo,portugues,A transportadora perdeu minha encomenda no contrato do cliente.,fora_do_escopo,sintetico_gerado_por_IA
+R1019,fora_do_escopo,portugues,O produto devolvido ainda não foi reembolsado na compra desta semana.,fora_do_escopo,sintetico_gerado_por_IA
+R1020,fora_do_escopo,portugues,O produto devolvido ainda não foi reembolsado no pedido feito pelo aplicativo.,fora_do_escopo,sintetico_gerado_por_IA
+R1021,fora_do_escopo,portugues,O produto devolvido ainda não foi reembolsado na conta usada pela família.,fora_do_escopo,sintetico_gerado_por_IA
+R1022,fora_do_escopo,portugues,O produto devolvido ainda não foi reembolsado durante o atendimento da loja.,fora_do_escopo,sintetico_gerado_por_IA
+R1023,fora_do_escopo,portugues,O produto devolvido ainda não foi reembolsado na transação mais recente.,fora_do_escopo,sintetico_gerado_por_IA
+R1024,fora_do_escopo,portugues,O produto devolvido ainda não foi reembolsado no contrato do cliente.,fora_do_escopo,sintetico_gerado_por_IA
+R1025,fora_do_escopo,portugues,Recebi cobrança em duplicidade neste mês na compra desta semana.,fora_do_escopo,sintetico_gerado_por_IA
+R1026,fora_do_escopo,portugues,Recebi cobrança em duplicidade neste mês no pedido feito pelo aplicativo.,fora_do_escopo,sintetico_gerado_por_IA
+R1027,fora_do_escopo,portugues,Recebi cobrança em duplicidade neste mês na conta usada pela família.,fora_do_escopo,sintetico_gerado_por_IA
+R1028,fora_do_escopo,portugues,Recebi cobrança em duplicidade neste mês durante o atendimento da loja.,fora_do_escopo,sintetico_gerado_por_IA
+R1029,fora_do_escopo,portugues,Recebi cobrança em duplicidade neste mês na transação mais recente.,fora_do_escopo,sintetico_gerado_por_IA
+R1030,fora_do_escopo,portugues,Recebi cobrança em duplicidade neste mês no contrato do cliente.,fora_do_escopo,sintetico_gerado_por_IA
+R1031,fora_do_escopo,portugues,Minha assinatura continuou ativa após o cancelamento na compra desta semana.,fora_do_escopo,sintetico_gerado_por_IA
+R1032,fora_do_escopo,portugues,Minha assinatura continuou ativa após o cancelamento no pedido feito pelo aplicativo.,fora_do_escopo,sintetico_gerado_por_IA
+R1033,fora_do_escopo,portugues,Minha assinatura continuou ativa após o cancelamento na conta usada pela família.,fora_do_escopo,sintetico_gerado_por_IA
+R1034,fora_do_escopo,portugues,Minha assinatura continuou ativa após o cancelamento durante o atendimento da loja.,fora_do_escopo,sintetico_gerado_por_IA
+R1035,fora_do_escopo,portugues,Minha assinatura continuou ativa após o cancelamento na transação mais recente.,fora_do_escopo,sintetico_gerado_por_IA
+R1036,fora_do_escopo,portugues,Minha assinatura continuou ativa após o cancelamento no contrato do cliente.,fora_do_escopo,sintetico_gerado_por_IA
+R1037,fora_do_escopo,portugues,A entrega veio danificada e quero devolução na compra desta semana.,fora_do_escopo,sintetico_gerado_por_IA
+R1038,fora_do_escopo,portugues,A entrega veio danificada e quero devolução no pedido feito pelo aplicativo.,fora_do_escopo,sintetico_gerado_por_IA
+R1039,fora_do_escopo,portugues,A entrega veio danificada e quero devolução na conta usada pela família.,fora_do_escopo,sintetico_gerado_por_IA
+R1040,fora_do_escopo,portugues,A entrega veio danificada e quero devolução durante o atendimento da loja.,fora_do_escopo,sintetico_gerado_por_IA
+R1041,fora_do_escopo,portugues,A entrega veio danificada e quero devolução na transação mais recente.,fora_do_escopo,sintetico_gerado_por_IA
+R1042,fora_do_escopo,portugues,A entrega veio danificada e quero devolução no contrato do cliente.,fora_do_escopo,sintetico_gerado_por_IA
+R1043,fora_do_escopo,portugues,O pedido aparece entregue mas não recebi na compra desta semana.,fora_do_escopo,sintetico_gerado_por_IA
+R1044,fora_do_escopo,portugues,O pedido aparece entregue mas não recebi no pedido feito pelo aplicativo.,fora_do_escopo,sintetico_gerado_por_IA
+R1045,fora_do_escopo,portugues,O pedido aparece entregue mas não recebi na conta usada pela família.,fora_do_escopo,sintetico_gerado_por_IA
+R1046,fora_do_escopo,portugues,O pedido aparece entregue mas não recebi durante o atendimento da loja.,fora_do_escopo,sintetico_gerado_por_IA
+R1047,fora_do_escopo,portugues,O pedido aparece entregue mas não recebi na transação mais recente.,fora_do_escopo,sintetico_gerado_por_IA
+R1048,fora_do_escopo,portugues,O pedido aparece entregue mas não recebi no contrato do cliente.,fora_do_escopo,sintetico_gerado_por_IA
+R1049,fora_do_escopo,portugues,Preciso corrigir o endereço de entrega na compra desta semana.,fora_do_escopo,sintetico_gerado_por_IA
+R1050,fora_do_escopo,portugues,Preciso corrigir o endereço de entrega no pedido feito pelo aplicativo.,fora_do_escopo,sintetico_gerado_por_IA
+R1051,fora_do_escopo,portugues,Preciso corrigir o endereço de entrega na conta usada pela família.,fora_do_escopo,sintetico_gerado_por_IA
+R1052,fora_do_escopo,portugues,Preciso corrigir o endereço de entrega durante o atendimento da loja.,fora_do_escopo,sintetico_gerado_por_IA
+R1053,fora_do_escopo,portugues,Preciso corrigir o endereço de entrega na transação mais recente.,fora_do_escopo,sintetico_gerado_por_IA
+R1054,fora_do_escopo,portugues,Preciso corrigir o endereço de entrega no contrato do cliente.,fora_do_escopo,sintetico_gerado_por_IA
+R1055,fora_do_escopo,portugues,Quero contestar uma compra não autorizada na compra desta semana.,fora_do_escopo,sintetico_gerado_por_IA
+R1056,fora_do_escopo,portugues,Quero contestar uma compra não autorizada no pedido feito pelo aplicativo.,fora_do_escopo,sintetico_gerado_por_IA
+R1057,fora_do_escopo,portugues,Quero contestar uma compra não autorizada na conta usada pela família.,fora_do_escopo,sintetico_gerado_por_IA
+R1058,fora_do_escopo,portugues,Quero contestar uma compra não autorizada durante o atendimento da loja.,fora_do_escopo,sintetico_gerado_por_IA
+R1059,fora_do_escopo,portugues,Quero contestar uma compra não autorizada na transação mais recente.,fora_do_escopo,sintetico_gerado_por_IA
+R1060,fora_do_escopo,portugues,Quero contestar uma compra não autorizada no contrato do cliente.,fora_do_escopo,sintetico_gerado_por_IA
+R1061,fora_do_escopo,portugues,A loja recusou a devolução dentro do prazo na compra desta semana.,fora_do_escopo,sintetico_gerado_por_IA
+R1062,fora_do_escopo,portugues,A loja recusou a devolução dentro do prazo no pedido feito pelo aplicativo.,fora_do_escopo,sintetico_gerado_por_IA
+R1063,fora_do_escopo,portugues,A loja recusou a devolução dentro do prazo na conta usada pela família.,fora_do_escopo,sintetico_gerado_por_IA
+R1064,fora_do_escopo,portugues,A loja recusou a devolução dentro do prazo durante o atendimento da loja.,fora_do_escopo,sintetico_gerado_por_IA
+R1065,fora_do_escopo,portugues,A loja recusou a devolução dentro do prazo na transação mais recente.,fora_do_escopo,sintetico_gerado_por_IA
+R1066,fora_do_escopo,portugues,A loja recusou a devolução dentro do prazo no contrato do cliente.,fora_do_escopo,sintetico_gerado_por_IA
+R1067,fora_do_escopo,portugues,O cupom não foi aplicado na compra na compra desta semana.,fora_do_escopo,sintetico_gerado_por_IA
+R1068,fora_do_escopo,portugues,O cupom não foi aplicado na compra no pedido feito pelo aplicativo.,fora_do_escopo,sintetico_gerado_por_IA
+R1069,fora_do_escopo,portugues,O cupom não foi aplicado na compra na conta usada pela família.,fora_do_escopo,sintetico_gerado_por_IA
+R1070,fora_do_escopo,portugues,O cupom não foi aplicado na compra durante o atendimento da loja.,fora_do_escopo,sintetico_gerado_por_IA
+R1071,fora_do_escopo,portugues,O cupom não foi aplicado na compra na transação mais recente.,fora_do_escopo,sintetico_gerado_por_IA
+R1072,fora_do_escopo,portugues,O cupom não foi aplicado na compra no contrato do cliente.,fora_do_escopo,sintetico_gerado_por_IA
+R1073,fora_do_escopo,portugues,Meu pagamento foi aprovado mas o pedido sumiu na compra desta semana.,fora_do_escopo,sintetico_gerado_por_IA
+R1074,fora_do_escopo,portugues,Meu pagamento foi aprovado mas o pedido sumiu no pedido feito pelo aplicativo.,fora_do_escopo,sintetico_gerado_por_IA
+R1075,fora_do_escopo,portugues,Meu pagamento foi aprovado mas o pedido sumiu na conta usada pela família.,fora_do_escopo,sintetico_gerado_por_IA
+R1076,fora_do_escopo,portugues,Meu pagamento foi aprovado mas o pedido sumiu durante o atendimento da loja.,fora_do_escopo,sintetico_gerado_por_IA
+R1077,fora_do_escopo,portugues,Meu pagamento foi aprovado mas o pedido sumiu na transação mais recente.,fora_do_escopo,sintetico_gerado_por_IA
+R1078,fora_do_escopo,portugues,Meu pagamento foi aprovado mas o pedido sumiu no contrato do cliente.,fora_do_escopo,sintetico_gerado_por_IA
+R1079,fora_do_escopo,portugues,Quero trocar o produto recebido por engano na compra desta semana.,fora_do_escopo,sintetico_gerado_por_IA
+R1080,fora_do_escopo,portugues,Quero trocar o produto recebido por engano no pedido feito pelo aplicativo.,fora_do_escopo,sintetico_gerado_por_IA
+R1081,fora_do_escopo,portugues,Quero trocar o produto recebido por engano na conta usada pela família.,fora_do_escopo,sintetico_gerado_por_IA
+R1082,fora_do_escopo,portugues,Quero trocar o produto recebido por engano durante o atendimento da loja.,fora_do_escopo,sintetico_gerado_por_IA
+R1083,fora_do_escopo,portugues,Quero trocar o produto recebido por engano na transação mais recente.,fora_do_escopo,sintetico_gerado_por_IA
+R1084,fora_do_escopo,portugues,Quero trocar o produto recebido por engano no contrato do cliente.,fora_do_escopo,sintetico_gerado_por_IA
+R1085,fora_do_escopo,portugues,O valor do frete foi cobrado incorretamente na compra desta semana.,fora_do_escopo,sintetico_gerado_por_IA
+R1086,fora_do_escopo,portugues,O valor do frete foi cobrado incorretamente no pedido feito pelo aplicativo.,fora_do_escopo,sintetico_gerado_por_IA
+R1087,fora_do_escopo,portugues,O valor do frete foi cobrado incorretamente na conta usada pela família.,fora_do_escopo,sintetico_gerado_por_IA
+R1088,fora_do_escopo,portugues,O valor do frete foi cobrado incorretamente durante o atendimento da loja.,fora_do_escopo,sintetico_gerado_por_IA
+R1089,fora_do_escopo,portugues,O valor do frete foi cobrado incorretamente na transação mais recente.,fora_do_escopo,sintetico_gerado_por_IA
+R1090,fora_do_escopo,portugues,O valor do frete foi cobrado incorretamente no contrato do cliente.,fora_do_escopo,sintetico_gerado_por_IA
+R1091,fora_do_escopo,portugues,A parcela da compra veio com juros indevidos na compra desta semana.,fora_do_escopo,sintetico_gerado_por_IA
+R1092,fora_do_escopo,portugues,A parcela da compra veio com juros indevidos no pedido feito pelo aplicativo.,fora_do_escopo,sintetico_gerado_por_IA
+R1093,fora_do_escopo,portugues,A parcela da compra veio com juros indevidos na conta usada pela família.,fora_do_escopo,sintetico_gerado_por_IA
+R1094,fora_do_escopo,portugues,A parcela da compra veio com juros indevidos durante o atendimento da loja.,fora_do_escopo,sintetico_gerado_por_IA
+R1095,fora_do_escopo,portugues,A parcela da compra veio com juros indevidos na transação mais recente.,fora_do_escopo,sintetico_gerado_por_IA
+R1096,fora_do_escopo,portugues,A parcela da compra veio com juros indevidos no contrato do cliente.,fora_do_escopo,sintetico_gerado_por_IA
+R1097,fora_do_escopo,portugues,Não recebi confirmação do estorno na compra desta semana.,fora_do_escopo,sintetico_gerado_por_IA
+R1098,fora_do_escopo,portugues,Não recebi confirmação do estorno no pedido feito pelo aplicativo.,fora_do_escopo,sintetico_gerado_por_IA
+R1099,fora_do_escopo,portugues,Não recebi confirmação do estorno na conta usada pela família.,fora_do_escopo,sintetico_gerado_por_IA
+R1100,fora_do_escopo,portugues,Não recebi confirmação do estorno durante o atendimento da loja.,fora_do_escopo,sintetico_gerado_por_IA
+R1101,fora_do_escopo,portugues,Não recebi confirmação do estorno na transação mais recente.,fora_do_escopo,sintetico_gerado_por_IA
+R1102,fora_do_escopo,portugues,Não recebi confirmação do estorno no contrato do cliente.,fora_do_escopo,sintetico_gerado_por_IA
+R1103,fora_do_escopo,portugues,A transportadora marcou uma tentativa inexistente na compra desta semana.,fora_do_escopo,sintetico_gerado_por_IA
+R1104,fora_do_escopo,portugues,A transportadora marcou uma tentativa inexistente no pedido feito pelo aplicativo.,fora_do_escopo,sintetico_gerado_por_IA
+R1105,fora_do_escopo,portugues,A transportadora marcou uma tentativa inexistente na conta usada pela família.,fora_do_escopo,sintetico_gerado_por_IA
+R1106,fora_do_escopo,portugues,A transportadora marcou uma tentativa inexistente durante o atendimento da loja.,fora_do_escopo,sintetico_gerado_por_IA
+R1107,fora_do_escopo,portugues,A transportadora marcou uma tentativa inexistente na transação mais recente.,fora_do_escopo,sintetico_gerado_por_IA
+R1108,fora_do_escopo,portugues,A transportadora marcou uma tentativa inexistente no contrato do cliente.,fora_do_escopo,sintetico_gerado_por_IA
+R1109,fora_do_escopo,portugues,Quero encerrar o plano e receber confirmação na compra desta semana.,fora_do_escopo,sintetico_gerado_por_IA
+R1110,fora_do_escopo,portugues,Quero encerrar o plano e receber confirmação no pedido feito pelo aplicativo.,fora_do_escopo,sintetico_gerado_por_IA
+R1111,fora_do_escopo,portugues,Quero encerrar o plano e receber confirmação na conta usada pela família.,fora_do_escopo,sintetico_gerado_por_IA
+R1112,fora_do_escopo,portugues,Quero encerrar o plano e receber confirmação durante o atendimento da loja.,fora_do_escopo,sintetico_gerado_por_IA
+R1113,fora_do_escopo,portugues,Quero encerrar o plano e receber confirmação na transação mais recente.,fora_do_escopo,sintetico_gerado_por_IA
+R1114,fora_do_escopo,portugues,Quero encerrar o plano e receber confirmação no contrato do cliente.,fora_do_escopo,sintetico_gerado_por_IA
+R1115,fora_do_escopo,portugues,O vendedor prometeu um desconto não aplicado na compra desta semana.,fora_do_escopo,sintetico_gerado_por_IA
+R1116,fora_do_escopo,portugues,O vendedor prometeu um desconto não aplicado no pedido feito pelo aplicativo.,fora_do_escopo,sintetico_gerado_por_IA
+R1117,fora_do_escopo,portugues,O vendedor prometeu um desconto não aplicado na conta usada pela família.,fora_do_escopo,sintetico_gerado_por_IA
+R1118,fora_do_escopo,portugues,O vendedor prometeu um desconto não aplicado durante o atendimento da loja.,fora_do_escopo,sintetico_gerado_por_IA
+R1119,fora_do_escopo,portugues,O vendedor prometeu um desconto não aplicado na transação mais recente.,fora_do_escopo,sintetico_gerado_por_IA
+R1120,fora_do_escopo,portugues,O vendedor prometeu um desconto não aplicado no contrato do cliente.,fora_do_escopo,sintetico_gerado_por_IA
+R1121,fora_do_escopo,portugues,Minha encomenda foi enviada para outra cidade na compra desta semana.,fora_do_escopo,sintetico_gerado_por_IA
+R1122,fora_do_escopo,portugues,Minha encomenda foi enviada para outra cidade no pedido feito pelo aplicativo.,fora_do_escopo,sintetico_gerado_por_IA
+R1123,fora_do_escopo,portugues,Minha encomenda foi enviada para outra cidade na conta usada pela família.,fora_do_escopo,sintetico_gerado_por_IA
+R1124,fora_do_escopo,portugues,Minha encomenda foi enviada para outra cidade durante o atendimento da loja.,fora_do_escopo,sintetico_gerado_por_IA
+R1125,fora_do_escopo,portugues,Minha encomenda foi enviada para outra cidade na transação mais recente.,fora_do_escopo,sintetico_gerado_por_IA
+R1126,fora_do_escopo,portugues,Minha encomenda foi enviada para outra cidade no contrato do cliente.,fora_do_escopo,sintetico_gerado_por_IA
+R1127,fora_do_escopo,portugues,Preciso alterar a forma de pagamento do pedido na compra desta semana.,fora_do_escopo,sintetico_gerado_por_IA
+R1128,fora_do_escopo,portugues,Preciso alterar a forma de pagamento do pedido no pedido feito pelo aplicativo.,fora_do_escopo,sintetico_gerado_por_IA
+R1129,fora_do_escopo,portugues,Preciso alterar a forma de pagamento do pedido na conta usada pela família.,fora_do_escopo,sintetico_gerado_por_IA
+R1130,fora_do_escopo,portugues,Preciso alterar a forma de pagamento do pedido durante o atendimento da loja.,fora_do_escopo,sintetico_gerado_por_IA
+R1131,fora_do_escopo,portugues,Preciso alterar a forma de pagamento do pedido na transação mais recente.,fora_do_escopo,sintetico_gerado_por_IA
+R1132,fora_do_escopo,portugues,Preciso alterar a forma de pagamento do pedido no contrato do cliente.,fora_do_escopo,sintetico_gerado_por_IA
+R1133,fora_do_escopo,portugues,O prazo de devolução informado está incorreto na compra desta semana.,fora_do_escopo,sintetico_gerado_por_IA
+R1134,fora_do_escopo,portugues,O prazo de devolução informado está incorreto no pedido feito pelo aplicativo.,fora_do_escopo,sintetico_gerado_por_IA
+R1135,fora_do_escopo,portugues,O prazo de devolução informado está incorreto na conta usada pela família.,fora_do_escopo,sintetico_gerado_por_IA
+R1136,fora_do_escopo,portugues,O prazo de devolução informado está incorreto durante o atendimento da loja.,fora_do_escopo,sintetico_gerado_por_IA
+R1137,fora_do_escopo,portugues,O prazo de devolução informado está incorreto na transação mais recente.,fora_do_escopo,sintetico_gerado_por_IA
+R1138,fora_do_escopo,portugues,O prazo de devolução informado está incorreto no contrato do cliente.,fora_do_escopo,sintetico_gerado_por_IA
+R1139,fora_do_escopo,portugues,A garantia comercial não foi respeitada na compra desta semana.,fora_do_escopo,sintetico_gerado_por_IA
+R1140,fora_do_escopo,portugues,A garantia comercial não foi respeitada no pedido feito pelo aplicativo.,fora_do_escopo,sintetico_gerado_por_IA
+R1141,fora_do_escopo,portugues,A garantia comercial não foi respeitada na conta usada pela família.,fora_do_escopo,sintetico_gerado_por_IA
+R1142,fora_do_escopo,portugues,A garantia comercial não foi respeitada durante o atendimento da loja.,fora_do_escopo,sintetico_gerado_por_IA
+R1143,fora_do_escopo,portugues,A garantia comercial não foi respeitada na transação mais recente.,fora_do_escopo,sintetico_gerado_por_IA
+R1144,fora_do_escopo,portugues,A garantia comercial não foi respeitada no contrato do cliente.,fora_do_escopo,sintetico_gerado_por_IA
+R1145,fora_do_escopo,portugues,Quero registrar queixa sobre propaganda enganosa na compra desta semana.,fora_do_escopo,sintetico_gerado_por_IA
+R1146,fora_do_escopo,portugues,Quero registrar queixa sobre propaganda enganosa no pedido feito pelo aplicativo.,fora_do_escopo,sintetico_gerado_por_IA
+R1147,fora_do_escopo,portugues,Quero registrar queixa sobre propaganda enganosa na conta usada pela família.,fora_do_escopo,sintetico_gerado_por_IA
+R1148,fora_do_escopo,portugues,Quero registrar queixa sobre propaganda enganosa durante o atendimento da loja.,fora_do_escopo,sintetico_gerado_por_IA
+R1149,fora_do_escopo,portugues,Quero registrar queixa sobre propaganda enganosa na transação mais recente.,fora_do_escopo,sintetico_gerado_por_IA
+R1150,fora_do_escopo,portugues,Quero registrar queixa sobre propaganda enganosa no contrato do cliente.,fora_do_escopo,sintetico_gerado_por_IA
+R1151,fora_do_escopo,portugues,O pacote chegou aberto e sem o produto na compra desta semana.,fora_do_escopo,sintetico_gerado_por_IA
+R1152,fora_do_escopo,portugues,O pacote chegou aberto e sem o produto no pedido feito pelo aplicativo.,fora_do_escopo,sintetico_gerado_por_IA
+R1153,fora_do_escopo,portugues,O pacote chegou aberto e sem o produto na conta usada pela família.,fora_do_escopo,sintetico_gerado_por_IA
+R1154,fora_do_escopo,portugues,O pacote chegou aberto e sem o produto durante o atendimento da loja.,fora_do_escopo,sintetico_gerado_por_IA
+R1155,fora_do_escopo,portugues,O pacote chegou aberto e sem o produto na transação mais recente.,fora_do_escopo,sintetico_gerado_por_IA
+R1156,fora_do_escopo,portugues,O pacote chegou aberto e sem o produto no contrato do cliente.,fora_do_escopo,sintetico_gerado_por_IA
+R1157,fora_do_escopo,portugues,A renovação automática ocorreu sem aviso na compra desta semana.,fora_do_escopo,sintetico_gerado_por_IA
+R1158,fora_do_escopo,portugues,A renovação automática ocorreu sem aviso no pedido feito pelo aplicativo.,fora_do_escopo,sintetico_gerado_por_IA
+R1159,fora_do_escopo,portugues,A renovação automática ocorreu sem aviso na conta usada pela família.,fora_do_escopo,sintetico_gerado_por_IA
+R1160,fora_do_escopo,portugues,A renovação automática ocorreu sem aviso durante o atendimento da loja.,fora_do_escopo,sintetico_gerado_por_IA
+R1161,fora_do_escopo,portugues,A renovação automática ocorreu sem aviso na transação mais recente.,fora_do_escopo,sintetico_gerado_por_IA
+R1162,fora_do_escopo,portugues,A renovação automática ocorreu sem aviso no contrato do cliente.,fora_do_escopo,sintetico_gerado_por_IA
+R1163,fora_do_escopo,portugues,Preciso da segunda via da nota fiscal da compra na compra desta semana.,fora_do_escopo,sintetico_gerado_por_IA
+R1164,fora_do_escopo,portugues,Preciso da segunda via da nota fiscal da compra no pedido feito pelo aplicativo.,fora_do_escopo,sintetico_gerado_por_IA
+R1165,fora_do_escopo,portugues,Preciso da segunda via da nota fiscal da compra na conta usada pela família.,fora_do_escopo,sintetico_gerado_por_IA
+R1166,fora_do_escopo,portugues,Preciso da segunda via da nota fiscal da compra durante o atendimento da loja.,fora_do_escopo,sintetico_gerado_por_IA
+R1167,fora_do_escopo,portugues,Preciso da segunda via da nota fiscal da compra na transação mais recente.,fora_do_escopo,sintetico_gerado_por_IA
+R1168,fora_do_escopo,portugues,Preciso da segunda via da nota fiscal da compra no contrato do cliente.,fora_do_escopo,sintetico_gerado_por_IA

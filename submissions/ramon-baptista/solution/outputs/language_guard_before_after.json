@@ -1,0 +1,36 @@
+{
+  "method": "contagem exata por idioma: EN desviado e falso positivo; PT nao desviado e falso negativo",
+  "foundation": "mede diretamente os dois sentidos de falha da protecao",
+  "assumptions": [
+    "rotulos da validacao estao corretos",
+    "conjunto curto e exploratorio porque n<30 por idioma"
+  ],
+  "all_validation": {
+    "before": {
+      "n_en": 812,
+      "n_pt": 812,
+      "en_false_diverted_n": 1,
+      "pt_missed_n": 57
+    },
+    "after": {
+      "n_en": 812,
+      "n_pt": 812,
+      "en_false_diverted_n": 0,
+      "pt_missed_n": 14
+    }
+  },
+  "short_validation_exploratory": {
+    "before": {
+      "n_en": 12,
+      "n_pt": 12,
+      "en_false_diverted_n": 1,
+      "pt_missed_n": 12
+    },
+    "after": {
+      "n_en": 12,
+      "n_pt": 12,
+      "en_false_diverted_n": 0,
+      "pt_missed_n": 0
+    }
+  }
+}

@@ -1,0 +1,581 @@
+{
+  "premissa": "sintéticos gerados por IA; evidência complementar",
+  "casos_sha256": "6aaa75548afde42f3d876abe6b6f92b56a09821463c11e4f94a1b2aed8a79073",
+  "checagem_duplicidade": "normalizado sem pontuação/números: zero repetições",
+  "grupos_atuais": [
+    {
+      "grupo": "reformulacoes_8_filas",
+      "n": 160,
+      "n_frases_distintas": 160,
+      "direto_fila_errada": {
+        "n": 21,
+        "taxa": 0.13125,
+        "ic95_wilson": [
+          0.08747283759654537,
+          0.19231873134243974
+        ]
+      },
+      "direto_certo": {
+        "n": 32,
+        "taxa": 0.2,
+        "ic95_wilson": [
+          0.14538269154252415,
+          0.268685025560379
+        ]
+      },
+      "desviado_para_pessoa": {
+        "n": 107,
+        "taxa": 0.66875,
+        "ic95_wilson": [
+          0.5926163390608727,
+          0.7369705700687441
+        ]
+      }
+    },
+    {
+      "grupo": "erros_de_digitacao",
+      "n": 160,
+      "n_frases_distintas": 160,
+      "direto_fila_errada": {
+        "n": 30,
+        "taxa": 0.1875,
+        "ic95_wilson": [
+          0.1346142688298028,
+          0.25503960315238794
+        ]
+      },
+      "direto_certo": {
+        "n": 34,
+        "taxa": 0.2125,
+        "ic95_wilson": [
+          0.15624068307038502,
+          0.2822408791532305
+        ]
+      },
+      "desviado_para_pessoa": {
+        "n": 96,
+        "taxa": 0.6,
+        "ic95_wilson": [
+          0.522604836968219,
+          0.67270592399748
+        ]
+      }
+    },
+    {
+      "grupo": "textos_curtos",
+      "n": 104,
+      "n_frases_distintas": 104,
+      "direto_fila_errada": {
+        "n": 34,
+        "taxa": 0.3269230769230769,
+        "ic95_wilson": [
+          0.2443398527182713,
+          0.4218367699491159
+        ]
+      },
+      "direto_certo": {
+        "n": 22,
+        "taxa": 0.21153846153846154,
+        "ic95_wilson": [
+          0.1440522470328251,
+          0.29957545741282027
+        ]
+      },
+      "desviado_para_pessoa": {
+        "n": 48,
+        "taxa": 0.46153846153846156,
+        "ic95_wilson": [
+          0.3688100475176425,
+          0.5570069797417769
+        ]
+      }
+    },
+    {
+      "grupo": "mistura_de_idiomas",
+      "n": 104,
+      "n_frases_distintas": 104,
+      "direto_fila_errada": {
+        "n": 4,
+        "taxa": 0.038461538461538464,
+        "ic95_wilson": [
+          0.015056813343976884,
+          0.09474751376905566
+        ]
+      },
+      "direto_certo": {
+        "n": 5,
+        "taxa": 0.04807692307692308,
+        "ic95_wilson": [
+          0.020708042325852223,
+          0.10764202797232547
+        ]
+      },
+      "desviado_para_pessoa": {
+        "n": 95,
+        "taxa": 0.9134615384615384,
+        "ic95_wilson": [
+          0.8436629055250897,
+          0.9538040514361519
+        ]
+      }
+    },
+    {
+      "grupo": "fora_do_escopo",
+      "n": 640,
+      "n_frases_distintas": 640,
+      "direto_fila_errada": {
+        "n": 84,
+        "taxa": 0.13125,
+        "ic95_wilson": [
+          0.10727461808659175,
+          0.15962565132981268
+        ]
+      },
+      "direto_certo": {
+        "n": 0,
+        "taxa": 0.0,
+        "ic95_wilson": [
+          0,
+          0.005966467005294152
+        ]
+      },
+      "desviado_para_pessoa": {
+        "n": 556,
+        "taxa": 0.86875,
+        "ic95_wilson": [
+          0.8403743486701873,
+          0.8927253819134082
+        ]
+      }
+    }
+  ],
+  "erro_entre_encaminhados_por_grupo_antes": [
+    {
+      "grupo": "reformulacoes_8_filas",
+      "errado_n": 21,
+      "certo_n": 32,
+      "encaminhados_n": 53,
+      "taxa_erro": 0.39622641509433965,
+      "ic95_wilson": [
+        0.27589406738001676,
+        0.5305852132679447
+      ]
+    },
+    {
+      "grupo": "erros_de_digitacao",
+      "errado_n": 30,
+      "certo_n": 34,
+      "encaminhados_n": 64,
+      "taxa_erro": 0.46875,
+      "ic95_wilson": [
+        0.35175987425176036,
+        0.5892791294852899
+      ]
+    },
+    {
+      "grupo": "textos_curtos",
+      "errado_n": 34,
+      "certo_n": 22,
+      "encaminhados_n": 56,
+      "taxa_erro": 0.6071428571428571,
+      "ic95_wilson": [
+        0.4763340280042271,
+        0.7241958426988949
+      ]
+    },
+    {
+      "grupo": "mistura_de_idiomas",
+      "errado_n": 4,
+      "certo_n": 5,
+      "encaminhados_n": 9,
+      "taxa_erro": 0.4444444444444444,
+      "ic95_wilson": [
+        0.18877852109766452,
+        0.733348706504507
+      ]
+    },
+    {
+      "grupo": "fora_do_escopo",
+      "errado_n": 84,
+      "certo_n": 0,
+      "encaminhados_n": 84,
+      "taxa_erro": 1.0,
+      "ic95_wilson": [
+        0.95626827158534,
+        0.9999999999999999
+      ]
+    }
+  ],
+  "erro_entre_encaminhados_por_grupo_com_barreira": [
+    {
+      "grupo": "reformulacoes_8_filas",
+      "errado_n": 21,
+      "certo_n": 32,
+      "encaminhados_n": 53,
+      "taxa_erro": 0.39622641509433965,
+      "ic95_wilson": [
+        0.27589406738001676,
+        0.5305852132679447
+      ]
+    },
+    {
+      "grupo": "erros_de_digitacao",
+      "errado_n": 30,
+      "certo_n": 34,
+      "encaminhados_n": 64,
+      "taxa_erro": 0.46875,
+      "ic95_wilson": [
+        0.35175987425176036,
+        0.5892791294852899
+      ]
+    },
+    {
+      "grupo": "textos_curtos",
+      "errado_n": 34,
+      "certo_n": 22,
+      "encaminhados_n": 56,
+      "taxa_erro": 0.6071428571428571,
+      "ic95_wilson": [
+        0.4763340280042271,
+        0.7241958426988949
+      ]
+    },
+    {
+      "grupo": "mistura_de_idiomas",
+      "errado_n": 4,
+      "certo_n": 5,
+      "encaminhados_n": 9,
+      "taxa_erro": 0.4444444444444444,
+      "ic95_wilson": [
+        0.18877852109766452,
+        0.733348706504507
+      ]
+    },
+    {
+      "grupo": "fora_do_escopo",
+      "errado_n": 0,
+      "certo_n": 0,
+      "encaminhados_n": 0,
+      "taxa_erro": null,
+      "ic95_wilson": null
+    }
+  ],
+  "fora_escopo_por_idioma": [
+    {
+      "grupo": "fora_do_escopo",
+      "n": 400,
+      "n_frases_distintas": 400,
+      "idioma": "ingles",
+      "direto_fila_errada": {
+        "n": 84,
+        "taxa": 0.21,
+        "ic95_wilson": [
+          0.1729377251738417,
+          0.25257940554005026
+        ]
+      },
+      "direto_certo": {
+        "n": 0,
+        "taxa": 0.0,
+        "ic95_wilson": [
+          8.673617379884035e-19,
+          0.009512294334296508
+        ]
+      },
+      "desviado_para_pessoa": {
+        "n": 316,
+        "taxa": 0.79,
+        "ic95_wilson": [
+          0.7474205944599498,
+          0.8270622748261584
+        ]
+      }
+    },
+    {
+      "grupo": "fora_do_escopo",
+      "n": 240,
+      "n_frases_distintas": 240,
+      "idioma": "portugues",
+      "direto_fila_errada": {
+        "n": 0,
+        "taxa": 0.0,
+        "ic95_wilson": [
+          0,
+          0.015753919941558815
+        ]
+      },
+      "direto_certo": {
+        "n": 0,
+        "taxa": 0.0,
+        "ic95_wilson": [
+          0,
+          0.015753919941558815
+        ]
+      },
+      "desviado_para_pessoa": {
+        "n": 240,
+        "taxa": 1.0,
+        "ic95_wilson": [
+          0.9842460800584412,
+          1
+        ]
+      }
+    }
+  ],
+  "calibracao_correcao_fora_escopo": {
+    "n_calibracao_oos": 308,
+    "n_ingles": 196,
+    "n_portugues": 112,
+    "criterio": "padrão em pelo menos 2 erros automáticos fora do escopo na calibração",
+    "padroes": [
+      {
+        "padrao": "\\brefund(?:ed|s)?\\b",
+        "casos": 28,
+        "erros_automaticos": 8,
+        "selecionado": true
+      },
+      {
+        "padrao": "\\b(?:billing|charged|chargeback)\\b",
+        "casos": 59,
+        "erros_automaticos": 8,
+        "selecionado": true
+      },
+      {
+        "padrao": "\\b(?:delivery|shipment)\\b",
+        "casos": 33,
+        "erros_automaticos": 2,
+        "selecionado": true
+      },
+      {
+        "padrao": "\\b(?:cancel subscription|cancel my order)\\b",
+        "casos": 38,
+        "erros_automaticos": 8,
+        "selecionado": true
+      },
+      {
+        "padrao": "\\b(?:complaint|complain)\\b",
+        "casos": 42,
+        "erros_automaticos": 14,
+        "selecionado": true
+      }
+    ]
+  },
+  "correcao_medicao_fora_escopo": [
+    {
+      "grupo": "fora_do_escopo",
+      "n": 204,
+      "n_frases_distintas": 204,
+      "idioma": "ingles",
+      "direto_fila_errada": {
+        "n": 0,
+        "taxa": 0.0,
+        "ic95_wilson": [
+          0,
+          0.018482639808683074
+        ]
+      },
+      "direto_certo": {
+        "n": 0,
+        "taxa": 0.0,
+        "ic95_wilson": [
+          0,
+          0.018482639808683074
+        ]
+      },
+      "desviado_para_pessoa": {
+        "n": 204,
+        "taxa": 1.0,
+        "ic95_wilson": [
+          0.981517360191317,
+          1
+        ]
+      },
+      "antes_direto_fila_errada": {
+        "n": 44,
+        "taxa": 0.21568627450980393,
+        "ic95_wilson": [
+          0.16477849992615978,
+          0.2771037854552482
+        ]
+      }
+    },
+    {
+      "grupo": "fora_do_escopo",
+      "n": 128,
+      "n_frases_distintas": 128,
+      "idioma": "portugues",
+      "direto_fila_errada": {
+        "n": 0,
+        "taxa": 0.0,
+        "ic95_wilson": [
+          0,
+          0.029136956273508416
+        ]
+      },
+      "direto_certo": {
+        "n": 0,
+        "taxa": 0.0,
+        "ic95_wilson": [
+          0,
+          0.029136956273508416
+        ]
+      },
+      "desviado_para_pessoa": {
+        "n": 128,
+        "taxa": 1.0,
+        "ic95_wilson": [
+          0.9708630437264916,
+          1
+        ]
+      },
+      "antes_direto_fila_errada": {
+        "n": 0,
+        "taxa": 0.0,
+        "ic95_wilson": [
+          0,
+          0.029136956273508416
+        ]
+      }
+    }
+  ],
+  "padroes_selecionados": [
+    "\\brefund(?:ed|s)?\\b",
+    "\\b(?:billing|charged|chargeback)\\b",
+    "\\b(?:delivery|shipment)\\b",
+    "\\b(?:cancel subscription|cancel my order)\\b",
+    "\\b(?:complaint|complain)\\b"
+  ],
+  "base1": {
+    "n": 8469,
+    "placeholder_n": 8469,
+    "antes": {
+      "direto_n": 2718,
+      "direto_taxa": 0.32093517534537724,
+      "ic95_wilson": [
+        0.3110757671912946,
+        0.33095695409343084
+      ]
+    },
+    "depois": {
+      "direto_n": 2651,
+      "direto_taxa": 0.31302396977211006,
+      "ic95_wilson": [
+        0.3032343775977838,
+        0.3229831061835302
+      ]
+    },
+    "bloqueados_n": 67,
+    "padroes": [
+      {
+        "padrao": "\\brefund(?:ed|s)?\\b",
+        "disparos_n": 155,
+        "bloqueios_de_automaticos_n": 36
+      },
+      {
+        "padrao": "\\b(?:billing|charged|chargeback)\\b",
+        "disparos_n": 56,
+        "bloqueios_de_automaticos_n": 22
+      },
+      {
+        "padrao": "\\b(?:delivery|shipment)\\b",
+        "disparos_n": 37,
+        "bloqueios_de_automaticos_n": 8
+      },
+      {
+        "padrao": "\\b(?:cancel subscription|cancel my order)\\b",
+        "disparos_n": 0,
+        "bloqueios_de_automaticos_n": 0
+      },
+      {
+        "padrao": "\\b(?:complaint|complain)\\b",
+        "disparos_n": 12,
+        "bloqueios_de_automaticos_n": 3
+      }
+    ],
+    "exemplos_ainda_direto": [
+      {
+        "ticket_linha": 3,
+        "texto": "I'm facing a problem with my . The is not turning on. It was working fine until yesterday, but now it doesn't respond. 1.8.3 I really I'm using the original charger that came with my , but it's not charging properly.",
+        "fila_sugerida": "Hardware",
+        "score_nao_calibrado": 0.6356432811899029
+      },
+      {
+        "ticket_linha": 11,
+        "texto": "I'm having an issue with the . Please assist. 1-800-799-0808. Product Search: What's New in 2-3-4-5? Report Feedback Customer Service is your best I'm using the original charger that came with my , but it's not charging properly.",
+        "fila_sugerida": "Hardware",
+        "score_nao_calibrado": 0.6777175504751853
+      },
+      {
+        "ticket_linha": 12,
+        "texto": "I'm having an issue with the . Please assist. 4. It is possible that we cannot find some type of text or a product name to identify someone like Mr. Brown. 5. On the I've reviewed the troubleshooting steps on the official support website, but they didn't resolve the problem.",
+        "fila_sugerida": "Hardware",
+        "score_nao_calibrado": 0.6070513132279551
+      },
+      {
+        "ticket_linha": 21,
+        "texto": "I'm having an issue with the . Please assist. \" -name \"Microsoft Surface Pro. \" \" -version 1.10.2 \"1.10.2\" \" -usage I've checked for any available software updates for my , but there are none.",
+        "fila_sugerida": "Administrative rights",
+        "score_nao_calibrado": 0.542246740768041
+      },
+      {
+        "ticket_linha": 23,
+        "texto": "I'm having an issue with the . Please assist. (And if need be this time, that could help.) 1.3.2.1 Update my version to 3.0 or more. The issue I'm facing is intermittent. Sometimes it works fine, but other times it acts up unexpectedly.",
+        "fila_sugerida": "Administrative rights",
+        "score_nao_calibrado": 0.6317429148607239
+      },
+      {
+        "ticket_linha": 27,
+        "texto": "I'm encountering a software bug in the . Whenever I try to perform a specific action, the application crashes. Are there any updates or fixes available? On Windows Vista, this is not possible. If you are I've performed a factory reset on my , hoping it would resolve the problem, but it didn't help.",
+        "fila_sugerida": "Administrative rights",
+        "score_nao_calibrado": 0.6748601571385094
+      },
+      {
+        "ticket_linha": 29,
+        "texto": "I'm having an issue with the . Please assist. Thank you.\" A statement from the consumer group had been released by Microsoft late on Tuesday afternoon. \"The purchase of this product was made using a contract with I'm using the original charger that came with my , but it's not charging properly.",
+        "fila_sugerida": "Hardware",
+        "score_nao_calibrado": 0.6250138811158082
+      },
+      {
+        "ticket_linha": 38,
+        "texto": "I've forgotten my password for my account, and the password reset option is not working. How can I recover my account? I can reset my password by entering the following: My password still valid: password is expired I've recently updated the firmware of my , and the issue started happening afterward. Could it be related to the update?",
+        "fila_sugerida": "Access",
+        "score_nao_calibrado": 0.9883578642449183
+      },
+      {
+        "ticket_linha": 40,
+        "texto": "I'm having an issue with the . Please assist. I have a new account in the system and a new user. I'm having this issue Error: [System.CollectedMessage.ThrowBack I'm concerned about the security of my and would like to ensure that my data is safe.",
+        "fila_sugerida": "Access",
+        "score_nao_calibrado": 0.6115375013114568
+      },
+      {
+        "ticket_linha": 43,
+        "texto": "I'm having an issue with the . Please assist. The product_purchased attribute does not exist on your user's product. This is so that you can configure the I need assistance as soon as possible because it's affecting my work and productivity.",
+        "fila_sugerida": "Hardware",
+        "score_nao_calibrado": 0.5435677634870228
+      }
+    ],
+    "metodo": "proporção de decisões automáticas antes e depois da barreira congelada, após proteção de idioma",
+    "fundamento": "mede generalização da barreira em outro domínio, sem usar a Base 1 para recalibrar"
+  },
+  "custo_teste_congelado": {
+    "n": 7176,
+    "cobertura_oficial_faixa_alta_n": 5527,
+    "cobertura_oficial_faixa_alta_taxa": 0.77020624303233,
+    "faixa_alta_certo_n": 5187,
+    "faixa_alta_errado_n": 340,
+    "faixa_alta_taxa_erro": 0.06151619323321875,
+    "faixa_alta_erro_ic95_wilson": [
+      0.05548113657975292,
+      0.06816034978577837
+    ],
+    "acima_limite_na_faixa_alta_n": 7,
+    "desvios_idioma_na_faixa_alta_elegivel_n": 10,
+    "automatico_servico_atual_n": 5510,
+    "automatico_servico_atual_taxa": 0.7678372352285395,
+    "automatico_com_correcao_n": 5460,
+    "automatico_com_correcao_taxa": 0.7608695652173914,
+    "queda_correcao_n": 50,
+    "queda_correcao_pp": 0.6967670011148273,
+    "consistencia": true
+  }
+}

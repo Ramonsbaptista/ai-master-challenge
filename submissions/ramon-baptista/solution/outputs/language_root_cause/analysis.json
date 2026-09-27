@@ -1,0 +1,806 @@
+{
+  "provenance": {
+    "model": "artifacts\\model-v1.0.0.joblib",
+    "model_sha256": "dd6ec7e07c1597d24daef99f7bb63800d1b597b3bb10a5671ea8190f176c7cb9",
+    "sample": "outputs\\jev_evaluation\\sample_bilingual.csv",
+    "sample_sha256": "b0ba5e7a300e93de5249f706a488fca59e018757f26f9666aa9dca3732425d95",
+    "manifest": "artifacts\\manifest.json",
+    "script_seed": 20260924
+  },
+  "sample": {
+    "n": 800,
+    "classes": [
+      "Access",
+      "Administrative rights",
+      "HR Support",
+      "Hardware",
+      "Internal Project",
+      "Miscellaneous",
+      "Purchase",
+      "Storage"
+    ],
+    "n_per_class": {
+      "Access": 100,
+      "Administrative rights": 100,
+      "HR Support": 100,
+      "Hardware": 100,
+      "Internal Project": 100,
+      "Miscellaneous": 100,
+      "Purchase": 100,
+      "Storage": 100
+    },
+    "method": "partição test da amostra bilíngue congelada; 100 tickets por classe; textos EN e PT pareados por record_id."
+  },
+  "model": {
+    "vocabulary_features_n": 100000,
+    "unigram_vocabulary_n": 7659,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "default_zero_vector_class": "Hardware",
+    "default_zero_vector_score": 0.2696593905367138,
+    "method": "classe padrão calculada aplicando softmax aos interceptos da regressão logística com vetor TF-IDF exatamente zero."
+  },
+  "performance": {
+    "english": {
+      "n": 800,
+      "accuracy": 0.85375,
+      "macro_f1": 0.8570993376398062,
+      "weighted_f1": 0.8570993376398063
+    },
+    "portuguese": {
+      "n": 800,
+      "accuracy": 0.40625,
+      "macro_f1": 0.41544239574147646,
+      "weighted_f1": 0.4154423957414764
+    },
+    "macro_f1_drop_en_minus_pt": {
+      "n": 800,
+      "method": "bootstrap pareado percentil, 5000 reamostragens, seed=20260924",
+      "difference_a_minus_b": 0.4416569418983297,
+      "ci95": [
+        0.40534324889031526,
+        0.47942083087155835
+      ]
+    }
+  },
+  "coverage": [
+    {
+      "language": "en",
+      "n": 800,
+      "token_coverage_micro": 0.9945754716981132,
+      "token_coverage_micro_numerator": 33736,
+      "token_coverage_micro_denominator": 33920,
+      "token_coverage_per_text_median": 1.0,
+      "token_coverage_per_text_q25": 1.0,
+      "token_coverage_per_text_q75": 1.0,
+      "feature_coverage_micro": 0.8503729116945108,
+      "feature_coverage_micro_numerator": 57009,
+      "feature_coverage_micro_denominator": 67040,
+      "nnz_median": 38.0,
+      "nnz_q25": 24.0,
+      "nnz_q75": 58.0,
+      "empty_n": 0,
+      "empty_fraction": 0.0,
+      "near_empty_nnz_le_2_n": 0,
+      "near_empty_nnz_le_2_fraction": 0.0,
+      "near_empty_coverage_le_5pct_n": 0,
+      "near_empty_coverage_le_5pct_fraction": 0.0,
+      "method": "micro = ocorrências reconhecidas / ocorrências analisadas; estatísticas por texto usam mediana e quartis por assimetria; vazio = nnz 0; quase vazio reportado separadamente como nnz<=2 e cobertura de features<=5% (cortes diagnósticos predefinidos, não otimizados)."
+    },
+    {
+      "language": "pt",
+      "n": 800,
+      "token_coverage_micro": 0.2876708328466301,
+      "token_coverage_micro_numerator": 9851,
+      "token_coverage_micro_denominator": 34244,
+      "token_coverage_per_text_median": 0.25,
+      "token_coverage_per_text_q25": 0.19047619047619047,
+      "token_coverage_per_text_q75": 0.34642094017094016,
+      "feature_coverage_micro": 0.17175611990131337,
+      "feature_coverage_micro_numerator": 11626,
+      "feature_coverage_micro_denominator": 67689,
+      "nnz_median": 6.0,
+      "nnz_q25": 4.0,
+      "nnz_q75": 10.0,
+      "empty_n": 8,
+      "empty_fraction": 0.01,
+      "near_empty_nnz_le_2_n": 106,
+      "near_empty_nnz_le_2_fraction": 0.1325,
+      "near_empty_coverage_le_5pct_n": 34,
+      "near_empty_coverage_le_5pct_fraction": 0.0425,
+      "method": "micro = ocorrências reconhecidas / ocorrências analisadas; estatísticas por texto usam mediana e quartis por assimetria; vazio = nnz 0; quase vazio reportado separadamente como nnz<=2 e cobertura de features<=5% (cortes diagnósticos predefinidos, não otimizados)."
+    }
+  ],
+  "coverage_accuracy_association_pt": {
+    "n": 800,
+    "correct_n": 325,
+    "wrong_n": 475,
+    "correct_median_coverage": 0.2875,
+    "wrong_median_coverage": 0.23376623376623376,
+    "mann_whitney_u": 100733.0,
+    "p_value_two_sided": 2.2130849580076661e-13,
+    "method": "Mann-Whitney bicaudal, escolhido em vez de teste t porque cobertura é limitada a [0,1], assimétrica e com empates; pressupõe observações independentes entre tickets e interpreta diferença de distribuição, não causalidade.",
+    "bins": [
+      {
+        "bin": "(-0.001, 0.19]",
+        "n": 202,
+        "coverage_median": 0.15384615384615385,
+        "accuracy": 0.23267326732673269
+      },
+      {
+        "bin": "(0.19, 0.25]",
+        "n": 203,
+        "coverage_median": 0.2222222222222222,
+        "accuracy": 0.35960591133004927
+      },
+      {
+        "bin": "(0.25, 0.346]",
+        "n": 195,
+        "coverage_median": 0.2923076923076923,
+        "accuracy": 0.4666666666666667
+      },
+      {
+        "bin": "(0.346, 1.0]",
+        "n": 200,
+        "coverage_median": 0.4422222222222222,
+        "accuracy": 0.57
+      }
+    ]
+  },
+  "survivors": {
+    "occurrence_categories": {
+      "idêntico_no_par_EN_PT": 5168,
+      "outro_termo_do_vocabulario_EN": 1384,
+      "curto_sigla_ou_ambíguo": 3299
+    },
+    "top_positive_terms": [
+      {
+        "term": "po",
+        "feature_kind": "unigram",
+        "pt_token_occurrences": 166,
+        "pt_document_frequency": 78,
+        "positive_contribution_all": 250.30747159512833,
+        "positive_contribution_correct_predictions": 250.30747159512833,
+        "documents_positive_contribution": 74,
+        "correct_documents_positive_contribution": 74
+      },
+      {
+        "term": "upgrade",
+        "feature_kind": "unigram",
+        "pt_token_occurrences": 45,
+        "pt_document_frequency": 22,
+        "positive_contribution_all": 63.129398105522014,
+        "positive_contribution_correct_predictions": 58.68532579583162,
+        "documents_positive_contribution": 22,
+        "correct_documents_positive_contribution": 20
+      },
+      {
+        "term": "outlook",
+        "feature_kind": "unigram",
+        "pt_token_occurrences": 12,
+        "pt_document_frequency": 12,
+        "positive_contribution_all": 56.97558397282287,
+        "positive_contribution_correct_predictions": 52.427121914641084,
+        "documents_positive_contribution": 12,
+        "correct_documents_positive_contribution": 11
+      },
+      {
+        "term": "pipeline",
+        "feature_kind": "unigram",
+        "pt_token_occurrences": 21,
+        "pt_document_frequency": 12,
+        "positive_contribution_all": 48.19519169746575,
+        "positive_contribution_correct_predictions": 48.19519169746575,
+        "documents_positive_contribution": 11,
+        "correct_documents_positive_contribution": 11
+      },
+      {
+        "term": "log",
+        "feature_kind": "unigram",
+        "pt_token_occurrences": 125,
+        "pt_document_frequency": 114,
+        "positive_contribution_all": 55.475221815655004,
+        "positive_contribution_correct_predictions": 48.019920621228465,
+        "documents_positive_contribution": 92,
+        "correct_documents_positive_contribution": 66
+      },
+      {
+        "term": "de",
+        "feature_kind": "unigram",
+        "pt_token_occurrences": 1799,
+        "pt_document_frequency": 509,
+        "positive_contribution_all": 263.72274525450786,
+        "positive_contribution_correct_predictions": 42.99767328474627,
+        "documents_positive_contribution": 402,
+        "correct_documents_positive_contribution": 90
+      },
+      {
+        "term": "item",
+        "feature_kind": "unigram",
+        "pt_token_occurrences": 69,
+        "pt_document_frequency": 50,
+        "positive_contribution_all": 35.912673675600566,
+        "positive_contribution_correct_predictions": 35.912673675600566,
+        "documents_positive_contribution": 45,
+        "correct_documents_positive_contribution": 45
+      },
+      {
+        "term": "pas",
+        "feature_kind": "unigram",
+        "pt_token_occurrences": 40,
+        "pt_document_frequency": 39,
+        "positive_contribution_all": 44.160715358136166,
+        "positive_contribution_correct_predictions": 33.663082108563216,
+        "documents_positive_contribution": 28,
+        "correct_documents_positive_contribution": 22
+      },
+      {
+        "term": "monitor",
+        "feature_kind": "unigram",
+        "pt_token_occurrences": 21,
+        "pt_document_frequency": 12,
+        "positive_contribution_all": 34.911416135850786,
+        "positive_contribution_correct_predictions": 29.8597564689449,
+        "documents_positive_contribution": 8,
+        "correct_documents_positive_contribution": 5
+      },
+      {
+        "term": "code",
+        "feature_kind": "unigram",
+        "pt_token_occurrences": 25,
+        "pt_document_frequency": 13,
+        "positive_contribution_all": 28.638648053359173,
+        "positive_contribution_correct_predictions": 28.638648053359173,
+        "documents_positive_contribution": 10,
+        "correct_documents_positive_contribution": 10
+      },
+      {
+        "term": "laptop",
+        "feature_kind": "unigram",
+        "pt_token_occurrences": 33,
+        "pt_document_frequency": 19,
+        "positive_contribution_all": 34.008097191573604,
+        "positive_contribution_correct_predictions": 26.21308574020616,
+        "documents_positive_contribution": 17,
+        "correct_documents_positive_contribution": 13
+      },
+      {
+        "term": "windows",
+        "feature_kind": "unigram",
+        "pt_token_occurrences": 27,
+        "pt_document_frequency": 27,
+        "positive_contribution_all": 22.50197903215499,
+        "positive_contribution_correct_predictions": 22.50197903215499,
+        "documents_positive_contribution": 21,
+        "correct_documents_positive_contribution": 21
+      },
+      {
+        "term": "starter",
+        "feature_kind": "unigram",
+        "pt_token_occurrences": 23,
+        "pt_document_frequency": 12,
+        "positive_contribution_all": 22.112303593858165,
+        "positive_contribution_correct_predictions": 22.112303593858165,
+        "documents_positive_contribution": 12,
+        "correct_documents_positive_contribution": 12
+      },
+      {
+        "term": "ticket",
+        "feature_kind": "unigram",
+        "pt_token_occurrences": 30,
+        "pt_document_frequency": 20,
+        "positive_contribution_all": 27.66438954114588,
+        "positive_contribution_correct_predictions": 19.667351896505195,
+        "documents_positive_contribution": 13,
+        "correct_documents_positive_contribution": 8
+      },
+      {
+        "term": "git",
+        "feature_kind": "unigram",
+        "pt_token_occurrences": 28,
+        "pt_document_frequency": 6,
+        "positive_contribution_all": 19.9902682700097,
+        "positive_contribution_correct_predictions": 18.543156187921443,
+        "documents_positive_contribution": 6,
+        "correct_documents_positive_contribution": 5
+      },
+      {
+        "term": "oracle",
+        "feature_kind": "unigram",
+        "pt_token_occurrences": 28,
+        "pt_document_frequency": 27,
+        "positive_contribution_all": 30.39134113287877,
+        "positive_contribution_correct_predictions": 15.144165799149906,
+        "documents_positive_contribution": 22,
+        "correct_documents_positive_contribution": 14
+      },
+      {
+        "term": "setup",
+        "feature_kind": "unigram",
+        "pt_token_occurrences": 31,
+        "pt_document_frequency": 6,
+        "positive_contribution_all": 13.187437744788843,
+        "positive_contribution_correct_predictions": 13.187437744788843,
+        "documents_positive_contribution": 6,
+        "correct_documents_positive_contribution": 6
+      },
+      {
+        "term": "software",
+        "feature_kind": "unigram",
+        "pt_token_occurrences": 41,
+        "pt_document_frequency": 34,
+        "positive_contribution_all": 20.70824975166386,
+        "positive_contribution_correct_predictions": 12.669007024803417,
+        "documents_positive_contribution": 14,
+        "correct_documents_positive_contribution": 11
+      },
+      {
+        "term": "tickets",
+        "feature_kind": "unigram",
+        "pt_token_occurrences": 23,
+        "pt_document_frequency": 13,
+        "positive_contribution_all": 14.482972673749485,
+        "positive_contribution_correct_predictions": 12.579485701293374,
+        "documents_positive_contribution": 7,
+        "correct_documents_positive_contribution": 6
+      },
+      {
+        "term": "mailing",
+        "feature_kind": "unigram",
+        "pt_token_occurrences": 13,
+        "pt_document_frequency": 5,
+        "positive_contribution_all": 12.194219541106072,
+        "positive_contribution_correct_predictions": 12.194219541106072,
+        "documents_positive_contribution": 5,
+        "correct_documents_positive_contribution": 5
+      },
+      {
+        "term": "user",
+        "feature_kind": "unigram",
+        "pt_token_occurrences": 7,
+        "pt_document_frequency": 5,
+        "positive_contribution_all": 8.398834237237223,
+        "positive_contribution_correct_predictions": 8.398834237237223,
+        "documents_positive_contribution": 4,
+        "correct_documents_positive_contribution": 4
+      },
+      {
+        "term": "pm",
+        "feature_kind": "unigram",
+        "pt_token_occurrences": 447,
+        "pt_document_frequency": 301,
+        "positive_contribution_all": 32.11982527952167,
+        "positive_contribution_correct_predictions": 8.230259099643247,
+        "documents_positive_contribution": 115,
+        "correct_documents_positive_contribution": 78
+      },
+      {
+        "term": "install",
+        "feature_kind": "unigram",
+        "pt_token_occurrences": 9,
+        "pt_document_frequency": 6,
+        "positive_contribution_all": 10.173346504811466,
+        "positive_contribution_correct_predictions": 7.490334675371819,
+        "documents_positive_contribution": 6,
+        "correct_documents_positive_contribution": 5
+      },
+      {
+        "term": "si",
+        "feature_kind": "unigram",
+        "pt_token_occurrences": 44,
+        "pt_document_frequency": 24,
+        "positive_contribution_all": 16.201961532713273,
+        "positive_contribution_correct_predictions": 7.067102442552065,
+        "documents_positive_contribution": 23,
+        "correct_documents_positive_contribution": 12
+      },
+      {
+        "term": "change",
+        "feature_kind": "unigram",
+        "pt_token_occurrences": 12,
+        "pt_document_frequency": 6,
+        "positive_contribution_all": 6.2310748568224845,
+        "positive_contribution_correct_predictions": 6.2310748568224845,
+        "documents_positive_contribution": 3,
+        "correct_documents_positive_contribution": 3
+      },
+      {
+        "term": "folder",
+        "feature_kind": "unigram",
+        "pt_token_occurrences": 4,
+        "pt_document_frequency": 3,
+        "positive_contribution_all": 6.032214270594631,
+        "positive_contribution_correct_predictions": 6.032214270594631,
+        "documents_positive_contribution": 3,
+        "correct_documents_positive_contribution": 3
+      },
+      {
+        "term": "add",
+        "feature_kind": "unigram",
+        "pt_token_occurrences": 15,
+        "pt_document_frequency": 12,
+        "positive_contribution_all": 6.5950738901089005,
+        "positive_contribution_correct_predictions": 5.835476456901073,
+        "documents_positive_contribution": 5,
+        "correct_documents_positive_contribution": 4
+      },
+      {
+        "term": "opportunity",
+        "feature_kind": "unigram",
+        "pt_token_occurrences": 11,
+        "pt_document_frequency": 5,
+        "positive_contribution_all": 5.5854564129020075,
+        "positive_contribution_correct_predictions": 5.5854564129020075,
+        "documents_positive_contribution": 5,
+        "correct_documents_positive_contribution": 5
+      },
+      {
+        "term": "leaver",
+        "feature_kind": "unigram",
+        "pt_token_occurrences": 5,
+        "pt_document_frequency": 3,
+        "positive_contribution_all": 5.251513904093313,
+        "positive_contribution_correct_predictions": 5.251513904093313,
+        "documents_positive_contribution": 3,
+        "correct_documents_positive_contribution": 3
+      },
+      {
+        "term": "do",
+        "feature_kind": "unigram",
+        "pt_token_occurrences": 176,
+        "pt_document_frequency": 106,
+        "positive_contribution_all": 10.019714853036474,
+        "positive_contribution_correct_predictions": 5.097981870427922,
+        "documents_positive_contribution": 22,
+        "correct_documents_positive_contribution": 15
+      }
+    ],
+    "ablations": {
+      "full_pt": {
+        "n": 800,
+        "accuracy": 0.40625,
+        "macro_f1": 0.41544239574147646,
+        "weighted_f1": 0.4154423957414764
+      },
+      "shared_identical_only": {
+        "n": 800,
+        "accuracy": 0.43625,
+        "macro_f1": 0.4424702359087912,
+        "weighted_f1": 0.44247023590879125
+      },
+      "without_shared_identical": {
+        "n": 800,
+        "accuracy": 0.12375,
+        "macro_f1": 0.03804248736965305,
+        "weighted_f1": 0.03804248736965305
+      },
+      "method": "contrafactuais no mesmo n=800: (a) somente unigramas PT que também aparecem no texto EN pareado e no vocabulário; (b) remoção desses unigramas do PT. Preserva rótulos e não ajusta o modelo; mudanças também afetam bigramas, portanto são evidência mecanística, não efeito causal isolado de cada token."
+    },
+    "method": "sobrevivente = token/feature produzido pelo analisador congelado e presente no vocabulário; termo idêntico = unigrama presente nos dois textos do par. Contribuição = TF-IDF × coeficiente da classe prevista; somam-se apenas contribuições positivas."
+  },
+  "confusion": {
+    "class_order": [
+      "Access",
+      "Administrative rights",
+      "HR Support",
+      "Hardware",
+      "Internal Project",
+      "Miscellaneous",
+      "Purchase",
+      "Storage"
+    ],
+    "english": [
+      [
+        82,
+        2,
+        4,
+        6,
+        1,
+        5,
+        0,
+        0
+      ],
+      [
+        0,
+        80,
+        2,
+        15,
+        0,
+        0,
+        0,
+        3
+      ],
+      [
+        2,
+        0,
+        82,
+        8,
+        0,
+        7,
+        1,
+        0
+      ],
+      [
+        3,
+        2,
+        6,
+        82,
+        0,
+        4,
+        0,
+        3
+      ],
+      [
+        1,
+        0,
+        3,
+        5,
+        88,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        4,
+        5,
+        2,
+        86,
+        1,
+        1
+      ],
+      [
+        0,
+        2,
+        0,
+        2,
+        0,
+        1,
+        95,
+        0
+      ],
+      [
+        0,
+        2,
+        2,
+        4,
+        0,
+        4,
+        0,
+        88
+      ]
+    ],
+    "portuguese": [
+      [
+        15,
+        3,
+        6,
+        70,
+        0,
+        5,
+        1,
+        0
+      ],
+      [
+        1,
+        44,
+        1,
+        47,
+        0,
+        7,
+        0,
+        0
+      ],
+      [
+        1,
+        4,
+        30,
+        54,
+        2,
+        8,
+        0,
+        1
+      ],
+      [
+        1,
+        2,
+        4,
+        91,
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        8,
+        52,
+        37,
+        2,
+        0,
+        0
+      ],
+      [
+        3,
+        4,
+        6,
+        59,
+        2,
+        26,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        21,
+        0,
+        1,
+        75,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        81,
+        0,
+        9,
+        0,
+        7
+      ]
+    ],
+    "default_class_concentration": {
+      "en": {
+        "n": 800,
+        "predicted_default_n": 127,
+        "predicted_default_fraction": 0.15875,
+        "empty_n": 0,
+        "empty_predicted_default_n": 0,
+        "near_empty_n": 0,
+        "near_empty_predicted_default_n": 0,
+        "near_empty_predicted_default_fraction": null
+      },
+      "pt": {
+        "n": 800,
+        "predicted_default_n": 475,
+        "predicted_default_fraction": 0.59375,
+        "empty_n": 8,
+        "empty_predicted_default_n": 8,
+        "near_empty_n": 106,
+        "near_empty_predicted_default_n": 79,
+        "near_empty_predicted_default_fraction": 0.7452830188679245
+      }
+    },
+    "consistency": "linhas conferidas contra n da classe; total conferido contra n=800."
+  },
+  "scores": {
+    "thresholds": {
+      "low": 0.5220998303453851,
+      "high": 0.5396032320427134,
+      "source": "manifest; escolhidos apenas na validação original EN"
+    },
+    "summary": {
+      "en": {
+        "n": 800,
+        "mean": 0.7858056071956204,
+        "median": 0.8761308345627579,
+        "q25": 0.608686041041032,
+        "q75": 0.9887943169240894,
+        "wrong_n": 117,
+        "wrong_score_mean": 0.4963871292851726,
+        "wrong_score_median": 0.48886576350081207,
+        "wrong_high_band_n": 42,
+        "wrong_high_band_fraction_of_errors": 0.358974358974359
+      },
+      "pt": {
+        "n": 800,
+        "mean": 0.5675605543705341,
+        "median": 0.5195138532152956,
+        "q25": 0.39040584023610764,
+        "q75": 0.7364913022971503,
+        "wrong_n": 475,
+        "wrong_score_mean": 0.46438434351523183,
+        "wrong_score_median": 0.4525827936030634,
+        "wrong_high_band_n": 125,
+        "wrong_high_band_fraction_of_errors": 0.2631578947368421
+      }
+    },
+    "paired_comparison": {
+      "n_pairs": 800,
+      "pt_minus_en_mean": -0.21824505282508658,
+      "pt_minus_en_median": -0.19348412410393462,
+      "wilcoxon_statistic": 40681.0,
+      "p_value_two_sided": 3.1874141578378643e-74,
+      "method": "Wilcoxon pareado bicaudal, escolhido em vez de t pareado porque probabilidades máximas são limitadas, assimétricas e pareadas pelo mesmo ticket; pressupõe diferenças aproximadamente simétricas para interpretação de deslocamento."
+    },
+    "routing": [
+      {
+        "language": "en",
+        "band": "baixa",
+        "n_total": 800,
+        "band_n": 150,
+        "coverage": 0.1875,
+        "accuracy": 0.5533333333333333,
+        "errors_n": 67,
+        "low": 0.5220998303453851,
+        "high": 0.5396032320427134
+      },
+      {
+        "language": "en",
+        "band": "media",
+        "n_total": 800,
+        "band_n": 14,
+        "coverage": 0.0175,
+        "accuracy": 0.42857142857142855,
+        "errors_n": 8,
+        "low": 0.5220998303453851,
+        "high": 0.5396032320427134
+      },
+      {
+        "language": "en",
+        "band": "alta",
+        "n_total": 800,
+        "band_n": 636,
+        "coverage": 0.795,
+        "accuracy": 0.9339622641509434,
+        "errors_n": 42,
+        "low": 0.5220998303453851,
+        "high": 0.5396032320427134
+      },
+      {
+        "language": "pt",
+        "band": "baixa",
+        "n_total": 800,
+        "band_n": 405,
+        "coverage": 0.50625,
+        "accuracy": 0.20987654320987653,
+        "errors_n": 320,
+        "low": 0.5220998303453851,
+        "high": 0.5396032320427134
+      },
+      {
+        "language": "pt",
+        "band": "media",
+        "n_total": 800,
+        "band_n": 36,
+        "coverage": 0.045,
+        "accuracy": 0.16666666666666666,
+        "errors_n": 30,
+        "low": 0.5220998303453851,
+        "high": 0.5396032320427134
+      },
+      {
+        "language": "pt",
+        "band": "alta",
+        "n_total": 800,
+        "band_n": 359,
+        "coverage": 0.44875,
+        "accuracy": 0.6518105849582173,
+        "errors_n": 125,
+        "low": 0.5220998303453851,
+        "high": 0.5396032320427134
+      }
+    ],
+    "method": "score = máxima predict_proba, não calibrada; cortes congelados aplicados sem ajuste ao mesmo n=800."
+  },
+  "translation_language_identifiability": {
+    "result": "não identificável nos dados atuais",
+    "reason": "todo texto PT é simultaneamente mudança de idioma e saída de uma única tradução automática PT-PT; não há português humano/nativo nem outro tradutor para formar contraste independente.",
+    "proposed_validation_only_design": [
+      "Usar somente a partição validation (n=800; teste permanece intocado) e manter pareamento por record_id.",
+      "Condição A: EN original.",
+      "Condição B: EN→PT-PT→EN por tradução automática; A versus B estima dano de reescrita/tradução mantendo o idioma final inglês.",
+      "Condição C: PT-PT automático atual.",
+      "Condição D: PT-PT revisado por humano, preservando conteúdo; C versus D estima artefato/qualidade da tradução dentro do mesmo idioma.",
+      "Condição E: PT-BR revisado por humano; D versus E estima efeito de variante regional, não efeito total de idioma.",
+      "A versus D mede efeito combinado de idioma mais escolhas inevitáveis de formulação humana; reportar interação e não forçar decomposição aditiva.",
+      "Comparar por bootstrap pareado de macro-F1 e McNemar para acerto; declarar n=800 e IC95%; não escolher solução pelo teste congelado."
+    ]
+  }
+}

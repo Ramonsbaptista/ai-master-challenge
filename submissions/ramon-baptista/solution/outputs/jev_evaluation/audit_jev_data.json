@@ -1,0 +1,3000 @@
+{
+  "provenance": {
+    "script": "C:\\Users\\Ramon\\g4-ai-master\\submissions\\ramon-baptista\\solution\\scripts\\06_auditar_jev_dados.py",
+    "inputs": [
+      "C:\\Users\\Ramon\\g4-ai-master\\submissions\\ramon-baptista\\solution\\outputs\\jev_evaluation\\sample_bilingual.csv",
+      "C:\\Users\\Ramon\\g4-ai-master\\submissions\\ramon-baptista\\solution\\outputs\\jev_evaluation\\jev_results.jsonl",
+      "C:\\Users\\Ramon\\g4-ai-master\\submissions\\ramon-baptista\\solution\\data\\all_tickets_processed_improved_v3.csv",
+      "C:\\Users\\Ramon\\g4-ai-master\\submissions\\ramon-baptista\\solution\\artifacts\\split_ids.json",
+      "C:\\Users\\Ramon\\g4-ai-master\\submissions\\ramon-baptista\\solution\\artifacts\\model-v1.0.0.joblib"
+    ]
+  },
+  "membership_and_integrity": {
+    "validation": {
+      "n": 800,
+      "ids_in_declared_partition_n": 800,
+      "class_counts": {
+        "Access": 100,
+        "Administrative rights": 100,
+        "HR Support": 100,
+        "Hardware": 100,
+        "Internal Project": 100,
+        "Miscellaneous": 100,
+        "Purchase": 100,
+        "Storage": 100
+      },
+      "unique_ids_n": 800
+    },
+    "test": {
+      "n": 800,
+      "ids_in_declared_partition_n": 800,
+      "class_counts": {
+        "Access": 100,
+        "Administrative rights": 100,
+        "HR Support": 100,
+        "Hardware": 100,
+        "Internal Project": 100,
+        "Miscellaneous": 100,
+        "Purchase": 100,
+        "Storage": 100
+      },
+      "unique_ids_n": 800
+    },
+    "sha256_en_match_n": 1600
+  },
+  "external_sampling_vs_04_intended": {
+    "validation": {
+      "n_each": 800,
+      "overlap_n": 146,
+      "overlap_by_class": {
+        "Access": 13,
+        "Administrative rights": 40,
+        "HR Support": 4,
+        "Hardware": 9,
+        "Internal Project": 26,
+        "Miscellaneous": 9,
+        "Purchase": 20,
+        "Storage": 25
+      }
+    },
+    "test": {
+      "n_each": 800,
+      "overlap_n": 137,
+      "overlap_by_class": {
+        "Access": 6,
+        "Administrative rights": 39,
+        "HR Support": 2,
+        "Hardware": 2,
+        "Internal Project": 38,
+        "Miscellaneous": 8,
+        "Purchase": 24,
+        "Storage": 18
+      }
+    }
+  },
+  "metrics": {
+    "jev_validation_en": {
+      "n": 800,
+      "confusion_matrix": [
+        [
+          62,
+          0,
+          1,
+          1,
+          4,
+          20,
+          12,
+          0
+        ],
+        [
+          15,
+          2,
+          0,
+          7,
+          1,
+          66,
+          1,
+          8
+        ],
+        [
+          21,
+          1,
+          46,
+          6,
+          3,
+          22,
+          0,
+          1
+        ],
+        [
+          27,
+          0,
+          2,
+          27,
+          3,
+          36,
+          3,
+          2
+        ],
+        [
+          16,
+          1,
+          3,
+          1,
+          53,
+          26,
+          0,
+          0
+        ],
+        [
+          19,
+          1,
+          7,
+          6,
+          9,
+          56,
+          2,
+          0
+        ],
+        [
+          4,
+          1,
+          0,
+          15,
+          0,
+          9,
+          71,
+          0
+        ],
+        [
+          55,
+          1,
+          1,
+          0,
+          1,
+          15,
+          0,
+          27
+        ]
+      ],
+      "per_class": [
+        {
+          "class": "Access",
+          "n": 100,
+          "VP": 62,
+          "FP": 157,
+          "FN": 38,
+          "VN": 543,
+          "precision": 0.2831050228310502,
+          "recall": 0.62,
+          "f1": 0.3887147335423197
+        },
+        {
+          "class": "Administrative rights",
+          "n": 100,
+          "VP": 2,
+          "FP": 5,
+          "FN": 98,
+          "VN": 695,
+          "precision": 0.2857142857142857,
+          "recall": 0.02,
+          "f1": 0.037383177570093455
+        },
+        {
+          "class": "HR Support",
+          "n": 100,
+          "VP": 46,
+          "FP": 14,
+          "FN": 54,
+          "VN": 686,
+          "precision": 0.7666666666666667,
+          "recall": 0.46,
+          "f1": 0.575
+        },
+        {
+          "class": "Hardware",
+          "n": 100,
+          "VP": 27,
+          "FP": 36,
+          "FN": 73,
+          "VN": 664,
+          "precision": 0.42857142857142855,
+          "recall": 0.27,
+          "f1": 0.3312883435582822
+        },
+        {
+          "class": "Internal Project",
+          "n": 100,
+          "VP": 53,
+          "FP": 21,
+          "FN": 47,
+          "VN": 679,
+          "precision": 0.7162162162162162,
+          "recall": 0.53,
+          "f1": 0.6091954022988506
+        },
+        {
+          "class": "Miscellaneous",
+          "n": 100,
+          "VP": 56,
+          "FP": 194,
+          "FN": 44,
+          "VN": 506,
+          "precision": 0.224,
+          "recall": 0.56,
+          "f1": 0.32000000000000006
+        },
+        {
+          "class": "Purchase",
+          "n": 100,
+          "VP": 71,
+          "FP": 18,
+          "FN": 29,
+          "VN": 682,
+          "precision": 0.797752808988764,
+          "recall": 0.71,
+          "f1": 0.7513227513227513
+        },
+        {
+          "class": "Storage",
+          "n": 100,
+          "VP": 27,
+          "FP": 11,
+          "FN": 73,
+          "VN": 689,
+          "precision": 0.7105263157894737,
+          "recall": 0.27,
+          "f1": 0.391304347826087
+        }
+      ],
+      "accuracy": 0.43,
+      "macro_f1": 0.425526094514798,
+      "weighted_f1": 0.42552609451479806,
+      "row_sums": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "column_sums": [
+        219,
+        7,
+        60,
+        63,
+        74,
+        250,
+        89,
+        38
+      ]
+    },
+    "tfidf_validation_en": {
+      "n": 800,
+      "confusion_matrix": [
+        [
+          87,
+          2,
+          3,
+          3,
+          1,
+          3,
+          0,
+          1
+        ],
+        [
+          0,
+          86,
+          1,
+          13,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          85,
+          7,
+          1,
+          6,
+          0,
+          1
+        ],
+        [
+          3,
+          4,
+          2,
+          84,
+          0,
+          4,
+          1,
+          2
+        ],
+        [
+          2,
+          1,
+          4,
+          3,
+          88,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          6,
+          5,
+          84,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2,
+          5,
+          0,
+          1,
+          91,
+          1
+        ],
+        [
+          0,
+          1,
+          3,
+          3,
+          0,
+          3,
+          0,
+          90
+        ]
+      ],
+      "per_class": [
+        {
+          "class": "Access",
+          "n": 100,
+          "VP": 87,
+          "FP": 5,
+          "FN": 13,
+          "VN": 695,
+          "precision": 0.9456521739130435,
+          "recall": 0.87,
+          "f1": 0.90625
+        },
+        {
+          "class": "Administrative rights",
+          "n": 100,
+          "VP": 86,
+          "FP": 8,
+          "FN": 14,
+          "VN": 692,
+          "precision": 0.9148936170212766,
+          "recall": 0.86,
+          "f1": 0.8865979381443299
+        },
+        {
+          "class": "HR Support",
+          "n": 100,
+          "VP": 85,
+          "FP": 19,
+          "FN": 15,
+          "VN": 681,
+          "precision": 0.8173076923076923,
+          "recall": 0.85,
+          "f1": 0.8333333333333334
+        },
+        {
+          "class": "Hardware",
+          "n": 100,
+          "VP": 84,
+          "FP": 40,
+          "FN": 16,
+          "VN": 660,
+          "precision": 0.6774193548387096,
+          "recall": 0.84,
+          "f1": 0.75
+        },
+        {
+          "class": "Internal Project",
+          "n": 100,
+          "VP": 88,
+          "FP": 7,
+          "FN": 12,
+          "VN": 693,
+          "precision": 0.9263157894736842,
+          "recall": 0.88,
+          "f1": 0.9025641025641025
+        },
+        {
+          "class": "Miscellaneous",
+          "n": 100,
+          "VP": 84,
+          "FP": 19,
+          "FN": 16,
+          "VN": 681,
+          "precision": 0.8155339805825242,
+          "recall": 0.84,
+          "f1": 0.8275862068965517
+        },
+        {
+          "class": "Purchase",
+          "n": 100,
+          "VP": 91,
+          "FP": 1,
+          "FN": 9,
+          "VN": 699,
+          "precision": 0.9891304347826086,
+          "recall": 0.91,
+          "f1": 0.9479166666666667
+        },
+        {
+          "class": "Storage",
+          "n": 100,
+          "VP": 90,
+          "FP": 6,
+          "FN": 10,
+          "VN": 694,
+          "precision": 0.9375,
+          "recall": 0.9,
+          "f1": 0.9183673469387755
+        }
+      ],
+      "accuracy": 0.86875,
+      "macro_f1": 0.8715769493179699,
+      "weighted_f1": 0.8715769493179699,
+      "row_sums": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "column_sums": [
+        92,
+        94,
+        104,
+        124,
+        95,
+        103,
+        92,
+        96
+      ]
+    },
+    "jev_validation_pt": {
+      "n": 800,
+      "confusion_matrix": [
+        [
+          60,
+          0,
+          2,
+          1,
+          3,
+          26,
+          8,
+          0
+        ],
+        [
+          15,
+          3,
+          1,
+          4,
+          1,
+          68,
+          0,
+          8
+        ],
+        [
+          22,
+          1,
+          31,
+          5,
+          2,
+          39,
+          0,
+          0
+        ],
+        [
+          24,
+          0,
+          3,
+          27,
+          3,
+          40,
+          2,
+          1
+        ],
+        [
+          10,
+          1,
+          3,
+          1,
+          50,
+          34,
+          0,
+          1
+        ],
+        [
+          17,
+          1,
+          6,
+          4,
+          7,
+          63,
+          2,
+          0
+        ],
+        [
+          6,
+          7,
+          0,
+          12,
+          0,
+          14,
+          61,
+          0
+        ],
+        [
+          52,
+          1,
+          3,
+          0,
+          0,
+          20,
+          0,
+          24
+        ]
+      ],
+      "per_class": [
+        {
+          "class": "Access",
+          "n": 100,
+          "VP": 60,
+          "FP": 146,
+          "FN": 40,
+          "VN": 554,
+          "precision": 0.2912621359223301,
+          "recall": 0.6,
+          "f1": 0.39215686274509803
+        },
+        {
+          "class": "Administrative rights",
+          "n": 100,
+          "VP": 3,
+          "FP": 11,
+          "FN": 97,
+          "VN": 689,
+          "precision": 0.21428571428571427,
+          "recall": 0.03,
+          "f1": 0.05263157894736842
+        },
+        {
+          "class": "HR Support",
+          "n": 100,
+          "VP": 31,
+          "FP": 18,
+          "FN": 69,
+          "VN": 682,
+          "precision": 0.6326530612244898,
+          "recall": 0.31,
+          "f1": 0.4161073825503356
+        },
+        {
+          "class": "Hardware",
+          "n": 100,
+          "VP": 27,
+          "FP": 27,
+          "FN": 73,
+          "VN": 673,
+          "precision": 0.5,
+          "recall": 0.27,
+          "f1": 0.35064935064935066
+        },
+        {
+          "class": "Internal Project",
+          "n": 100,
+          "VP": 50,
+          "FP": 16,
+          "FN": 50,
+          "VN": 684,
+          "precision": 0.7575757575757576,
+          "recall": 0.5,
+          "f1": 0.6024096385542169
+        },
+        {
+          "class": "Miscellaneous",
+          "n": 100,
+          "VP": 63,
+          "FP": 241,
+          "FN": 37,
+          "VN": 459,
+          "precision": 0.20723684210526316,
+          "recall": 0.63,
+          "f1": 0.31188118811881194
+        },
+        {
+          "class": "Purchase",
+          "n": 100,
+          "VP": 61,
+          "FP": 12,
+          "FN": 39,
+          "VN": 688,
+          "precision": 0.8356164383561644,
+          "recall": 0.61,
+          "f1": 0.7052023121387282
+        },
+        {
+          "class": "Storage",
+          "n": 100,
+          "VP": 24,
+          "FP": 10,
+          "FN": 76,
+          "VN": 690,
+          "precision": 0.7058823529411765,
+          "recall": 0.24,
+          "f1": 0.3582089552238806
+        }
+      ],
+      "accuracy": 0.39875,
+      "macro_f1": 0.39865590861597383,
+      "weighted_f1": 0.3986559086159738,
+      "row_sums": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "column_sums": [
+        206,
+        14,
+        49,
+        54,
+        66,
+        304,
+        73,
+        34
+      ]
+    },
+    "tfidf_validation_pt": {
+      "n": 800,
+      "confusion_matrix": [
+        [
+          27,
+          3,
+          6,
+          55,
+          1,
+          7,
+          0,
+          1
+        ],
+        [
+          1,
+          42,
+          0,
+          46,
+          0,
+          10,
+          0,
+          1
+        ],
+        [
+          2,
+          1,
+          24,
+          66,
+          0,
+          6,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          4,
+          91,
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          5,
+          58,
+          34,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          6,
+          9,
+          65,
+          1,
+          19,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          24,
+          1,
+          2,
+          72,
+          0
+        ],
+        [
+          0,
+          3,
+          3,
+          80,
+          0,
+          8,
+          0,
+          6
+        ]
+      ],
+      "per_class": [
+        {
+          "class": "Access",
+          "n": 100,
+          "VP": 27,
+          "FP": 4,
+          "FN": 73,
+          "VN": 696,
+          "precision": 0.8709677419354839,
+          "recall": 0.27,
+          "f1": 0.41221374045801523
+        },
+        {
+          "class": "Administrative rights",
+          "n": 100,
+          "VP": 42,
+          "FP": 15,
+          "FN": 58,
+          "VN": 685,
+          "precision": 0.7368421052631579,
+          "recall": 0.42,
+          "f1": 0.535031847133758
+        },
+        {
+          "class": "HR Support",
+          "n": 100,
+          "VP": 24,
+          "FP": 28,
+          "FN": 76,
+          "VN": 672,
+          "precision": 0.46153846153846156,
+          "recall": 0.24,
+          "f1": 0.3157894736842105
+        },
+        {
+          "class": "Hardware",
+          "n": 100,
+          "VP": 91,
+          "FP": 394,
+          "FN": 9,
+          "VN": 306,
+          "precision": 0.18762886597938144,
+          "recall": 0.91,
+          "f1": 0.31111111111111117
+        },
+        {
+          "class": "Internal Project",
+          "n": 100,
+          "VP": 34,
+          "FP": 3,
+          "FN": 66,
+          "VN": 697,
+          "precision": 0.918918918918919,
+          "recall": 0.34,
+          "f1": 0.4963503649635037
+        },
+        {
+          "class": "Miscellaneous",
+          "n": 100,
+          "VP": 19,
+          "FP": 38,
+          "FN": 81,
+          "VN": 662,
+          "precision": 0.3333333333333333,
+          "recall": 0.19,
+          "f1": 0.24203821656050953
+        },
+        {
+          "class": "Purchase",
+          "n": 100,
+          "VP": 72,
+          "FP": 0,
+          "FN": 28,
+          "VN": 700,
+          "precision": 1.0,
+          "recall": 0.72,
+          "f1": 0.8372093023255813
+        },
+        {
+          "class": "Storage",
+          "n": 100,
+          "VP": 6,
+          "FP": 3,
+          "FN": 94,
+          "VN": 697,
+          "precision": 0.6666666666666666,
+          "recall": 0.06,
+          "f1": 0.11009174311926605
+        }
+      ],
+      "accuracy": 0.39375,
+      "macro_f1": 0.40747947491949443,
+      "weighted_f1": 0.4074794749194945,
+      "row_sums": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "column_sums": [
+        31,
+        57,
+        52,
+        485,
+        37,
+        57,
+        72,
+        9
+      ]
+    },
+    "jev_test_en": {
+      "n": 800,
+      "confusion_matrix": [
+        [
+          67,
+          1,
+          1,
+          1,
+          7,
+          18,
+          4,
+          1
+        ],
+        [
+          23,
+          0,
+          0,
+          10,
+          0,
+          52,
+          0,
+          15
+        ],
+        [
+          30,
+          0,
+          35,
+          5,
+          3,
+          25,
+          2,
+          0
+        ],
+        [
+          23,
+          1,
+          0,
+          24,
+          7,
+          40,
+          1,
+          4
+        ],
+        [
+          12,
+          0,
+          4,
+          0,
+          46,
+          36,
+          1,
+          1
+        ],
+        [
+          18,
+          1,
+          10,
+          1,
+          2,
+          64,
+          3,
+          1
+        ],
+        [
+          1,
+          3,
+          0,
+          12,
+          0,
+          18,
+          66,
+          0
+        ],
+        [
+          61,
+          1,
+          3,
+          0,
+          0,
+          16,
+          0,
+          19
+        ]
+      ],
+      "per_class": [
+        {
+          "class": "Access",
+          "n": 100,
+          "VP": 67,
+          "FP": 168,
+          "FN": 33,
+          "VN": 532,
+          "precision": 0.2851063829787234,
+          "recall": 0.67,
+          "f1": 0.4000000000000001
+        },
+        {
+          "class": "Administrative rights",
+          "n": 100,
+          "VP": 0,
+          "FP": 7,
+          "FN": 100,
+          "VN": 693,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        {
+          "class": "HR Support",
+          "n": 100,
+          "VP": 35,
+          "FP": 18,
+          "FN": 65,
+          "VN": 682,
+          "precision": 0.660377358490566,
+          "recall": 0.35,
+          "f1": 0.45751633986928103
+        },
+        {
+          "class": "Hardware",
+          "n": 100,
+          "VP": 24,
+          "FP": 29,
+          "FN": 76,
+          "VN": 671,
+          "precision": 0.4528301886792453,
+          "recall": 0.24,
+          "f1": 0.3137254901960784
+        },
+        {
+          "class": "Internal Project",
+          "n": 100,
+          "VP": 46,
+          "FP": 19,
+          "FN": 54,
+          "VN": 681,
+          "precision": 0.7076923076923077,
+          "recall": 0.46,
+          "f1": 0.5575757575757575
+        },
+        {
+          "class": "Miscellaneous",
+          "n": 100,
+          "VP": 64,
+          "FP": 205,
+          "FN": 36,
+          "VN": 495,
+          "precision": 0.2379182156133829,
+          "recall": 0.64,
+          "f1": 0.34688346883468835
+        },
+        {
+          "class": "Purchase",
+          "n": 100,
+          "VP": 66,
+          "FP": 11,
+          "FN": 34,
+          "VN": 689,
+          "precision": 0.8571428571428571,
+          "recall": 0.66,
+          "f1": 0.7457627118644068
+        },
+        {
+          "class": "Storage",
+          "n": 100,
+          "VP": 19,
+          "FP": 22,
+          "FN": 81,
+          "VN": 678,
+          "precision": 0.4634146341463415,
+          "recall": 0.19,
+          "f1": 0.2695035460992908
+        }
+      ],
+      "accuracy": 0.40125,
+      "macro_f1": 0.38637091430493786,
+      "weighted_f1": 0.3863709143049379,
+      "row_sums": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "column_sums": [
+        235,
+        7,
+        53,
+        53,
+        65,
+        269,
+        77,
+        41
+      ]
+    },
+    "tfidf_test_en": {
+      "n": 800,
+      "confusion_matrix": [
+        [
+          82,
+          2,
+          4,
+          6,
+          1,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          80,
+          2,
+          15,
+          0,
+          0,
+          0,
+          3
+        ],
+        [
+          2,
+          0,
+          82,
+          8,
+          0,
+          7,
+          1,
+          0
+        ],
+        [
+          3,
+          2,
+          6,
+          82,
+          0,
+          4,
+          0,
+          3
+        ],
+        [
+          1,
+          0,
+          3,
+          5,
+          88,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          4,
+          5,
+          2,
+          86,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0,
+          2,
+          0,
+          1,
+          95,
+          0
+        ],
+        [
+          0,
+          2,
+          2,
+          4,
+          0,
+          4,
+          0,
+          88
+        ]
+      ],
+      "per_class": [
+        {
+          "class": "Access",
+          "n": 100,
+          "VP": 82,
+          "FP": 6,
+          "FN": 18,
+          "VN": 694,
+          "precision": 0.9318181818181818,
+          "recall": 0.82,
+          "f1": 0.8723404255319149
+        },
+        {
+          "class": "Administrative rights",
+          "n": 100,
+          "VP": 80,
+          "FP": 9,
+          "FN": 20,
+          "VN": 691,
+          "precision": 0.898876404494382,
+          "recall": 0.8,
+          "f1": 0.8465608465608465
+        },
+        {
+          "class": "HR Support",
+          "n": 100,
+          "VP": 82,
+          "FP": 21,
+          "FN": 18,
+          "VN": 679,
+          "precision": 0.7961165048543689,
+          "recall": 0.82,
+          "f1": 0.8078817733990147
+        },
+        {
+          "class": "Hardware",
+          "n": 100,
+          "VP": 82,
+          "FP": 45,
+          "FN": 18,
+          "VN": 655,
+          "precision": 0.6456692913385826,
+          "recall": 0.82,
+          "f1": 0.7224669603524229
+        },
+        {
+          "class": "Internal Project",
+          "n": 100,
+          "VP": 88,
+          "FP": 3,
+          "FN": 12,
+          "VN": 697,
+          "precision": 0.967032967032967,
+          "recall": 0.88,
+          "f1": 0.9214659685863875
+        },
+        {
+          "class": "Miscellaneous",
+          "n": 100,
+          "VP": 86,
+          "FP": 24,
+          "FN": 14,
+          "VN": 676,
+          "precision": 0.7818181818181819,
+          "recall": 0.86,
+          "f1": 0.819047619047619
+        },
+        {
+          "class": "Purchase",
+          "n": 100,
+          "VP": 95,
+          "FP": 2,
+          "FN": 5,
+          "VN": 698,
+          "precision": 0.979381443298969,
+          "recall": 0.95,
+          "f1": 0.9644670050761421
+        },
+        {
+          "class": "Storage",
+          "n": 100,
+          "VP": 88,
+          "FP": 7,
+          "FN": 12,
+          "VN": 693,
+          "precision": 0.9263157894736842,
+          "recall": 0.88,
+          "f1": 0.9025641025641025
+        }
+      ],
+      "accuracy": 0.85375,
+      "macro_f1": 0.8570993376398063,
+      "weighted_f1": 0.8570993376398063,
+      "row_sums": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "column_sums": [
+        88,
+        89,
+        103,
+        127,
+        91,
+        110,
+        97,
+        95
+      ]
+    },
+    "jev_test_pt": {
+      "n": 800,
+      "confusion_matrix": [
+        [
+          62,
+          0,
+          2,
+          1,
+          8,
+          23,
+          3,
+          1
+        ],
+        [
+          22,
+          0,
+          0,
+          11,
+          0,
+          51,
+          0,
+          16
+        ],
+        [
+          30,
+          1,
+          27,
+          3,
+          2,
+          37,
+          0,
+          0
+        ],
+        [
+          20,
+          0,
+          1,
+          23,
+          7,
+          42,
+          3,
+          4
+        ],
+        [
+          8,
+          0,
+          1,
+          0,
+          45,
+          44,
+          1,
+          1
+        ],
+        [
+          15,
+          1,
+          7,
+          2,
+          3,
+          68,
+          4,
+          0
+        ],
+        [
+          1,
+          8,
+          0,
+          11,
+          0,
+          19,
+          61,
+          0
+        ],
+        [
+          58,
+          2,
+          2,
+          0,
+          1,
+          18,
+          0,
+          19
+        ]
+      ],
+      "per_class": [
+        {
+          "class": "Access",
+          "n": 100,
+          "VP": 62,
+          "FP": 154,
+          "FN": 38,
+          "VN": 546,
+          "precision": 0.28703703703703703,
+          "recall": 0.62,
+          "f1": 0.3924050632911392
+        },
+        {
+          "class": "Administrative rights",
+          "n": 100,
+          "VP": 0,
+          "FP": 12,
+          "FN": 100,
+          "VN": 688,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        {
+          "class": "HR Support",
+          "n": 100,
+          "VP": 27,
+          "FP": 13,
+          "FN": 73,
+          "VN": 687,
+          "precision": 0.675,
+          "recall": 0.27,
+          "f1": 0.38571428571428573
+        },
+        {
+          "class": "Hardware",
+          "n": 100,
+          "VP": 23,
+          "FP": 28,
+          "FN": 77,
+          "VN": 672,
+          "precision": 0.45098039215686275,
+          "recall": 0.23,
+          "f1": 0.304635761589404
+        },
+        {
+          "class": "Internal Project",
+          "n": 100,
+          "VP": 45,
+          "FP": 21,
+          "FN": 55,
+          "VN": 679,
+          "precision": 0.6818181818181818,
+          "recall": 0.45,
+          "f1": 0.5421686746987951
+        },
+        {
+          "class": "Miscellaneous",
+          "n": 100,
+          "VP": 68,
+          "FP": 234,
+          "FN": 32,
+          "VN": 466,
+          "precision": 0.2251655629139073,
+          "recall": 0.68,
+          "f1": 0.3383084577114428
+        },
+        {
+          "class": "Purchase",
+          "n": 100,
+          "VP": 61,
+          "FP": 11,
+          "FN": 39,
+          "VN": 689,
+          "precision": 0.8472222222222222,
+          "recall": 0.61,
+          "f1": 0.7093023255813953
+        },
+        {
+          "class": "Storage",
+          "n": 100,
+          "VP": 19,
+          "FP": 22,
+          "FN": 81,
+          "VN": 678,
+          "precision": 0.4634146341463415,
+          "recall": 0.19,
+          "f1": 0.2695035460992908
+        }
+      ],
+      "accuracy": 0.38125,
+      "macro_f1": 0.36775476433571913,
+      "weighted_f1": 0.3677547643357191,
+      "row_sums": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "column_sums": [
+        216,
+        12,
+        40,
+        51,
+        66,
+        302,
+        72,
+        41
+      ]
+    },
+    "tfidf_test_pt": {
+      "n": 800,
+      "confusion_matrix": [
+        [
+          15,
+          3,
+          6,
+          70,
+          0,
+          5,
+          1,
+          0
+        ],
+        [
+          1,
+          44,
+          1,
+          47,
+          0,
+          7,
+          0,
+          0
+        ],
+        [
+          1,
+          4,
+          30,
+          54,
+          2,
+          8,
+          0,
+          1
+        ],
+        [
+          1,
+          2,
+          4,
+          91,
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          8,
+          52,
+          37,
+          2,
+          0,
+          0
+        ],
+        [
+          3,
+          4,
+          6,
+          59,
+          2,
+          26,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          21,
+          0,
+          1,
+          75,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          81,
+          0,
+          9,
+          0,
+          7
+        ]
+      ],
+      "per_class": [
+        {
+          "class": "Access",
+          "n": 100,
+          "VP": 15,
+          "FP": 6,
+          "FN": 85,
+          "VN": 694,
+          "precision": 0.7142857142857143,
+          "recall": 0.15,
+          "f1": 0.24793388429752064
+        },
+        {
+          "class": "Administrative rights",
+          "n": 100,
+          "VP": 44,
+          "FP": 16,
+          "FN": 56,
+          "VN": 684,
+          "precision": 0.7333333333333333,
+          "recall": 0.44,
+          "f1": 0.5499999999999999
+        },
+        {
+          "class": "HR Support",
+          "n": 100,
+          "VP": 30,
+          "FP": 29,
+          "FN": 70,
+          "VN": 671,
+          "precision": 0.5084745762711864,
+          "recall": 0.3,
+          "f1": 0.3773584905660377
+        },
+        {
+          "class": "Hardware",
+          "n": 100,
+          "VP": 91,
+          "FP": 384,
+          "FN": 9,
+          "VN": 316,
+          "precision": 0.19157894736842104,
+          "recall": 0.91,
+          "f1": 0.3165217391304348
+        },
+        {
+          "class": "Internal Project",
+          "n": 100,
+          "VP": 37,
+          "FP": 4,
+          "FN": 63,
+          "VN": 696,
+          "precision": 0.9024390243902439,
+          "recall": 0.37,
+          "f1": 0.524822695035461
+        },
+        {
+          "class": "Miscellaneous",
+          "n": 100,
+          "VP": 26,
+          "FP": 34,
+          "FN": 74,
+          "VN": 666,
+          "precision": 0.43333333333333335,
+          "recall": 0.26,
+          "f1": 0.325
+        },
+        {
+          "class": "Purchase",
+          "n": 100,
+          "VP": 75,
+          "FP": 1,
+          "FN": 25,
+          "VN": 699,
+          "precision": 0.9868421052631579,
+          "recall": 0.75,
+          "f1": 0.8522727272727272
+        },
+        {
+          "class": "Storage",
+          "n": 100,
+          "VP": 7,
+          "FP": 1,
+          "FN": 93,
+          "VN": 699,
+          "precision": 0.875,
+          "recall": 0.07,
+          "f1": 0.12962962962962962
+        }
+      ],
+      "accuracy": 0.40625,
+      "macro_f1": 0.41544239574147634,
+      "weighted_f1": 0.4154423957414764,
+      "row_sums": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "column_sums": [
+        21,
+        60,
+        59,
+        475,
+        41,
+        60,
+        76,
+        8
+      ]
+    }
+  },
+  "top_confusions": {
+    "validation_en": [
+      {
+        "true": "Administrative rights",
+        "pred": "Miscellaneous",
+        "n": 66
+      },
+      {
+        "true": "Storage",
+        "pred": "Access",
+        "n": 55
+      },
+      {
+        "true": "Hardware",
+        "pred": "Miscellaneous",
+        "n": 36
+      },
+      {
+        "true": "Hardware",
+        "pred": "Access",
+        "n": 27
+      },
+      {
+        "true": "Internal Project",
+        "pred": "Miscellaneous",
+        "n": 26
+      },
+      {
+        "true": "HR Support",
+        "pred": "Miscellaneous",
+        "n": 22
+      },
+      {
+        "true": "HR Support",
+        "pred": "Access",
+        "n": 21
+      },
+      {
+        "true": "Access",
+        "pred": "Miscellaneous",
+        "n": 20
+      },
+      {
+        "true": "Miscellaneous",
+        "pred": "Access",
+        "n": 19
+      },
+      {
+        "true": "Internal Project",
+        "pred": "Access",
+        "n": 16
+      },
+      {
+        "true": "Administrative rights",
+        "pred": "Access",
+        "n": 15
+      },
+      {
+        "true": "Purchase",
+        "pred": "Hardware",
+        "n": 15
+      },
+      {
+        "true": "Storage",
+        "pred": "Miscellaneous",
+        "n": 15
+      },
+      {
+        "true": "Access",
+        "pred": "Purchase",
+        "n": 12
+      },
+      {
+        "true": "Miscellaneous",
+        "pred": "Internal Project",
+        "n": 9
+      }
+    ],
+    "validation_pt": [
+      {
+        "true": "Administrative rights",
+        "pred": "Miscellaneous",
+        "n": 68
+      },
+      {
+        "true": "Storage",
+        "pred": "Access",
+        "n": 52
+      },
+      {
+        "true": "Hardware",
+        "pred": "Miscellaneous",
+        "n": 40
+      },
+      {
+        "true": "HR Support",
+        "pred": "Miscellaneous",
+        "n": 39
+      },
+      {
+        "true": "Internal Project",
+        "pred": "Miscellaneous",
+        "n": 34
+      },
+      {
+        "true": "Access",
+        "pred": "Miscellaneous",
+        "n": 26
+      },
+      {
+        "true": "Hardware",
+        "pred": "Access",
+        "n": 24
+      },
+      {
+        "true": "HR Support",
+        "pred": "Access",
+        "n": 22
+      },
+      {
+        "true": "Storage",
+        "pred": "Miscellaneous",
+        "n": 20
+      },
+      {
+        "true": "Miscellaneous",
+        "pred": "Access",
+        "n": 17
+      },
+      {
+        "true": "Administrative rights",
+        "pred": "Access",
+        "n": 15
+      },
+      {
+        "true": "Purchase",
+        "pred": "Miscellaneous",
+        "n": 14
+      },
+      {
+        "true": "Purchase",
+        "pred": "Hardware",
+        "n": 12
+      },
+      {
+        "true": "Internal Project",
+        "pred": "Access",
+        "n": 10
+      },
+      {
+        "true": "Access",
+        "pred": "Purchase",
+        "n": 8
+      }
+    ],
+    "test_en": [
+      {
+        "true": "Storage",
+        "pred": "Access",
+        "n": 61
+      },
+      {
+        "true": "Administrative rights",
+        "pred": "Miscellaneous",
+        "n": 52
+      },
+      {
+        "true": "Hardware",
+        "pred": "Miscellaneous",
+        "n": 40
+      },
+      {
+        "true": "Internal Project",
+        "pred": "Miscellaneous",
+        "n": 36
+      },
+      {
+        "true": "HR Support",
+        "pred": "Access",
+        "n": 30
+      },
+      {
+        "true": "HR Support",
+        "pred": "Miscellaneous",
+        "n": 25
+      },
+      {
+        "true": "Administrative rights",
+        "pred": "Access",
+        "n": 23
+      },
+      {
+        "true": "Hardware",
+        "pred": "Access",
+        "n": 23
+      },
+      {
+        "true": "Access",
+        "pred": "Miscellaneous",
+        "n": 18
+      },
+      {
+        "true": "Miscellaneous",
+        "pred": "Access",
+        "n": 18
+      },
+      {
+        "true": "Purchase",
+        "pred": "Miscellaneous",
+        "n": 18
+      },
+      {
+        "true": "Storage",
+        "pred": "Miscellaneous",
+        "n": 16
+      },
+      {
+        "true": "Administrative rights",
+        "pred": "Storage",
+        "n": 15
+      },
+      {
+        "true": "Internal Project",
+        "pred": "Access",
+        "n": 12
+      },
+      {
+        "true": "Purchase",
+        "pred": "Hardware",
+        "n": 12
+      }
+    ],
+    "test_pt": [
+      {
+        "true": "Storage",
+        "pred": "Access",
+        "n": 58
+      },
+      {
+        "true": "Administrative rights",
+        "pred": "Miscellaneous",
+        "n": 51
+      },
+      {
+        "true": "Internal Project",
+        "pred": "Miscellaneous",
+        "n": 44
+      },
+      {
+        "true": "Hardware",
+        "pred": "Miscellaneous",
+        "n": 42
+      },
+      {
+        "true": "HR Support",
+        "pred": "Miscellaneous",
+        "n": 37
+      },
+      {
+        "true": "HR Support",
+        "pred": "Access",
+        "n": 30
+      },
+      {
+        "true": "Access",
+        "pred": "Miscellaneous",
+        "n": 23
+      },
+      {
+        "true": "Administrative rights",
+        "pred": "Access",
+        "n": 22
+      },
+      {
+        "true": "Hardware",
+        "pred": "Access",
+        "n": 20
+      },
+      {
+        "true": "Purchase",
+        "pred": "Miscellaneous",
+        "n": 19
+      },
+      {
+        "true": "Storage",
+        "pred": "Miscellaneous",
+        "n": 18
+      },
+      {
+        "true": "Administrative rights",
+        "pred": "Storage",
+        "n": 16
+      },
+      {
+        "true": "Miscellaneous",
+        "pred": "Access",
+        "n": 15
+      },
+      {
+        "true": "Administrative rights",
+        "pred": "Hardware",
+        "n": 11
+      },
+      {
+        "true": "Purchase",
+        "pred": "Hardware",
+        "n": 11
+      }
+    ]
+  },
+  "representative_high_confidence_errors": {
+    "validation_en": [
+      {
+        "true": "Administrative rights",
+        "pred": "Miscellaneous",
+        "n": 66,
+        "example_confidence": 1.0,
+        "example": "suspicious mail again suspicious again hi received yet suspicious attached thanks"
+      },
+      {
+        "true": "Storage",
+        "pred": "Access",
+        "n": 55,
+        "example_confidence": 1.0,
+        "example": "re access rights folder re access rights folder hello still have access kick off could you please access thanks manager"
+      },
+      {
+        "true": "Hardware",
+        "pred": "Miscellaneous",
+        "n": 36,
+        "example_confidence": 0.99,
+        "example": "document processing not working again sent tuesday july document processing working again hi document processing failed again can you take look please thanks ext mob en glee your zone"
+      },
+      {
+        "true": "Hardware",
+        "pred": "Access",
+        "n": 27,
+        "example_confidence": 1.0,
+        "example": "oracle issues sent tuesday issues importance high dear cannot access could you reset for please thank you"
+      },
+      {
+        "true": "Internal Project",
+        "pred": "Miscellaneous",
+        "n": 26,
+        "example_confidence": 0.97,
+        "example": "please remove from hi please more than captured picture please ones beginning thank christmas"
+      },
+      {
+        "true": "HR Support",
+        "pred": "Miscellaneous",
+        "n": 22,
+        "example_confidence": 0.99,
+        "example": "oracle view issue client monthly report sent thursday view issue client monthly report importance high hi could you please raise ticket for below assign thanks applications analyst sent thursday view issue client monthly report importance high hi could you please help with below error when trying generate client monthly report for looking forward your response thank you best regards programme portfolio officer sent thursday view issue importance high hi wanted create client report for sonic for "
+      },
+      {
+        "true": "HR Support",
+        "pred": "Access",
+        "n": 21,
+        "example_confidence": 1.0,
+        "example": "access to expenses module tuesday importance high good morning kindly asking module much appreciated granted by noon thank officer ext"
+      },
+      {
+        "true": "Access",
+        "pred": "Miscellaneous",
+        "n": 20,
+        "example_confidence": 0.95,
+        "example": "work experience user work experience user hi work experience student coming next his name much appreciate him duration thank"
+      },
+      {
+        "true": "Miscellaneous",
+        "pred": "Access",
+        "n": 19,
+        "example_confidence": 1.0,
+        "example": "create sonar accounts for and external colleagues pm re please add active directory hi please add mentioned users also sonar regards pm please add active directory hello please advised added members kindly note members did user taken create please kindly note expire months issues changes please remedy kind regards analyst ext hub thursday please add active directory groups importance high hello please add ad groups thanks"
+      },
+      {
+        "true": "Internal Project",
+        "pred": "Access",
+        "n": 16,
+        "example_confidence": 0.99,
+        "example": "insufficient access to input known pipeline sent friday insufficient access input known pipeline dear could you please advise below restricted access had issue before but believe past few days thank you officer"
+      },
+      {
+        "true": "Administrative rights",
+        "pred": "Access",
+        "n": 15,
+        "example_confidence": 1.0,
+        "example": "outlook and issues sent friday issues hi have very annoying problem with requests credentials certain point matter what write accept have restart laptop several times be able work tried different credentials able work properly also work expected previously asked be added several was done successfully was working able access lot resources through please advice solution best regards"
+      },
+      {
+        "true": "Purchase",
+        "pred": "Hardware",
+        "n": 15,
+        "example_confidence": 0.97,
+        "example": "install galaxy a device and july pm mobile device number ex hi please log installation install galaxy device took over position her phone number had track down issues her number redirecting personal phone number fixed by good thank much administrator mobile phone"
+      }
+    ],
+    "validation_pt": [
+      {
+        "true": "Administrative rights",
+        "pred": "Miscellaneous",
+        "n": 68,
+        "example_confidence": 1.0,
+        "example": "e-mail suspeito novamente suspeito novamente oi recebido ainda suspeito anexo agradecimentos"
+      },
+      {
+        "true": "Storage",
+        "pred": "Access",
+        "n": 52,
+        "example_confidence": 1.0,
+        "example": "requisitos de acesso requisitos de acesso hi caras, por favor, organize permissões nível cópia permissões unidade compartilhada obrigado oficial"
+      },
+      {
+        "true": "Hardware",
+        "pred": "Miscellaneous",
+        "n": 40,
+        "example_confidence": 1.0,
+        "example": "as atualizações de atualizações de atualizações de atualizações de atualizações de atualizações de atualizações de atualizações de atualizações de atualizações de atualizações de atualizações de atualizações de atualizações de atualizações de atualizações de atualizações de atualizações de atualizações de atualizações de atualizações de atualizações de atualizações de atualizações de atualizações de atualizações de atualizações de atualizações de atualizações de atualizações de atualizações de a"
+      },
+      {
+        "true": "HR Support",
+        "pred": "Miscellaneous",
+        "n": 39,
+        "example_confidence": 0.99,
+        "example": "oracle view issue cliente mensal relatório enviado thursday view issue cliente mensal relatório importância alta oi você poderia por favor levantar o ticket para abaixo atribua agradecimentos analista aplicativos enviou thursday view issue cliente mensal relatório importância alta oi você poderia, por favor, ajudar com baixo erro ao tentar gerar cliente mensal relatório para olhar para a frente sua resposta obrigado melhores no que diz respeito ao programa portfolio oficial enviado thursday view"
+      },
+      {
+        "true": "Internal Project",
+        "pred": "Miscellaneous",
+        "n": 34,
+        "example_confidence": 0.99,
+        "example": "código oráculo enviado sexta-feira dezembro re código que você pode enviar dezembro re importância código alta hi pensar com código data final necessidades extending acreditar ajuda melhores desejos enviados dezembro código Olá lá opções detalhe da tarefa por favor abaixo meios podem enviar levantados antes, mas reocorrendo por favor você pode corrigir cabeça obrigado"
+      },
+      {
+        "true": "Access",
+        "pred": "Miscellaneous",
+        "n": 26,
+        "example_confidence": 0.98,
+        "example": "work experience user work experience user hi work experience student vindo em seguida seu nome muito apreciar sua duração obrigado"
+      },
+      {
+        "true": "Hardware",
+        "pred": "Access",
+        "n": 24,
+        "example_confidence": 1.0,
+        "example": "disable adams oracle conta enviada quarta-feira dezembro desabilitar asap importância alta hello por favor desabilitar acesso aplicativo móvel asap eficaz foi mais longo funcionário obrigado por investigar por que ser automaticamente desabilitado quando o acesso ao anúncio fechou melhor respeitos gerente"
+      },
+      {
+        "true": "HR Support",
+        "pred": "Access",
+        "n": 22,
+        "example_confidence": 1.0,
+        "example": "acesso a despesas módulo terça importância bom dia gentilmente pedindo módulo muito apreciado concedido pelo meio-dia obrigado oficial ext"
+      },
+      {
+        "true": "Storage",
+        "pred": "Miscellaneous",
+        "n": 20,
+        "example_confidence": 0.97,
+        "example": "para sexta-feira fevereiro pm re quer kb hello meet hoje segunda toneladas documentação principal razão perguntando sd kb diretrizes sobre o uso nunca encontrado link criação melhor sexta-feira fevereiro pm re quer kb hi por favor deixe base de conhecimento obrigado líder sexta-feira fevereiro pm quer kb guiando aceitar declínio"
+      },
+      {
+        "true": "Miscellaneous",
+        "pred": "Access",
+        "n": 17,
+        "example_confidence": 1.0,
+        "example": "criar contas sonar para e colegas externos pm re por favor adicione diretório ativo oi por favor adicione usuários mencionados também sonar respeitos pm por favor adicione diretório ativo Olá por favor aconselhou membros adicionados gentilmente notar membros do usuário feitos criar por favor, note gentilmente expirar meses alterações por favor, remedie tipo no que diz respeito analista ext hub quinta-feira por favor adicione grupos de diretório ativo importância alta Olá por favor adicione grupo"
+      },
+      {
+        "true": "Administrative rights",
+        "pred": "Access",
+        "n": 15,
+        "example_confidence": 1.0,
+        "example": "Outlook não conectar senha remotamente alterada foi feito ajuda parar continuamente pedindo senha quando o log no trem ganhou aberto diz não pode começar muito cansado com obter o mesmo problema pedido senha de mudança pode você corrigir chamada quando for enviado"
+      },
+      {
+        "true": "Purchase",
+        "pred": "Miscellaneous",
+        "n": 14,
+        "example_confidence": 0.81,
+        "example": "número de recibo para po quinta-feira novembro pm número de recibo Olá a pagar número contabilizado recibo forma fatura po sobre exibição aquisição perdido número de auto encontrar por favor ajude muito obrigado"
+      }
+    ],
+    "test_en": [
+      {
+        "true": "Storage",
+        "pred": "Access",
+        "n": 61,
+        "example_confidence": 1.0,
+        "example": "project new access required machines re required hi please verify has tried connect received error thanks software engineer october required dear joining require granted according updated attached please required folder file shared folder etc also please enable thank best regards"
+      },
+      {
+        "true": "Administrative rights",
+        "pred": "Miscellaneous",
+        "n": 52,
+        "example_confidence": 1.0,
+        "example": "issues sent thursday hi working there any known issues thanks frankfurt main"
+      },
+      {
+        "true": "Hardware",
+        "pred": "Miscellaneous",
+        "n": 40,
+        "example_confidence": 1.0,
+        "example": "mail february further growth generate more leads by toll free hello please please note did link attached thank analyst community builder ext hub"
+      },
+      {
+        "true": "Internal Project",
+        "pred": "Miscellaneous",
+        "n": 36,
+        "example_confidence": 0.99,
+        "example": "pm on wednesday march pm pm hello please pm code regards"
+      },
+      {
+        "true": "HR Support",
+        "pred": "Access",
+        "n": 30,
+        "example_confidence": 1.0,
+        "example": "new interns new interns bulk development for march pm assistants interns dear please informed several candidates accepted internship program discipline intern intern intern angular intern intern intern please create accounts credentials per attached forms thanks specialist"
+      },
+      {
+        "true": "HR Support",
+        "pred": "Miscellaneous",
+        "n": 25,
+        "example_confidence": 1.0,
+        "example": "ms thursday october pm hello merci senior analyst"
+      },
+      {
+        "true": "Administrative rights",
+        "pred": "Access",
+        "n": 23,
+        "example_confidence": 1.0,
+        "example": "outlook does not synchronize anymore on laptop does synchronize anymore laptop hi cannot use application phone anymore starting hour ago sudden received message server password changed need introduce password however can still use laptop with old settings could you please let know what wrong need be solved asap blocks work thank you"
+      },
+      {
+        "true": "Hardware",
+        "pred": "Access",
+        "n": 23,
+        "example_confidence": 1.0,
+        "example": "no longer available again the invoicing site from sent tuesday re urgent notification old only mode adding thread any might be solved similar yesterday issues thank you manager sent tuesday re urgent notification old only mode hi longer available again invoicing site could you please help sent monday re urgent notification old only mode thanks we re back please give any other attacks officer sent re urgent notification old only mode hi again could you check best regards manager en sent monday re"
+      },
+      {
+        "true": "Access",
+        "pred": "Miscellaneous",
+        "n": 18,
+        "example_confidence": 1.0,
+        "example": "de visitor visitor hello visitor visitor visitor visitor visitor visitor visitor visitor"
+      },
+      {
+        "true": "Miscellaneous",
+        "pred": "Access",
+        "n": 18,
+        "example_confidence": 0.99,
+        "example": "ad memberships audit delete users from groups sent tuesday ad memberships delete users groups importance high hi please treat request incident requiring urgent attention please remove list users below groups lists whose names begin either or complete list such groups attached but by you start process number these groups have themselves already deleted you find some below list users any groups by you get process them appreciate large list users best approach probably process each turn removing ea"
+      },
+      {
+        "true": "Purchase",
+        "pred": "Miscellaneous",
+        "n": 18,
+        "example_confidence": 0.88,
+        "example": "on pm dear please log thanks kind regards engineer hello please kind install software installed thank consultant"
+      },
+      {
+        "true": "Storage",
+        "pred": "Miscellaneous",
+        "n": 16,
+        "example_confidence": 1.0,
+        "example": "mailbox mailbox hello please mailbox members thank"
+      }
+    ],
+    "test_pt": [
+      {
+        "true": "Storage",
+        "pred": "Access",
+        "n": 58,
+        "example_confidence": 1.0,
+        "example": "direitos de acesso para os direitos de novembro pm Olá por favor replicar permissões de direitos graças contas a receber contabilista ext"
+      },
+      {
+        "true": "Administrative rights",
+        "pred": "Miscellaneous",
+        "n": 51,
+        "example_confidence": 0.99,
+        "example": "problema de atualização do problema de atualização do Windows Olá problema de encontro com o processo de atualização falha com a imagem anexada ao código o que deve agradecer ao desenvolvedor"
+      },
+      {
+        "true": "Internal Project",
+        "pred": "Miscellaneous",
+        "n": 44,
+        "example_confidence": 0.98,
+        "example": "venda oleoduto gráfico dados verificar pipeline gráfico Olá por favor log melhores respeitos engenheiro sênior quinta-feira oi direita pessoa novembro talvez se refere a agradecer oficial"
+      },
+      {
+        "true": "Hardware",
+        "pred": "Miscellaneous",
+        "n": 42,
+        "example_confidence": 1.0,
+        "example": "rede Olá forward obrigado engenheiro quarta-feira pm hello ajuda agradecer engenheiro"
+      },
+      {
+        "true": "HR Support",
+        "pred": "Miscellaneous",
+        "n": 37,
+        "example_confidence": 1.0,
+        "example": "ms quinta-feira outubro pm Olá merci analista sênior"
+      },
+      {
+        "true": "HR Support",
+        "pred": "Access",
+        "n": 30,
+        "example_confidence": 1.0,
+        "example": "novos estagiários novos estagiários desenvolvimento em massa para march pm assistentes estagiários querida por favor informou vários candidatos aceitos programa de estágio disciplina estagiário estagiário estagiário estagiário angular estagiário por favor crie contas credenciais por formulários anexados graças especialista"
+      },
+      {
+        "true": "Access",
+        "pred": "Miscellaneous",
+        "n": 23,
+        "example_confidence": 1.0,
+        "example": "confluência confluência hi guys por favor confluência graças outubro pm confluência hi por favor confluência graças a respeito torre asa imagens informações transmitidas conteúdo comunicação confidencial destino destinatários filiais destinatário pretendido destinatário por meio da presente notificação informações contidas comunicação transmitida comunicação cópia comunicação estritamente proibida recepção comunicação erro por favor notifique imediatamente, respondendo excluir"
+      },
+      {
+        "true": "Administrative rights",
+        "pred": "Access",
+        "n": 22,
+        "example_confidence": 1.0,
+        "example": "Outlook não trabalhar oi pode log em continua pedindo senha, mesmo usando a senha certa também para continua pedindo credenciais pode reservar salas muito importante se podemos corrigir hoje obrigado"
+      },
+      {
+        "true": "Hardware",
+        "pred": "Access",
+        "n": 20,
+        "example_confidence": 1.0,
+        "example": "pode conectar-se à fusão oráculo hello precisa de ajuda para acessar fusão após a apresentação julho st tentou conectar etapas de fusão usando link fornecido mw si após inserir credenciais área imagem imagem realçada receber imagem mensagem de erro obrigado"
+      },
+      {
+        "true": "Purchase",
+        "pred": "Miscellaneous",
+        "n": 19,
+        "example_confidence": 0.88,
+        "example": "re po re po agradecimentos hi por favor investigue fatura reservada po hi por favor, bondly lock thanks kind respects sexta-feira pm re po hi search fatura po número encontrar número de fatura por favor escreva oficial sexta-feira pm re po hello tipo lembrete obrigado tipo respeito contador quarta-feira po hello por favor investigue po porque tem estado fechado recebendo faturado por favor informou po velho investigar faturado agradecer tipo de contador"
+      },
+      {
+        "true": "Storage",
+        "pred": "Miscellaneous",
+        "n": 18,
+        "example_confidence": 0.97,
+        "example": "quer compartilhar atualização com todos quer compartilhar atualização todos querem compartilhar atualização todos aceitam pedidos de declínio"
+      },
+      {
+        "true": "Administrative rights",
+        "pred": "Storage",
+        "n": 16,
+        "example_confidence": 1.0,
+        "example": "problemas com backup enviados problemas de sexta-feira com hi espaço completo já excluir espaço de arquivos, mas disco ainda completo respeita gerente colômbia"
+      }
+    ]
+  },
+  "confidence": {
+    "validation_en": {
+      "n": 800,
+      "confidence_mean": 0.7860624999999999,
+      "confidence_eq_1_n": 62,
+      "confidence_ge_0_9_n": 340,
+      "accuracy_at_ge_0_9": 0.49411764705882355,
+      "n_at_ge_0_9": 340
+    },
+    "validation_pt": {
+      "n": 800,
+      "confidence_mean": 0.763475,
+      "confidence_eq_1_n": 39,
+      "confidence_ge_0_9_n": 275,
+      "accuracy_at_ge_0_9": 0.46545454545454545,
+      "n_at_ge_0_9": 275
+    },
+    "test_en": {
+      "n": 800,
+      "confidence_mean": 0.7971250000000001,
+      "confidence_eq_1_n": 86,
+      "confidence_ge_0_9_n": 350,
+      "accuracy_at_ge_0_9": 0.4857142857142857,
+      "n_at_ge_0_9": 350
+    },
+    "test_pt": {
+      "n": 800,
+      "confidence_mean": 0.7750125,
+      "confidence_eq_1_n": 68,
+      "confidence_ge_0_9_n": 289,
+      "accuracy_at_ge_0_9": 0.4083044982698962,
+      "n_at_ge_0_9": 289
+    }
+  },
+  "language_prediction_agreement_test": {
+    "n": 800,
+    "same_prediction_n": 695,
+    "same_prediction_rate": 0.86875
+  },
+  "text_profile": {
+    "en": {
+      "n": 1600,
+      "word_count_mean": 42.194375,
+      "word_count_median": 26.0,
+      "word_count_p10": 12.0,
+      "word_count_p90": 83.10000000000014,
+      "punctuation_present_n": 0,
+      "punctuation_present_rate": 0.0,
+      "mean_share_tokens_len_le_2": 0.09132119057660702,
+      "adjacent_duplicate_n": 306,
+      "header_or_date_noise_n": 1074
+    },
+    "pt": {
+      "n": 1600,
+      "word_count_mean": 42.333125,
+      "word_count_median": 29.0,
+      "word_count_p10": 13.0,
+      "word_count_p90": 90.10000000000014,
+      "punctuation_present_n": 443,
+      "punctuation_present_rate": 0.276875,
+      "mean_share_tokens_len_le_2": 0.1567879784916149,
+      "adjacent_duplicate_n": 192,
+      "header_or_date_noise_n": 659
+    }
+  },
+  "class_specific_tokens_sample_en": {
+    "Access": [
+      {
+        "token": "confluence",
+        "count_in_class": 116,
+        "log_ratio_smoothed": 5.118215970717657
+      },
+      {
+        "token": "visual",
+        "count_in_class": 20,
+        "log_ratio_smoothed": 4.786858834763214
+      },
+      {
+        "token": "studio",
+        "count_in_class": 20,
+        "log_ratio_smoothed": 4.786858834763214
+      },
+      {
+        "token": "famed",
+        "count_in_class": 12,
+        "log_ratio_smoothed": 4.3072857545013274
+      },
+      {
+        "token": "license",
+        "count_in_class": 37,
+        "log_ratio_smoothed": 4.281310268098068
+      },
+      {
+        "token": "repositories",
+        "count_in_class": 7,
+        "log_ratio_smoothed": 3.8217779387196265
+      },
+      {
+        "token": "git",
+        "count_in_class": 42,
+        "log_ratio_smoothed": 3.7117770435052986
+      },
+      {
+        "token": "unlock",
+        "count_in_class": 6,
+        "log_ratio_smoothed": 3.6882465460951046
+      },
+      {
+        "token": "trainers",
+        "count_in_class": 6,
+        "log_ratio_smoothed": 3.6882465460951046
+      },
+      {
+        "token": "branch",
+        "count_in_class": 6,
+        "log_ratio_smoothed": 3.6882465460951046
+      },
+      {
+        "token": "repository",
+        "count_in_class": 39,
+        "log_ratio_smoothed": 3.6394563819256724
+      },
+      {
+        "token": "quarantined",
+        "count_in_class": 4,
+        "log_ratio_smoothed": 3.3517743094738917
+      },
+      {
+        "token": "juniors",
+        "count_in_class": 4,
+        "log_ratio_smoothed": 3.3517743094738917
+      },
+      {
+        "token": "fulfiller",
+        "count_in_class": 4,
+        "log_ratio_smoothed": 3.3517743094738917
+      },
+      {
+        "token": "badge",
+        "count_in_class": 4,
+        "log_ratio_smoothed": 3.3517743094738917
+      }
+    ],
+    "Administrative rights": [
+      {
+        "token": "upgrade",
+        "count_in_class": 316,
+        "log_ratio_smoothed": 4.578190580773846
+      },
+      {
+        "token": "becomes",
+        "count_in_class": 13,
+        "log_ratio_smoothed": 4.023295493973362
+      },
+      {
+        "token": "edition",
+        "count_in_class": 36,
+        "log_ratio_smoothed": 3.896543788334217
+      },
+      {
+        "token": "endpoint",
+        "count_in_class": 22,
+        "log_ratio_smoothed": 3.8265851997273073
+      },
+      {
+        "token": "vulnerability",
+        "count_in_class": 10,
+        "log_ratio_smoothed": 3.7821334371564737
+      },
+      {
+        "token": "icons",
+        "count_in_class": 10,
+        "log_ratio_smoothed": 3.7821334371564737
+      },
+      {
+        "token": "fails",
+        "count_in_class": 9,
+        "log_ratio_smoothed": 3.686823257352149
+      },
+      {
+        "token": "cumulative",
+        "count_in_class": 9,
+        "log_ratio_smoothed": 3.686823257352149
+      },
+      {
+        "token": "article",
+        "count_in_class": 9,
+        "log_ratio_smoothed": 3.686823257352149
+      },
+      {
+        "token": "zephyr",
+        "count_in_class": 7,
+        "log_ratio_smoothed": 3.463679706037939
+      },
+      {
+        "token": "rollout",
+        "count_in_class": 7,
+        "log_ratio_smoothed": 3.463679706037939
+      },
+      {
+        "token": "outlook",
+        "count_in_class": 62,
+        "log_ratio_smoothed": 3.4479313490697994
+      },
+      {
+        "token": "highly",
+        "count_in_class": 14,
+        "log_ratio_smoothed": 3.399141184900368
+      },
+      {
+        "token": "forced",
+        "count_in_class": 14,
+        "log_ratio_smoothed": 3.399141184900368
+      },
+      {
+        "token": "compatibility",
+        "count_in_class": 14,
+        "log_ratio_smoothed": 3.399141184900368
+      }
+    ],
+    "HR Support": [
+      {
+        "token": "starter",
+        "count_in_class": 139,
+        "log_ratio_smoothed": 4.866723091384704
+      },
+      {
+        "token": "interns",
+        "count_in_class": 22,
+        "log_ratio_smoothed": 4.670012797138649
+      },
+      {
+        "token": "completion",
+        "count_in_class": 11,
+        "log_ratio_smoothed": 4.019425230997499
+      },
+      {
+        "token": "leaver",
+        "count_in_class": 49,
+        "log_ratio_smoothed": 3.8371036742035454
+      },
+      {
+        "token": "twelve",
+        "count_in_class": 9,
+        "log_ratio_smoothed": 3.8371036742035445
+      },
+      {
+        "token": "transfers",
+        "count_in_class": 9,
+        "log_ratio_smoothed": 3.8371036742035445
+      },
+      {
+        "token": "minus",
+        "count_in_class": 9,
+        "log_ratio_smoothed": 3.8371036742035445
+      },
+      {
+        "token": "timecard",
+        "count_in_class": 27,
+        "log_ratio_smoothed": 3.7681108027165937
+      },
+      {
+        "token": "indefinite",
+        "count_in_class": 8,
+        "log_ratio_smoothed": 3.7317431585457186
+      },
+      {
+        "token": "assistants",
+        "count_in_class": 6,
+        "log_ratio_smoothed": 3.480428730264813
+      },
+      {
+        "token": "gone",
+        "count_in_class": 5,
+        "log_ratio_smoothed": 3.326278050437554
+      },
+      {
+        "token": "established",
+        "count_in_class": 5,
+        "log_ratio_smoothed": 3.326278050437554
+      },
+      {
+        "token": "mobility",
+        "count_in_class": 9,
+        "log_ratio_smoothed": 3.143956493643599
+      },
+      {
+        "token": "statuses",
+        "count_in_class": 4,
+        "log_ratio_smoothed": 3.143956493643599
+      },
+      {
+        "token": "resolutions",
+        "count_in_class": 4,
+        "log_ratio_smoothed": 3.143956493643599
+      }
+    ],
+    "Hardware": [
+      {
+        "token": "room",
+        "count_in_class": 46,
+        "log_ratio_smoothed": 5.16347309316934
+      },
+      {
+        "token": "rack",
+        "count_in_class": 21,
+        "log_ratio_smoothed": 4.404367944817596
+      },
+      {
+        "token": "english",
+        "count_in_class": 19,
+        "log_ratio_smoothed": 4.3090577650132715
+      },
+      {
+        "token": "complaints",
+        "count_in_class": 16,
+        "log_ratio_smoothed": 4.146538835515497
+      },
+      {
+        "token": "conference",
+        "count_in_class": 12,
+        "log_ratio_smoothed": 3.8782748489208174
+      },
+      {
+        "token": "complaint",
+        "count_in_class": 11,
+        "log_ratio_smoothed": 3.798232141247281
+      },
+      {
+        "token": "compensation",
+        "count_in_class": 10,
+        "log_ratio_smoothed": 3.711220764257652
+      },
+      {
+        "token": "meeting",
+        "count_in_class": 37,
+        "log_ratio_smoothed": 3.564617290065776
+      },
+      {
+        "token": "connectors",
+        "count_in_class": 8,
+        "log_ratio_smoothed": 3.5105500687955002
+      },
+      {
+        "token": "rooms",
+        "count_in_class": 16,
+        "log_ratio_smoothed": 3.453391654955552
+      },
+      {
+        "token": "satisfaction",
+        "count_in_class": 7,
+        "log_ratio_smoothed": 3.3927670331391164
+      },
+      {
+        "token": "racks",
+        "count_in_class": 7,
+        "log_ratio_smoothed": 3.3927670331391164
+      },
+      {
+        "token": "industries",
+        "count_in_class": 7,
+        "log_ratio_smoothed": 3.3927670331391164
+      },
+      {
+        "token": "gaps",
+        "count_in_class": 7,
+        "log_ratio_smoothed": 3.3927670331391164
+      },
+      {
+        "token": "sputa",
+        "count_in_class": 6,
+        "log_ratio_smoothed": 3.2592356405145937
+      }
+    ],
+    "Internal Project": [
+      {
+        "token": "pipeline",
+        "count_in_class": 66,
+        "log_ratio_smoothed": 5.782535474578142
+      },
+      {
+        "token": "indirect",
+        "count_in_class": 21,
+        "log_ratio_smoothed": 4.668885308545492
+      },
+      {
+        "token": "party",
+        "count_in_class": 72,
+        "log_ratio_smoothed": 4.482007935215676
+      },
+      {
+        "token": "subtype",
+        "count_in_class": 12,
+        "log_ratio_smoothed": 4.142792212648713
+      },
+      {
+        "token": "swap",
+        "count_in_class": 31,
+        "log_ratio_smoothed": 3.9449664693187936
+      },
+      {
+        "token": "christmas",
+        "count_in_class": 26,
+        "log_ratio_smoothed": 3.7750674325233957
+      },
+      {
+        "token": "suppliers",
+        "count_in_class": 8,
+        "log_ratio_smoothed": 3.775067432523395
+      },
+      {
+        "token": "booking",
+        "count_in_class": 8,
+        "log_ratio_smoothed": 3.775067432523395
+      },
+      {
+        "token": "imported",
+        "count_in_class": 32,
+        "log_ratio_smoothed": 3.6880560555337656
+      },
+      {
+        "token": "setup",
+        "count_in_class": 131,
+        "log_ratio_smoothed": 3.6880560555337647
+      },
+      {
+        "token": "opportunity",
+        "count_in_class": 40,
+        "log_ratio_smoothed": 3.681977009457384
+      },
+      {
+        "token": "unknown",
+        "count_in_class": 15,
+        "log_ratio_smoothed": 3.657284396867012
+      },
+      {
+        "token": "known",
+        "count_in_class": 28,
+        "log_ratio_smoothed": 3.5588443240537595
+      },
+      {
+        "token": "code",
+        "count_in_class": 347,
+        "log_ratio_smoothed": 3.4597534214095287
+      },
+      {
+        "token": "codes",
+        "count_in_class": 97,
+        "log_ratio_smoothed": 3.3902216116179664
+      }
+    ],
+    "Miscellaneous": [
+      {
+        "token": "tray",
+        "count_in_class": 19,
+        "log_ratio_smoothed": 4.4963369026759095
+      },
+      {
+        "token": "memberships",
+        "count_in_class": 16,
+        "log_ratio_smoothed": 4.333817973178134
+      },
+      {
+        "token": "alarm",
+        "count_in_class": 23,
+        "log_ratio_smoothed": 3.985511278909919
+      },
+      {
+        "token": "east",
+        "count_in_class": 11,
+        "log_ratio_smoothed": 3.985511278909919
+      },
+      {
+        "token": "cpu",
+        "count_in_class": 11,
+        "log_ratio_smoothed": 3.985511278909919
+      },
+      {
+        "token": "stateless",
+        "count_in_class": 10,
+        "log_ratio_smoothed": 3.898499901920289
+      },
+      {
+        "token": "minuets",
+        "count_in_class": 9,
+        "log_ratio_smoothed": 3.803189722115964
+      },
+      {
+        "token": "engagers",
+        "count_in_class": 8,
+        "log_ratio_smoothed": 3.697829206458138
+      },
+      {
+        "token": "interviewers",
+        "count_in_class": 7,
+        "log_ratio_smoothed": 3.5800461708017544
+      },
+      {
+        "token": "metric",
+        "count_in_class": 6,
+        "log_ratio_smoothed": 3.4465147781772316
+      },
+      {
+        "token": "incorrectly",
+        "count_in_class": 6,
+        "log_ratio_smoothed": 3.4465147781772316
+      },
+      {
+        "token": "career",
+        "count_in_class": 6,
+        "log_ratio_smoothed": 3.4465147781772316
+      },
+      {
+        "token": "awards",
+        "count_in_class": 6,
+        "log_ratio_smoothed": 3.4465147781772316
+      },
+      {
+        "token": "column",
+        "count_in_class": 5,
+        "log_ratio_smoothed": 3.2923640983499736
+      },
+      {
+        "token": "collapse",
+        "count_in_class": 5,
+        "log_ratio_smoothed": 3.2923640983499736
+      }
+    ],
+    "Purchase": [
+      {
+        "token": "purchased",
+        "count_in_class": 133,
+        "log_ratio_smoothed": 5.593935789127537
+      },
+      {
+        "token": "ordered",
+        "count_in_class": 96,
+        "log_ratio_smoothed": 5.2708069676800084
+      },
+      {
+        "token": "receipts",
+        "count_in_class": 100,
+        "log_ratio_smoothed": 5.023534433566105
+      },
+      {
+        "token": "galaxy",
+        "count_in_class": 21,
+        "log_ratio_smoothed": 4.885750731203051
+      },
+      {
+        "token": "purchase",
+        "count_in_class": 304,
+        "log_ratio_smoothed": 4.8759627248368895
+      },
+      {
+        "token": "consideration",
+        "count_in_class": 94,
+        "log_ratio_smoothed": 4.556825700217221
+      },
+      {
+        "token": "video",
+        "count_in_class": 78,
+        "log_ratio_smoothed": 4.554718217877657
+      },
+      {
+        "token": "lite",
+        "count_in_class": 12,
+        "log_ratio_smoothed": 4.359657635306272
+      },
+      {
+        "token": "mandatory",
+        "count_in_class": 94,
+        "log_ratio_smoothed": 4.269143627765441
+      },
+      {
+        "token": "item",
+        "count_in_class": 132,
+        "log_ratio_smoothed": 4.2001507562784886
+      },
+      {
+        "token": "amp",
+        "count_in_class": 9,
+        "log_ratio_smoothed": 4.097293370838781
+      },
+      {
+        "token": "replenishment",
+        "count_in_class": 16,
+        "log_ratio_smoothed": 3.9347744413410073
+      },
+      {
+        "token": "inch",
+        "count_in_class": 6,
+        "log_ratio_smoothed": 3.740618426900048
+      },
+      {
+        "token": "cartridge",
+        "count_in_class": 6,
+        "log_ratio_smoothed": 3.740618426900048
+      },
+      {
+        "token": "black",
+        "count_in_class": 17,
+        "log_ratio_smoothed": 3.58646774707279
+      }
+    ],
+    "Storage": [
+      {
+        "token": "increase",
+        "count_in_class": 37,
+        "log_ratio_smoothed": 5.4943424621809935
+      },
+      {
+        "token": "wants",
+        "count_in_class": 126,
+        "log_ratio_smoothed": 5.091505476479098
+      },
+      {
+        "token": "decline",
+        "count_in_class": 63,
+        "log_ratio_smoothed": 4.406201473380178
+      },
+      {
+        "token": "trainings",
+        "count_in_class": 8,
+        "log_ratio_smoothed": 4.053980879790827
+      },
+      {
+        "token": "folder",
+        "count_in_class": 113,
+        "log_ratio_smoothed": 4.028005393387566
+      },
+      {
+        "token": "storage",
+        "count_in_class": 61,
+        "log_ratio_smoothed": 3.9044491458198625
+      },
+      {
+        "token": "visitors",
+        "count_in_class": 11,
+        "log_ratio_smoothed": 3.6485157716826624
+      },
+      {
+        "token": "archiving",
+        "count_in_class": 5,
+        "log_ratio_smoothed": 3.6485157716826624
+      },
+      {
+        "token": "almost",
+        "count_in_class": 17,
+        "log_ratio_smoothed": 3.6485157716826615
+      },
+      {
+        "token": "kickoff",
+        "count_in_class": 4,
+        "log_ratio_smoothed": 3.4661942148887075
+      },
+      {
+        "token": "mailbox",
+        "count_in_class": 129,
+        "log_ratio_smoothed": 3.428453886905861
+      },
+      {
+        "token": "contribute",
+        "count_in_class": 13,
+        "log_ratio_smoothed": 3.397201343401755
+      },
+      {
+        "token": "shared",
+        "count_in_class": 47,
+        "log_ratio_smoothed": 3.330062040564128
+      },
+      {
+        "token": "share",
+        "count_in_class": 63,
+        "log_ratio_smoothed": 3.307589184712069
+      },
+      {
+        "token": "size",
+        "count_in_class": 41,
+        "log_ratio_smoothed": 3.291840827743929
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "retest_inference": {
+    "n": 80,
+    "method": "paired class-stratified percentile bootstrap, 5000 resamples; preserves 10 cases per class",
+    "macro_f1_difference": 0.21582616433422452,
+    "macro_f1_difference_ci95": [
+      0.1317745258505109,
+      0.29929682604115254
+    ],
+    "accuracy_difference": 0.17499999999999993,
+    "accuracy_difference_ci95": [
+      0.09999999999999998,
+      0.25000000000000006
+    ],
+    "mcnemar_exact": {
+      "baseline_only_correct": 1,
+      "structured_only_correct": 15,
+      "discordant_n": 16,
+      "two_sided_exact_binomial_p": 0.000518798828125
+    }
+  },
+  "structured_confidence": {
+    "n": 80,
+    "mean": 0.8088750000000001,
+    "ge_0_9_n": 39,
+    "ge_0_9_accuracy": 0.7692307692307693
+  },
+  "uninformative_design": {
+    "calls_n": 80,
+    "unique_texts_n": 15,
+    "method": "exact count of distinct input strings in saved JSONL; repeated calls are not independent texts"
+  }
+}

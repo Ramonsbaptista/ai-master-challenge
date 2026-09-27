@@ -1,0 +1,412 @@
+{
+  "method": {
+    "partition": "validation only",
+    "paired": true,
+    "language": "en",
+    "selection": "10 random records per class from the actual validation sample",
+    "seed": 20260924,
+    "new_http_requests_this_run": 84,
+    "workers": 1,
+    "minimum_interval_seconds": 2.0,
+    "model_held_constant": "typesafe-ai/jev",
+    "limitation": "Per-class n=10 is exploratory; raw pre-preprocessing text was unavailable."
+  },
+  "baseline_original": {
+    "n": 80,
+    "confusion_matrix": [
+      [
+        5,
+        0,
+        0,
+        0,
+        1,
+        2,
+        2,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        2,
+        0,
+        5,
+        0,
+        2
+      ],
+      [
+        1,
+        0,
+        4,
+        1,
+        0,
+        4,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        1,
+        2,
+        0,
+        4,
+        0,
+        0
+      ],
+      [
+        4,
+        0,
+        1,
+        0,
+        4,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        9,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        8,
+        0
+      ],
+      [
+        8,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0
+      ]
+    ],
+    "row_sums": [
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "accuracy": 0.4,
+    "macro_f1": 0.3584752321981425,
+    "per_class": [
+      {
+        "class": "Access",
+        "n": 10,
+        "VP": 5,
+        "FP": 19,
+        "FN": 5,
+        "VN": 51,
+        "precision": 0.20833333333333334,
+        "recall": 0.5,
+        "f1": 0.29411764705882354,
+        "exploratory_because_n_below_30": true
+      },
+      {
+        "class": "Administrative rights",
+        "n": 10,
+        "VP": 0,
+        "FP": 0,
+        "FN": 10,
+        "VN": 70,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "exploratory_because_n_below_30": true
+      },
+      {
+        "class": "HR Support",
+        "n": 10,
+        "VP": 4,
+        "FP": 2,
+        "FN": 6,
+        "VN": 68,
+        "precision": 0.6666666666666666,
+        "recall": 0.4,
+        "f1": 0.5,
+        "exploratory_because_n_below_30": true
+      },
+      {
+        "class": "Hardware",
+        "n": 10,
+        "VP": 2,
+        "FP": 3,
+        "FN": 8,
+        "VN": 67,
+        "precision": 0.4,
+        "recall": 0.2,
+        "f1": 0.26666666666666666,
+        "exploratory_because_n_below_30": true
+      },
+      {
+        "class": "Internal Project",
+        "n": 10,
+        "VP": 4,
+        "FP": 1,
+        "FN": 6,
+        "VN": 69,
+        "precision": 0.8,
+        "recall": 0.4,
+        "f1": 0.5333333333333333,
+        "exploratory_because_n_below_30": true
+      },
+      {
+        "class": "Miscellaneous",
+        "n": 10,
+        "VP": 9,
+        "FP": 19,
+        "FN": 1,
+        "VN": 51,
+        "precision": 0.32142857142857145,
+        "recall": 0.9,
+        "f1": 0.4736842105263158,
+        "exploratory_because_n_below_30": true
+      },
+      {
+        "class": "Purchase",
+        "n": 10,
+        "VP": 8,
+        "FP": 2,
+        "FN": 2,
+        "VN": 68,
+        "precision": 0.8,
+        "recall": 0.8,
+        "f1": 0.8000000000000002,
+        "exploratory_because_n_below_30": true
+      },
+      {
+        "class": "Storage",
+        "n": 10,
+        "VP": 0,
+        "FP": 2,
+        "FN": 10,
+        "VN": 68,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "exploratory_because_n_below_30": true
+      }
+    ]
+  },
+  "structured_criteria": {
+    "n": 80,
+    "confusion_matrix": [
+      [
+        5,
+        0,
+        0,
+        0,
+        0,
+        3,
+        2,
+        0
+      ],
+      [
+        1,
+        5,
+        0,
+        1,
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        2,
+        0,
+        4,
+        1,
+        1,
+        2,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        1,
+        3,
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        2,
+        0,
+        0,
+        0,
+        8,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        1,
+        0,
+        0,
+        8,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        9,
+        1
+      ],
+      [
+        3,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        4
+      ]
+    ],
+    "row_sums": [
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "accuracy": 0.575,
+    "macro_f1": 0.574301396532367,
+    "per_class": [
+      {
+        "class": "Access",
+        "n": 10,
+        "VP": 5,
+        "FP": 11,
+        "FN": 5,
+        "VN": 59,
+        "precision": 0.3125,
+        "recall": 0.5,
+        "f1": 0.38461538461538464,
+        "exploratory_because_n_below_30": true
+      },
+      {
+        "class": "Administrative rights",
+        "n": 10,
+        "VP": 5,
+        "FP": 2,
+        "FN": 5,
+        "VN": 68,
+        "precision": 0.7142857142857143,
+        "recall": 0.5,
+        "f1": 0.588235294117647,
+        "exploratory_because_n_below_30": true
+      },
+      {
+        "class": "HR Support",
+        "n": 10,
+        "VP": 4,
+        "FP": 2,
+        "FN": 6,
+        "VN": 68,
+        "precision": 0.6666666666666666,
+        "recall": 0.4,
+        "f1": 0.5,
+        "exploratory_because_n_below_30": true
+      },
+      {
+        "class": "Hardware",
+        "n": 10,
+        "VP": 3,
+        "FP": 2,
+        "FN": 7,
+        "VN": 68,
+        "precision": 0.6,
+        "recall": 0.3,
+        "f1": 0.4,
+        "exploratory_because_n_below_30": true
+      },
+      {
+        "class": "Internal Project",
+        "n": 10,
+        "VP": 8,
+        "FP": 1,
+        "FN": 2,
+        "VN": 69,
+        "precision": 0.8888888888888888,
+        "recall": 0.8,
+        "f1": 0.8421052631578948,
+        "exploratory_because_n_below_30": true
+      },
+      {
+        "class": "Miscellaneous",
+        "n": 10,
+        "VP": 8,
+        "FP": 11,
+        "FN": 2,
+        "VN": 59,
+        "precision": 0.42105263157894735,
+        "recall": 0.8,
+        "f1": 0.5517241379310345,
+        "exploratory_because_n_below_30": true
+      },
+      {
+        "class": "Purchase",
+        "n": 10,
+        "VP": 9,
+        "FP": 2,
+        "FN": 1,
+        "VN": 68,
+        "precision": 0.8181818181818182,
+        "recall": 0.9,
+        "f1": 0.8571428571428572,
+        "exploratory_because_n_below_30": true
+      },
+      {
+        "class": "Storage",
+        "n": 10,
+        "VP": 4,
+        "FP": 3,
+        "FN": 6,
+        "VN": 67,
+        "precision": 0.5714285714285714,
+        "recall": 0.4,
+        "f1": 0.47058823529411764,
+        "exploratory_because_n_below_30": true
+      }
+    ]
+  },
+  "paired_correctness": {
+    "n": 80,
+    "both_correct": 31,
+    "baseline_only_correct": 1,
+    "structured_only_correct": 15,
+    "both_wrong": 33
+  },
+  "criteria_sha256": "f8b5edec07cd89fdcd3676a9a6c8b0f03457ec18eb384729230a5c760e89c6e2"
+}

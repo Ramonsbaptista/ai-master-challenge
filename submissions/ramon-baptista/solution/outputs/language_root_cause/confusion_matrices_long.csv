@@ -1,0 +1,129 @@
+language,true_label,predicted_label,n
+en,Access,Access,82
+en,Access,Administrative rights,2
+en,Access,HR Support,4
+en,Access,Hardware,6
+en,Access,Internal Project,1
+en,Access,Miscellaneous,5
+en,Access,Purchase,0
+en,Access,Storage,0
+en,Administrative rights,Access,0
+en,Administrative rights,Administrative rights,80
+en,Administrative rights,HR Support,2
+en,Administrative rights,Hardware,15
+en,Administrative rights,Internal Project,0
+en,Administrative rights,Miscellaneous,0
+en,Administrative rights,Purchase,0
+en,Administrative rights,Storage,3
+en,HR Support,Access,2
+en,HR Support,Administrative rights,0
+en,HR Support,HR Support,82
+en,HR Support,Hardware,8
+en,HR Support,Internal Project,0
+en,HR Support,Miscellaneous,7
+en,HR Support,Purchase,1
+en,HR Support,Storage,0
+en,Hardware,Access,3
+en,Hardware,Administrative rights,2
+en,Hardware,HR Support,6
+en,Hardware,Hardware,82
+en,Hardware,Internal Project,0
+en,Hardware,Miscellaneous,4
+en,Hardware,Purchase,0
+en,Hardware,Storage,3
+en,Internal Project,Access,1
+en,Internal Project,Administrative rights,0
+en,Internal Project,HR Support,3
+en,Internal Project,Hardware,5
+en,Internal Project,Internal Project,88
+en,Internal Project,Miscellaneous,3
+en,Internal Project,Purchase,0
+en,Internal Project,Storage,0
+en,Miscellaneous,Access,0
+en,Miscellaneous,Administrative rights,1
+en,Miscellaneous,HR Support,4
+en,Miscellaneous,Hardware,5
+en,Miscellaneous,Internal Project,2
+en,Miscellaneous,Miscellaneous,86
+en,Miscellaneous,Purchase,1
+en,Miscellaneous,Storage,1
+en,Purchase,Access,0
+en,Purchase,Administrative rights,2
+en,Purchase,HR Support,0
+en,Purchase,Hardware,2
+en,Purchase,Internal Project,0
+en,Purchase,Miscellaneous,1
+en,Purchase,Purchase,95
+en,Purchase,Storage,0
+en,Storage,Access,0
+en,Storage,Administrative rights,2
+en,Storage,HR Support,2
+en,Storage,Hardware,4
+en,Storage,Internal Project,0
+en,Storage,Miscellaneous,4
+en,Storage,Purchase,0
+en,Storage,Storage,88
+pt,Access,Access,15
+pt,Access,Administrative rights,3
+pt,Access,HR Support,6
+pt,Access,Hardware,70
+pt,Access,Internal Project,0
+pt,Access,Miscellaneous,5
+pt,Access,Purchase,1
+pt,Access,Storage,0
+pt,Administrative rights,Access,1
+pt,Administrative rights,Administrative rights,44
+pt,Administrative rights,HR Support,1
+pt,Administrative rights,Hardware,47
+pt,Administrative rights,Internal Project,0
+pt,Administrative rights,Miscellaneous,7
+pt,Administrative rights,Purchase,0
+pt,Administrative rights,Storage,0
+pt,HR Support,Access,1
+pt,HR Support,Administrative rights,4
+pt,HR Support,HR Support,30
+pt,HR Support,Hardware,54
+pt,HR Support,Internal Project,2
+pt,HR Support,Miscellaneous,8
+pt,HR Support,Purchase,0
+pt,HR Support,Storage,1
+pt,Hardware,Access,1
+pt,Hardware,Administrative rights,2
+pt,Hardware,HR Support,4
+pt,Hardware,Hardware,91
+pt,Hardware,Internal Project,0
+pt,Hardware,Miscellaneous,2
+pt,Hardware,Purchase,0
+pt,Hardware,Storage,0
+pt,Internal Project,Access,0
+pt,Internal Project,Administrative rights,1
+pt,Internal Project,HR Support,8
+pt,Internal Project,Hardware,52
+pt,Internal Project,Internal Project,37
+pt,Internal Project,Miscellaneous,2
+pt,Internal Project,Purchase,0
+pt,Internal Project,Storage,0
+pt,Miscellaneous,Access,3
+pt,Miscellaneous,Administrative rights,4
+pt,Miscellaneous,HR Support,6
+pt,Miscellaneous,Hardware,59
+pt,Miscellaneous,Internal Project,2
+pt,Miscellaneous,Miscellaneous,26
+pt,Miscellaneous,Purchase,0
+pt,Miscellaneous,Storage,0
+pt,Purchase,Access,0
+pt,Purchase,Administrative rights,1
+pt,Purchase,HR Support,2
+pt,Purchase,Hardware,21
+pt,Purchase,Internal Project,0
+pt,Purchase,Miscellaneous,1
+pt,Purchase,Purchase,75
+pt,Purchase,Storage,0
+pt,Storage,Access,0
+pt,Storage,Administrative rights,1
+pt,Storage,HR Support,2
+pt,Storage,Hardware,81
+pt,Storage,Internal Project,0
+pt,Storage,Miscellaneous,9
+pt,Storage,Purchase,0
+pt,Storage,Storage,7
