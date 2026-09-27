@@ -1,0 +1,3 @@
+# Arquivos protegidos por SHA-256 no manifesto: guardar byte a byte, sem conversão de fim de linha.
+solution/data/** -text
+solution/artifacts/** -text
