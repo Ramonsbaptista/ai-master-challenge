@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}Avaliação reproduzível{% endblock %}
+{% block content %}
+<section class="hero"><p class="eyebrow">Resultado que qualquer pessoa pode conferir</p><h1>Avaliação reproduzível</h1>
+<p>Um clique refaz a prova final com tickets que o modelo nunca usou para aprender. Depois, confere se ninguém trocou o modelo, os dados ou as respostas após ver o resultado.</p></section>
+<section id="evaluation-result" data-result-url="{{ url_for('evaluation_result') }}" class="panel loading" aria-live="polite">
+  <div class="spinner"></div><h2>Refazendo a prova final...</h2><p>Conferindo arquivos e repetindo o teste que ficou guardado.</p>
+  <noscript><p>Ative o JavaScript para carregar os detalhes desta avaliação.</p></noscript>
+</section>
+{% endblock %}

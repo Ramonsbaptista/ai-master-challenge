@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: triagem-assistida-ramon
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /saude
+    envVars:
+      - key: TICKET_CLASSIFIER_PUBLIC_DEPLOY
+        value: "true"

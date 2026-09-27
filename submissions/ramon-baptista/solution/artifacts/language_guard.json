@@ -1,0 +1,102 @@
+{
+  "version": "1.1.0",
+  "method": "Marcadores lexicais com desempate por cobertura unigram; evidencia explicita prevalece sobre cobertura.",
+  "selection": "Grade predefinida na validacao: minimiza falsos desvios EN e depois PT nao detectados; teste congelado excluido.",
+  "foundation": "Marcadores evitam que poucas palavras fora do vocabulario dominem textos curtos; cobertura trata casos sem evidencia.",
+  "assumptions": [
+    "Document e ingles e Document_pt e traducao pareada.",
+    "A heuristica nao e detector universal.",
+    "Amostra curta n<30 por idioma e exploratoria."
+  ],
+  "partition": "validation + validation_short_exploratory",
+  "minimum_tokens": 4,
+  "minimum_marker_hits": 2,
+  "threshold": 0.85,
+  "english_markers": [
+    "and",
+    "are",
+    "cannot",
+    "cant",
+    "error",
+    "for",
+    "forgot",
+    "from",
+    "i",
+    "is",
+    "my",
+    "need",
+    "not",
+    "please",
+    "shows",
+    "that",
+    "the",
+    "this",
+    "to",
+    "was",
+    "were",
+    "with"
+  ],
+  "portuguese_markers": [
+    "as",
+    "com",
+    "da",
+    "das",
+    "do",
+    "dos",
+    "e",
+    "esta",
+    "estao",
+    "foi",
+    "funciona",
+    "meu",
+    "minha",
+    "nao",
+    "o",
+    "os",
+    "para",
+    "pedido",
+    "preciso",
+    "quebrou",
+    "senha",
+    "teclado",
+    "tela"
+  ],
+  "n_en": 812,
+  "n_pt": 812,
+  "errors_before_after": {
+    "method": "contagem exata por idioma: EN desviado e falso positivo; PT nao desviado e falso negativo",
+    "foundation": "mede diretamente os dois sentidos de falha da protecao",
+    "assumptions": [
+      "rotulos da validacao estao corretos",
+      "conjunto curto e exploratorio porque n<30 por idioma"
+    ],
+    "all_validation": {
+      "before": {
+        "n_en": 812,
+        "n_pt": 812,
+        "en_false_diverted_n": 1,
+        "pt_missed_n": 57
+      },
+      "after": {
+        "n_en": 812,
+        "n_pt": 812,
+        "en_false_diverted_n": 0,
+        "pt_missed_n": 14
+      }
+    },
+    "short_validation_exploratory": {
+      "before": {
+        "n_en": 12,
+        "n_pt": 12,
+        "en_false_diverted_n": 1,
+        "pt_missed_n": 12
+      },
+      "after": {
+        "n_en": 12,
+        "n_pt": 12,
+        "en_false_diverted_n": 0,
+        "pt_missed_n": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+<div class="executive">
+  <p class="eyebrow">Conclusão para o gestor</p>
+  <h2>A IA acertou {{ (result.metrics.accuracy * 100)|round|int }} de cada 100 tickets que nunca tinha visto</h2>
+  <p>O modelo foi avaliado em tickets separados antes do treino e nunca usados nele. Como essa prova ficou congelada, o resultado mostra desempenho em casos que a IA não conhecia.</p>
+  <div class="result-cards">
+    <article><strong>{{ result.metrics.accuracy|percent_br }}</strong><span>Acerto geral</span><small>Em {{ result.n|number_br }} tickets nunca usados para treinar.</small></article>
+    <article><strong>{{ result.effective_routing.high_band_coverage|percent_br }}</strong><span>Faixa alta do modelo</span><small>{{ result.effective_routing.high_band_n|number_br }} tickets chegaram à faixa alta antes das barreiras.</small></article>
+    <article><strong>{{ result.effective_routing.automated_coverage|percent_br }}</strong><span>Encaminhamento efetivo</span><small>{{ result.effective_routing.automated_n|number_br }} tickets seguiriam direto depois das barreiras.</small></article>
+    <article><strong>{{ result.effective_routing.automated_accuracy|percent_br }}</strong><span>Acerto efetivamente automatizado</span><small>{{ result.effective_routing.automated_correct_n|number_br }} acertos entre {{ result.effective_routing.automated_n|number_br }} tickets que seguiriam direto.</small></article>
+  </div>
+  <p class="human-remainder">Dos {{ result.effective_routing.high_band_n|number_br }} casos na faixa alta, {{ result.effective_routing.blocked_by_size_n|number_br }} excederam o limite de tamanho e {{ result.effective_routing.blocked_by_language_n|number_br }} dos {{ result.effective_routing.language_eligible_n|number_br }} restantes foram barrados por idioma. Por isso, {{ result.effective_routing.human_n|number_br }} tickets ({{ result.effective_routing.human_share|percent_br }}) vão para uma pessoa.</p>
+  <p class="honesty-note"><strong>Limite honesto:</strong> {{ result.metrics.accuracy|percent_br }} não é perfeição. O score não é calibrado como probabilidade, e o desempenho em português ainda não foi validado com tickets brasileiros. Nos tickets da Base 1, de outro domínio (atendimento ao consumidor), o sistema também se desviou; veja o <a href="https://github.com/Ramonsbaptista/ai-master-challenge/blob/submission/ramon-baptista/submissions/ramon-baptista/solution/outputs/robustez/relatorio.md">relatório de robustez</a>.</p>
+</div>
+
+<details><summary>Entender as métricas de cada fila</summary>
+  <p class="details-intro">Cada métrica responde a uma pergunta diferente. Os exemplos abaixo transformam a conta em uma cena da operação; clique em uma fila para abrir os números.</p>
+  <div class="metric-list">{% for row in result.per_class %}<details class="metric-card">
+    <summary>{{ categories[row['class']] }} <small>n={{ row.n|number_br }}</small></summary>
+    <div class="metric-explanations">
+      <p><strong>Precisão — {{ row.precision|percent_br }}:</strong> entre os tickets que a IA mandou para {{ categories[row['class']] }}, essa parcela realmente pertencia à fila.</p>
+      <p><strong>Recall — {{ row.recall|percent_br }}:</strong> entre todos os tickets que eram de {{ categories[row['class']] }}, essa parcela foi encontrada pela IA.</p>
+      <p><strong>Especificidade — {{ row.specificity|percent_br }}:</strong> entre os tickets de outras filas, essa parcela foi corretamente mantida fora de {{ categories[row['class']] }}.</p>
+      <p><strong>F1 — {{ row.f1|percent_br }}:</strong> resume o equilíbrio entre mandar para a fila certa e não deixar tickets dessa fila escaparem.</p>
+    </div>
+    <details class="calculation"><summary>Ver contas e origem dos números</summary>
+      <p><strong>Na linguagem da fila:</strong> VP = mandou certo ({{ row.VP|number_br }}); FP = mandou para esta fila por engano ({{ row.FP|number_br }}); FN = deixou escapar desta fila ({{ row.FN|number_br }}); VN = corretamente não mandou para esta fila ({{ row.VN|number_br }}).</p>
+      <p>Precisão = {{ row.VP|number_br }} ÷ ({{ row.VP|number_br }} + {{ row.FP|number_br }}) = {{ row.precision|decimal_br(4) }}<br>
+      Recall = {{ row.VP|number_br }} ÷ ({{ row.VP|number_br }} + {{ row.FN|number_br }}) = {{ row.recall|decimal_br(4) }}<br>
+      Especificidade = {{ row.VN|number_br }} ÷ ({{ row.VN|number_br }} + {{ row.FP|number_br }}) = {{ row.specificity|decimal_br(4) }}<br>
+      F1 = 2 × precisão × recall ÷ (precisão + recall) = {{ row.f1|decimal_br(4) }}</p>
+    </details>
+  </details>{% endfor %}</div>
+  <p class="aggregate-note"><strong>Visão das oito filas (n={{ result.metrics.n|number_br }}):</strong> macro-F1={{ result.metrics.macro_f1|decimal_br(4) }} — média simples, para filas pequenas não desaparecerem; F1 ponderado={{ result.metrics.weighted_f1|decimal_br(4) }} — cada fila pesa conforme seu volume; acurácia={{ result.metrics.accuracy|decimal_br(4) }} — todos os acertos divididos pelo teste inteiro.</p>
+</details>
+
+<details><summary>Ver onde a IA acertou e confundiu filas</summary>
+  <p class="details-intro"><strong>Como ler:</strong> cada linha mostra o assunto real do ticket; cada coluna mostra para onde a IA mandou. A diagonal verde reúne os acertos. Os demais campos são desvios entre filas.</p>
+  <div class="confusion-highlights"><h3>As confusões mais frequentes</h3>{% for item in confusions %}<p><strong>{{ item.count|number_br }} tickets:</strong> eram de {{ item.real }}, mas foram enviados para {{ item.predicted }}.</p>{% endfor %}</div>
+  <div class="table-scroll"><table><thead><tr><th>Assunto real ↓ / destino da IA →</th>{% for c in manifest.classes %}<th>{{ categories[c] }}</th>{% endfor %}</tr></thead>
+  <tbody>{% for values in result.matrix %}{% set row_index = loop.index0 %}<tr><th>{{ categories[manifest.classes[row_index]] }}</th>{% for value in values %}<td class="{{ 'matrix-hit' if row_index == loop.index0 else '' }}">{{ value|number_br }}</td>{% endfor %}</tr>{% endfor %}</tbody></table></div>
+  <p><strong>Conferência:</strong> a soma da matriz é {{ result.n|number_br }}, igual ao tamanho do teste, e cada linha bate com o total real daquela fila. Isso evita publicar métricas calculadas sobre contagens incompatíveis.</p>
+</details>
+
+<details><summary>Ver as provas de que os arquivos não mudaram</summary>
+  <p class="details-intro">Cada hash funciona como uma impressão digital do arquivo. Se alguém trocar o modelo, a prova final ou os dados depois de ver o resultado, a impressão muda e a avaliação é interrompida.</p>
+  <dl class="hashes">{% for name, file in manifest.files.items() %}<div><dt>{{ name }}</dt><dd><code>{{ file.sha256 }}</code></dd></div>{% endfor %}</dl>
+</details>

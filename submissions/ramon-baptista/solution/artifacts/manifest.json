@@ -1,0 +1,480 @@
+{
+  "model_version": "1.0.0",
+  "created_on": "2026-09-22",
+  "seed": 20260922,
+  "method": {
+    "model": "TF-IDF + regressão logística",
+    "selection_metric": "macro-F1 na validação",
+    "split": {
+      "train": 33485,
+      "validation": 7176,
+      "test": 7176,
+      "stratified": true
+    },
+    "selected_hyperparameters": {
+      "C": 2.0,
+      "ngram": [
+        1,
+        2
+      ],
+      "validation_macro_f1": 0.8576490923978688
+    },
+    "routing_selection": "Busca em quantis do score na validação; n>=100/faixa; alta>=90%, média>=75%; maximiza cobertura alta e depois média.",
+    "score_name": "score do modelo (máxima probabilidade não calibrada)"
+  },
+  "classes": [
+    "Access",
+    "Administrative rights",
+    "HR Support",
+    "Hardware",
+    "Internal Project",
+    "Miscellaneous",
+    "Purchase",
+    "Storage"
+  ],
+  "majority_class": "Hardware",
+  "routing_thresholds": {
+    "low": 0.5220998303453851,
+    "high": 0.5396032320427134
+  },
+  "validation_routing": {
+    "baixa": {
+      "n": 1507,
+      "accuracy": 0.5700066357000664,
+      "coverage": 0.21000557413600893
+    },
+    "media": {
+      "n": 144,
+      "accuracy": 0.7708333333333334,
+      "coverage": 0.020066889632107024
+    },
+    "alta": {
+      "n": 5525,
+      "accuracy": 0.936289592760181,
+      "coverage": 0.769927536231884
+    }
+  },
+  "test_routing": {
+    "baixa": {
+      "n": 1511,
+      "coverage": 0.21056298773690077,
+      "accuracy": 0.6035737921906023
+    },
+    "media": {
+      "n": 138,
+      "coverage": 0.019230769230769232,
+      "accuracy": 0.7318840579710145
+    },
+    "alta": {
+      "n": 5527,
+      "coverage": 0.77020624303233,
+      "accuracy": 0.9384838067667812
+    }
+  },
+  "test": {
+    "n": 7176,
+    "confusion_matrix": [
+      [
+        937,
+        5,
+        35,
+        50,
+        7,
+        30,
+        2,
+        3
+      ],
+      [
+        0,
+        226,
+        6,
+        27,
+        0,
+        2,
+        0,
+        3
+      ],
+      [
+        28,
+        7,
+        1408,
+        86,
+        19,
+        68,
+        4,
+        17
+      ],
+      [
+        36,
+        44,
+        89,
+        1721,
+        19,
+        94,
+        17,
+        23
+      ],
+      [
+        2,
+        0,
+        11,
+        12,
+        285,
+        8,
+        0,
+        0
+      ],
+      [
+        8,
+        5,
+        42,
+        65,
+        16,
+        914,
+        4,
+        5
+      ],
+      [
+        3,
+        4,
+        7,
+        17,
+        1,
+        6,
+        332,
+        0
+      ],
+      [
+        5,
+        5,
+        6,
+        12,
+        1,
+        9,
+        1,
+        377
+      ]
+    ],
+    "per_class": [
+      {
+        "class": "Access",
+        "n": 1069,
+        "VP": 937,
+        "FP": 82,
+        "FN": 132,
+        "VN": 6025,
+        "precision": 0.9195289499509323,
+        "recall": 0.8765201122544434,
+        "specificity": 0.9865727853283117,
+        "f1": 0.8975095785440613
+      },
+      {
+        "class": "Administrative rights",
+        "n": 264,
+        "VP": 226,
+        "FP": 70,
+        "FN": 38,
+        "VN": 6842,
+        "precision": 0.7635135135135135,
+        "recall": 0.8560606060606061,
+        "specificity": 0.9898726851851852,
+        "f1": 0.8071428571428572
+      },
+      {
+        "class": "HR Support",
+        "n": 1637,
+        "VP": 1408,
+        "FP": 196,
+        "FN": 229,
+        "VN": 5343,
+        "precision": 0.8778054862842892,
+        "recall": 0.8601099572388515,
+        "specificity": 0.964614551363062,
+        "f1": 0.8688676334464671
+      },
+      {
+        "class": "Hardware",
+        "n": 2043,
+        "VP": 1721,
+        "FP": 269,
+        "FN": 322,
+        "VN": 4864,
+        "precision": 0.8648241206030151,
+        "recall": 0.8423886441507586,
+        "specificity": 0.9475939996103643,
+        "f1": 0.8534589635507066
+      },
+      {
+        "class": "Internal Project",
+        "n": 318,
+        "VP": 285,
+        "FP": 63,
+        "FN": 33,
+        "VN": 6795,
+        "precision": 0.8189655172413793,
+        "recall": 0.8962264150943396,
+        "specificity": 0.9908136482939632,
+        "f1": 0.8558558558558559
+      },
+      {
+        "class": "Miscellaneous",
+        "n": 1059,
+        "VP": 914,
+        "FP": 217,
+        "FN": 145,
+        "VN": 5900,
+        "precision": 0.8081343943412909,
+        "recall": 0.8630783758262511,
+        "specificity": 0.9645250940003269,
+        "f1": 0.8347031963470319
+      },
+      {
+        "class": "Purchase",
+        "n": 370,
+        "VP": 332,
+        "FP": 28,
+        "FN": 38,
+        "VN": 6778,
+        "precision": 0.9222222222222223,
+        "recall": 0.8972972972972973,
+        "specificity": 0.9958859829562151,
+        "f1": 0.9095890410958904
+      },
+      {
+        "class": "Storage",
+        "n": 416,
+        "VP": 377,
+        "FP": 51,
+        "FN": 39,
+        "VN": 6709,
+        "precision": 0.8808411214953271,
+        "recall": 0.90625,
+        "specificity": 0.9924556213017751,
+        "f1": 0.8933649289099526
+      }
+    ],
+    "metrics": {
+      "n": 7176,
+      "macro_f1": 0.8650615068616029,
+      "weighted_f1": 0.8643780706467342,
+      "accuracy": 0.8639910813823858
+    },
+    "baseline_confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        1069,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        264,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1637,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2043,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        318,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1059,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        370,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        416,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "baseline_per_class": [
+      {
+        "class": "Access",
+        "n": 1069,
+        "VP": 0,
+        "FP": 0,
+        "FN": 1069,
+        "VN": 6107,
+        "precision": 0.0,
+        "recall": 0.0,
+        "specificity": 1.0,
+        "f1": 0.0
+      },
+      {
+        "class": "Administrative rights",
+        "n": 264,
+        "VP": 0,
+        "FP": 0,
+        "FN": 264,
+        "VN": 6912,
+        "precision": 0.0,
+        "recall": 0.0,
+        "specificity": 1.0,
+        "f1": 0.0
+      },
+      {
+        "class": "HR Support",
+        "n": 1637,
+        "VP": 0,
+        "FP": 0,
+        "FN": 1637,
+        "VN": 5539,
+        "precision": 0.0,
+        "recall": 0.0,
+        "specificity": 1.0,
+        "f1": 0.0
+      },
+      {
+        "class": "Hardware",
+        "n": 2043,
+        "VP": 2043,
+        "FP": 5133,
+        "FN": 0,
+        "VN": 0,
+        "precision": 0.2846989966555184,
+        "recall": 1.0,
+        "specificity": 0.0,
+        "f1": 0.44321509925154573
+      },
+      {
+        "class": "Internal Project",
+        "n": 318,
+        "VP": 0,
+        "FP": 0,
+        "FN": 318,
+        "VN": 6858,
+        "precision": 0.0,
+        "recall": 0.0,
+        "specificity": 1.0,
+        "f1": 0.0
+      },
+      {
+        "class": "Miscellaneous",
+        "n": 1059,
+        "VP": 0,
+        "FP": 0,
+        "FN": 1059,
+        "VN": 6117,
+        "precision": 0.0,
+        "recall": 0.0,
+        "specificity": 1.0,
+        "f1": 0.0
+      },
+      {
+        "class": "Purchase",
+        "n": 370,
+        "VP": 0,
+        "FP": 0,
+        "FN": 370,
+        "VN": 6806,
+        "precision": 0.0,
+        "recall": 0.0,
+        "specificity": 1.0,
+        "f1": 0.0
+      },
+      {
+        "class": "Storage",
+        "n": 416,
+        "VP": 0,
+        "FP": 0,
+        "FN": 416,
+        "VN": 6760,
+        "precision": 0.0,
+        "recall": 0.0,
+        "specificity": 1.0,
+        "f1": 0.0
+      }
+    ],
+    "baseline_metrics": {
+      "n": 7176,
+      "macro_f1": 0.055401887406443216,
+      "weighted_f1": 0.12618289405949107,
+      "accuracy": 0.2846989966555184
+    }
+  },
+  "versions": {
+    "python": "3.14.3",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1",
+    "joblib": "1.6.0"
+  },
+  "files": {
+    "data": {
+      "path": "data\\all_tickets_processed_improved_v3.csv",
+      "sha256": "044fdace33fa564e1e60453f2941dafc95539c99878b0d32746950394b9dd4d4"
+    },
+    "split": {
+      "path": "split_ids.json",
+      "sha256": "641027f80448b5194a7449038343266e2eff7a8e3aa0c489d1d3583f8f22ad79",
+      "test_ids_sha256": "3a6690dd7774b65d23d45d43339dac3cd849720e0acfc432b275f4a415894f5f"
+    },
+    "frozen_test": {
+      "path": "frozen_test.csv",
+      "sha256": "40beea54007b3954c469a5493e93829a86c76941cfcdc6622aa7c3669c9a91c2"
+    },
+    "model": {
+      "path": "model-v1.0.0.joblib",
+      "sha256": "dd6ec7e07c1597d24daef99f7bb63800d1b597b3bb10a5671ea8190f176c7cb9"
+    },
+    "language_guard": {
+      "path": "language_guard.json",
+      "sha256": "72390fafaf98c9ecc2538e128b13936fff08c54f0c93bea7a1d59e08428afa1e"
+    }
+  }
+}

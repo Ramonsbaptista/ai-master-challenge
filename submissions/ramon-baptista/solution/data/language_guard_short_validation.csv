@@ -1,0 +1,25 @@
+record_id,partition,language,text
+short-en-01,validation_short_exploratory,en,i forgot my password and cannot log in to the vpn
+short-en-02,validation_short_exploratory,en,the printer on the third floor is jammed and shows an error light
+short-en-03,validation_short_exploratory,en,my laptop screen is broken and the keyboard does not work
+short-en-04,validation_short_exploratory,en,please reset my account password
+short-en-05,validation_short_exploratory,en,i need access to the shared folder
+short-en-06,validation_short_exploratory,en,the monitor is black after startup
+short-en-07,validation_short_exploratory,en,my badge does not open the door
+short-en-08,validation_short_exploratory,en,the invoice has the wrong amount
+short-en-09,validation_short_exploratory,en,i cannot connect to wifi
+short-en-10,validation_short_exploratory,en,please grant access for this project
+short-en-11,validation_short_exploratory,en,the application shows an error
+short-en-12,validation_short_exploratory,en,my keyboard is not working
+short-pt-01,validation_short_exploratory,pt,a tela do meu notebook quebrou e o teclado nao funciona
+short-pt-02,validation_short_exploratory,pt,esqueci minha senha e nao consigo entrar na vpn
+short-pt-03,validation_short_exploratory,pt,o pedido chegou com o valor errado
+short-pt-04,validation_short_exploratory,pt,preciso de acesso para a pasta compartilhada
+short-pt-05,validation_short_exploratory,pt,o monitor fica preto ao iniciar
+short-pt-06,validation_short_exploratory,pt,meu cracha nao abre a porta
+short-pt-07,validation_short_exploratory,pt,a impressora esta travada com uma luz vermelha
+short-pt-08,validation_short_exploratory,pt,nao consigo conectar no wifi
+short-pt-09,validation_short_exploratory,pt,por favor libere acesso ao projeto
+short-pt-10,validation_short_exploratory,pt,o aplicativo mostra um erro
+short-pt-11,validation_short_exploratory,pt,meu teclado parou de funcionar
+short-pt-12,validation_short_exploratory,pt,a compra foi entregue no endereco errado

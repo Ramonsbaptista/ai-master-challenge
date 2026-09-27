@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title %}Classificar ticket{% endblock %}
+{% block content %}
+<section class="hero">
+  <p class="eyebrow">A IA sugere. As regras decidem.</p>
+  <h1>Para onde este ticket deve ir?</h1>
+  <p>Cole a solicitação. Se a IA reconhecer o assunto com segurança, o ticket segue para a fila. Se houver dúvida, uma pessoa assume.</p>
+</section>
+<div class="grid main-grid">
+  <section class="panel">
+    <form method="post" novalidate>
+      <label for="ticket">Texto do ticket</label>
+      <textarea id="ticket" name="ticket" maxlength="{{ max_length }}" rows="8" placeholder="Cole aqui o texto recebido...">{{ ticket }}</textarea>
+      <div class="field-meta"><span>Até {{ max_length }} caracteres</span><span id="char-count">0</span></div>
+      <button class="primary" type="submit">Analisar ticket</button>
+    </form>
+    <details class="examples">
+      <summary>Usar um exemplo pronto</summary>
+      <div class="example-list">
+        {% for example in examples %}<button type="button" class="example" data-example="{{ example }}">{{ loop.index }}. {{ example }}</button>{% endfor %}
+      </div>
+    </details>
+  </section>
+  <section aria-live="polite">
+    {% if error %}<div class="notice error"><h2>Não foi possível analisar</h2><p>{{ error }}</p></div>{% endif %}
+    {% if result %}
+    <article class="decision {{ 'automatic' if result.automatic else 'human' }}">
+      <p class="eyebrow">Decisão</p><h2>{{ result.headline }}</h2>
+      <p>{{ result.reason }}</p>
+      <dl>{% if not result.language_diversion %}<div><dt>Fila sugerida</dt><dd>{{ result.category_name }}</dd></div>{% endif %}
+          <div><dt>Força do sinal encontrado</dt><dd>{{ result.score|decimal_br(4) }}</dd></div></dl>
+      <p class="result-help">{% if result.automatic %}<strong>Vai direto:</strong> o sistema encaminha sem esperar uma aprovação.{% else %}<strong>Vai para uma pessoa:</strong> ninguém recebe uma decisão automática; alguém revisa o ticket.{% endif %}</p>
+      <p class="technical">O score compara este texto com os padrões aprendidos. Ele ajuda a decidir quando parar, mas não é uma probabilidade de acerto.</p>
+    </article>
+    {% else %}<div class="empty-state"><p>A decisão aparecerá aqui, com o motivo e a categoria sugerida.</p></div>{% endif %}
+  </section>
+</div>
+<section class="boundary panel">
+  <p class="eyebrow">Limite consciente</p><h2>Quando não sabe, a IA para</h2>
+  <p>Quando a barreira detecta idioma não validado, envia o ticket para uma pessoa; sinal fraco, arquivo alterado ou pausa de emergência também interrompem a automação. Na validação, 14 de 812 textos em português não foram detectados (n=812 PT), por contagem exata de escapes. A proteção reduz risco, mas não garante detecção universal.</p>
+</section>
+{% endblock %}

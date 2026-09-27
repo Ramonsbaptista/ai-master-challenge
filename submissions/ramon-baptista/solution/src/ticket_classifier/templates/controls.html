@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Controles e limites{% endblock %}
+{% block content %}
+<section class="hero"><p class="eyebrow">Segurança antes de velocidade</p><h1>Controles e limites</h1><p>Três barreiras fazem a IA parar antes que uma dúvida vire encaminhamento errado.</p></section>
+<div class="control-grid">
+  <article class="panel"><span class="control-icon">01</span><h2>Pausa de emergência</h2><p class="control-state {{ 'danger-text' if kill_switch else 'ok-text' }}">{{ 'Ligada — automação interrompida' if kill_switch else 'Desligada — regras normais ativas' }}</p><p>Se surgir um problema, a operação envia todos os tickets para pessoas imediatamente. O risco evitado é manter uma automação com falha em funcionamento.</p><p class="technical">Controle técnico: <code>TICKET_CLASSIFIER_KILL_SWITCH</code>.</p></article>
+  <article class="panel"><span class="control-icon">02</span><h2>Barreira de idioma</h2><p class="control-state {{ 'ok-text' if language_guard_ok else 'danger-text' }}">{{ 'Ativa' if language_guard_ok else 'Indisponível' }}</p><p>Quando a barreira detecta idioma não validado, nenhuma fila é sugerida e uma pessoa assume. Ela reduz o risco, mas não é infalível: na validação, 14 de 812 textos em português não foram detectados (n=812 PT), por contagem exata de escapes.</p></article>
+  <article class="panel"><span class="control-icon">03</span><h2>Arquivos sob conferência</h2><p class="control-state {{ 'ok-text' if integrity_ok else 'danger-text' }}">{{ 'Impressões digitais confirmadas' if integrity_ok else 'Arquivos diferentes do original' }}</p><p>O sistema confere a impressão digital do modelo e das proteções antes de começar. Se um arquivo mudou, a análise é bloqueada para não exibir um resultado sem prova.</p>{% if startup_error %}<p class="technical">Diagnóstico: {{ startup_error }}</p>{% endif %}</article>
+</div>
+<section class="panel limits"><h2>O que esta versão ainda não promete</h2><p>Ela separa oito assuntos internos aprendidos em inglês. O score não é uma probabilidade calibrada. A faixa mais segura ainda comete erros. E tickets em português brasileiro ainda não foram validados. Por isso, a ferramenta apenas encaminha quando suas regras permitem; ela não resolve o chamado nem substitui a supervisão da operação.</p></section>
+{% endblock %}

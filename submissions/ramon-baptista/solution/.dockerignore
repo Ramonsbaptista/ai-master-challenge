@@ -1,0 +1,12 @@
+.venv
+outputs
+tests
+scripts
+*.md
+colab.ipynb
+run.ps1
+run.sh
+__pycache__
+*.pyc
+.env
+.env.*
