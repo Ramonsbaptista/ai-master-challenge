@@ -1,0 +1,29 @@
+# Credenciais e configuracao local
+.env
+.env.*
+!.env.example
+
+# Ambientes, caches e temporarios
+**/.venv/
+**/.venv-broken-*/
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
+**/.mypy_cache/
+**/.install-tmp/
+**/.launcher-test-temp/
+
+# Saida local gerada pelo uso interativo do menu
+/solution/outputs/classification_history.csv
+
+# Rascunhos substituidos pelo README final
+/README-rascunho.txt
+/README-GPT.txt
+/README-GPT-v2.txt
+
+# Exportacoes brutas de execucao; ficam apenas os prompts e as evidencias organizadas
+/process-log/chat-exports/*.txt
+/process-log/chat-exports/*.jsonl
+
+# A base de dados em solution/data/ NAO e ignorada: sem ela, a opcao
+# "Reproduzir a avaliacao" nao encontra o texto dos tickets do teste congelado.
