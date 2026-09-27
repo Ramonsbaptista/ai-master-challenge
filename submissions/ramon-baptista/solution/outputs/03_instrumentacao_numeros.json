@@ -1,0 +1,130 @@
+{
+  "observado": {
+    "tickets_base_1": 8469,
+    "avaliacoes": 2769,
+    "taxa_avaliacoes_pct": 32.695713779667024,
+    "fechados_completos": 2769,
+    "cronologias_invalidas": 1365,
+    "invalidas_entre_fechados_pct": 49.29577464788732,
+    "tempos_validos": 1404,
+    "validos_entre_fechados_pct": 50.70422535211268,
+    "dataset_2_textos": 47837
+  },
+  "premissa_controle_90_pct": {
+    "registros_invalidos_prevenidos": 1229,
+    "registros_invalidos_remanescentes": 136,
+    "registros_cronologicamente_utilizaveis": 2633,
+    "cobertura_utilizavel_fechados_pct": 95.08847959552185
+  },
+  "amostragem": {
+    "n_100_margem_95_pontos_percentuais": 9.8,
+    "n_400_margem_95_pontos_percentuais": 4.9
+  },
+  "cenarios_capacidade": {
+    "conservador": {
+      "premissas": {
+        "participacao_pct": {
+          "A": 10.0,
+          "B": 55.00000000000001,
+          "C": 35.0
+        },
+        "minutos_atuais": {
+          "A": 12,
+          "B": 20,
+          "C": 35
+        },
+        "minutos_futuros": {
+          "A": 4,
+          "B": 16,
+          "C": 35
+        },
+        "custo_carregado_reais_hora": 40,
+        "origem": "premissas ilustrativas; não constam das bases"
+      },
+      "resultados": {
+        "n_tickets": 8469,
+        "horas_atuais": 3451.1175,
+        "horas_futuras": 3027.6675,
+        "horas_liberadas": 423.4499999999998,
+        "capacidade_liberada_pct": 12.269938650306745,
+        "beneficio_bruto_reais": 16937.999999999993
+      }
+    },
+    "base": {
+      "premissas": {
+        "participacao_pct": {
+          "A": 20.0,
+          "B": 65.0,
+          "C": 15.0
+        },
+        "minutos_atuais": {
+          "A": 12,
+          "B": 20,
+          "C": 35
+        },
+        "minutos_futuros": {
+          "A": 2,
+          "B": 13,
+          "C": 35
+        },
+        "custo_carregado_reais_hora": 50,
+        "origem": "premissas ilustrativas; não constam das bases"
+      },
+      "resultados": {
+        "n_tickets": 8469,
+        "horas_atuais": 2914.7474999999995,
+        "horas_futuras": 1990.2150000000001,
+        "horas_liberadas": 924.5324999999993,
+        "capacidade_liberada_pct": 31.719128329297806,
+        "beneficio_bruto_reais": 46226.62499999997
+      }
+    },
+    "favoravel": {
+      "premissas": {
+        "participacao_pct": {
+          "A": 30.0,
+          "B": 60.0,
+          "C": 10.0
+        },
+        "minutos_atuais": {
+          "A": 14,
+          "B": 22,
+          "C": 35
+        },
+        "minutos_futuros": {
+          "A": 1,
+          "B": 10,
+          "C": 35
+        },
+        "custo_carregado_reais_hora": 60,
+        "origem": "premissas ilustrativas; não constam das bases"
+      },
+      "resultados": {
+        "n_tickets": 8469,
+        "horas_atuais": 2950.0349999999994,
+        "horas_futuras": 1383.2700000000002,
+        "horas_liberadas": 1566.7649999999992,
+        "capacidade_liberada_pct": 53.110047846889934,
+        "beneficio_bruto_reais": 94005.89999999995
+      }
+    }
+  },
+  "sensibilidade_um_fator_por_vez": {
+    "shares": {
+      "beneficio_bruto_min_reais": 34228.87499999997,
+      "beneficio_bruto_max_reais": 50814.00000000002,
+      "amplitude_reais": 16585.12500000005
+    },
+    "minutes": {
+      "beneficio_bruto_min_reais": 29641.499999999975,
+      "beneficio_bruto_max_reais": 73398.00000000003,
+      "amplitude_reais": 43756.50000000006
+    },
+    "hourly_cost": {
+      "beneficio_bruto_min_reais": 36981.299999999974,
+      "beneficio_bruto_max_reais": 55471.94999999996,
+      "amplitude_reais": 18490.649999999987
+    }
+  },
+  "premissa_mais_sensivel": "minutes"
+}

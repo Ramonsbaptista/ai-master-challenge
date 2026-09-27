@@ -1,0 +1,21 @@
+﻿Ticket Channel,Ticket Type,tickets_total,fechados,fechados_validos_tempo,tempos_invalidos,mediana_h,p75_h,p90_h,status_amostra,elegivel_ranking
+Chat,Cancellation request,408,136,75,61,7.316666666666666,11.716666666666667,15.193333333333333,elegível para conclusão,True
+Social media,Refund request,444,144,66,78,7.258333333333333,15.191666666666666,18.916666666666664,elegível para conclusão,True
+Email,Refund request,455,171,95,76,7.116666666666666,11.458333333333334,15.696666666666667,elegível para conclusão,True
+Email,Product inquiry,427,126,57,69,7.116666666666666,10.583333333333334,12.873333333333333,elegível para conclusão,True
+Chat,Product inquiry,388,116,57,59,7.1,9.583333333333334,14.926666666666668,elegível para conclusão,True
+Social media,Technical issue,465,152,83,69,6.85,11.758333333333333,15.446666666666667,elegível para conclusão,True
+Phone,Refund request,427,138,68,70,6.708333333333334,11.545833333333333,15.453333333333335,elegível para conclusão,True
+Social media,Product inquiry,402,144,76,68,6.708333333333333,10.9875,16.825,elegível para conclusão,True
+Phone,Technical issue,421,151,78,73,6.533333333333333,9.933333333333334,13.798333333333334,elegível para conclusão,True
+Email,Cancellation request,448,154,85,69,6.283333333333333,12.05,17.360000000000003,elegível para conclusão,True
+Phone,Product inquiry,424,147,67,80,6.133333333333334,12.7,16.296666666666663,elegível para conclusão,True
+Chat,Refund request,426,143,75,68,5.766666666666667,12.358333333333334,18.156666666666673,elegível para conclusão,True
+Social media,Cancellation request,413,108,53,55,5.766666666666667,9.283333333333333,14.936666666666667,elegível para conclusão,True
+Email,Technical issue,408,135,71,64,5.616666666666666,11.225,15.533333333333333,elegível para conclusão,True
+Social media,Billing inquiry,397,136,70,66,5.458333333333334,12.15,16.86,elegível para conclusão,True
+Chat,Billing inquiry,398,137,75,62,5.366666666666666,8.916666666666666,14.710000000000004,elegível para conclusão,True
+Chat,Technical issue,453,142,73,69,5.333333333333333,12.05,16.43333333333333,elegível para conclusão,True
+Phone,Billing inquiry,434,137,62,75,5.300000000000001,9.766666666666667,14.486666666666666,elegível para conclusão,True
+Phone,Cancellation request,426,118,52,66,5.275,10.675,15.196666666666665,elegível para conclusão,True
+Email,Billing inquiry,405,134,66,68,4.891666666666667,10.3125,15.608333333333334,elegível para conclusão,True

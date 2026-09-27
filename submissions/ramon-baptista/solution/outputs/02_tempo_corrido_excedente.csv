@@ -1,0 +1,6 @@
+﻿Ticket Type,tickets_validos,benchmark_p90_h,ticket_horas_excedentes,tickets_acima_benchmark
+Technical issue,305,15.42666666666667,86.95666666666658,31
+Product inquiry,257,15.856666666666667,85.12666666666665,26
+Billing inquiry,273,15.403333333333334,82.30666666666663,28
+Cancellation request,265,15.94,66.85333333333335,27
+Refund request,304,17.24,59.49333333333338,31

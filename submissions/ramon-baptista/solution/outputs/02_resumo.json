@@ -1,0 +1,29 @@
+{
+  "populacao": {
+    "tickets_total": 8469,
+    "fechados_completos": 2769,
+    "incompletos_estruturais": 5700,
+    "fechados_tempo_invalido": 1365,
+    "fechados_tempo_valido": 1404
+  },
+  "tempo_valido_horas": {
+    "mediana": 6.341666666666667,
+    "p75": 11.354166666666666,
+    "p90": 16.0,
+    "media": 7.577932098765432
+  },
+  "tempo_corrido_excedente": {
+    "definicao": "soma das horas corridas acima do P90 do respectivo tipo de ticket",
+    "referencia": "P90 por tipo; limite de cauda que não seleciona metade dos casos por construção",
+    "amostra_n": 1404,
+    "ticket_horas_excedentes": 380.7366666666666
+  },
+  "modelos_satisfacao": {
+    "n_categorias_e_demografia": 2769,
+    "r2": 0.02037811018907365,
+    "r2_ajustado": -0.004665947016170513,
+    "n_com_tempo_valido": 1404,
+    "r2_com_tempo": 0.05128237020528281,
+    "r2_ajustado_com_tempo": 0.0014622396084108535
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "dataset_1": {
+    "arquivo": "data\\customer_support_tickets.csv",
+    "linhas": 8469,
+    "colunas": 17,
+    "duplicatas_exatas_linhas_envolvidas": 0,
+    "duplicatas_exatas_excedentes": 0,
+    "ids_duplicados_linhas_envolvidas": 0,
+    "ids_duplicados_excedentes": 0,
+    "descricoes_duplicadas_linhas_envolvidas": 457,
+    "descricoes_duplicadas_excedentes": 403,
+    "emails_formato_invalido": 0,
+    "emails_example_com": 2904,
+    "emails_dominio_reservado_example": 8469,
+    "idades_fora_0_120": 0,
+    "ratings_fora_1_5": 0,
+    "datas_invalidas_nao_faltantes": {
+      "Date of Purchase": 0,
+      "First Response Time": 0,
+      "Time to Resolution": 0
+    },
+    "resposta_antes_da_compra": 0,
+    "resolucao_antes_da_resposta": 1365,
+    "descricao_com_placeholder": 8469,
+    "resolucao_com_placeholder": 0
+  },
+  "dataset_2": {
+    "arquivo": "data\\all_tickets_processed_improved_v3.csv",
+    "linhas": 47837,
+    "colunas": 2,
+    "duplicatas_exatas_linhas_envolvidas": 0,
+    "duplicatas_exatas_excedentes": 0,
+    "documentos_duplicados_linhas_envolvidas": 0,
+    "documentos_duplicados_excedentes": 0,
+    "documentos_unicos_com_rotulos_conflitantes": 0,
+    "linhas_em_conflitos_de_rotulo": 0,
+    "documentos_vazios_apos_trim": 0,
+    "palavras_documento": {
+      "count": 47837.0,
+      "mean": 43.6,
+      "std": 56.74,
+      "min": 2.0,
+      "25%": 17.0,
+      "50%": 26.0,
+      "75%": 46.0,
+      "max": 981.0
+    },
+    "caracteres_documento": {
+      "count": 47837.0,
+      "mean": 291.88,
+      "std": 388.17,
+      "min": 7.0,
+      "25%": 110.0,
+      "50%": 175.0,
+      "75%": 304.0,
+      "max": 7015.0
+    }
+  }
+}

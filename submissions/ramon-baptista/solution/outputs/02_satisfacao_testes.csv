@@ -1,0 +1,9 @@
+﻿variavel,amostra_n,teste,estatistica,graus_liberdade,p_valor,magnitude_ajustada_pontos,nivel_menor_predicao,nivel_maior_predicao,significativo_5pct
+Ticket Channel,2769,Wald conjunto HC3,3.7194453122392015,3,0.2933960548461064,0.13263768921810648,Phone,Chat,False
+Ticket Priority,2769,Wald conjunto HC3,1.9610156885294185,3,0.5805373416723112,0.09876134707968065,Critical,Low,False
+Product Purchased,2769,Wald conjunto HC3,36.78640313406841,41,0.6583376482803291,0.670917888332113,Fitbit Versa Smartwatch,Google Pixel,False
+Customer Gender,2769,Wald conjunto HC3,0.8163908176834761,2,0.6648489487650654,0.056739096224402985,Other,Male,False
+Ticket Type,2769,Wald conjunto HC3,2.078582435647168,4,0.7213080980009763,0.09906648326102241,Refund request,Billing inquiry,False
+Ticket Subject,2769,Wald conjunto HC3,11.149167787055505,15,0.7419501996252305,0.3973201611630146,Delivery problem,Installation support,False
+Customer Age,2769,Wald HC3,0.05030419897651012,1,0.8225347878864366,0.010549225143123026,P25,P75,False
+Tempo entre primeira resposta e resolução,1404,Wald HC3; tempo em log(1+h),0.011780461644817075,1,0.9135690697158566,-0.006357896170131504,P25=3.00h,P75=11.35h,False

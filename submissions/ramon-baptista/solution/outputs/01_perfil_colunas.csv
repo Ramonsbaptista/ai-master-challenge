@@ -1,0 +1,24 @@
+﻿dataset,coluna,dtype,linhas,faltantes,faltantes_pct,vazios_apos_trim,valores_unicos_incluindo_na,exemplo
+dataset_1,Ticket ID,int64,8469,0,0.0,0,8469,1
+dataset_1,Customer Name,str,8469,0,0.0,0,8028,Marisa Obrien
+dataset_1,Customer Email,str,8469,0,0.0,0,8320,carrollallison@example.com
+dataset_1,Customer Age,int64,8469,0,0.0,0,53,32
+dataset_1,Customer Gender,str,8469,0,0.0,0,3,Other
+dataset_1,Product Purchased,str,8469,0,0.0,0,42,GoPro Hero
+dataset_1,Date of Purchase,str,8469,0,0.0,0,730,2021-03-22
+dataset_1,Ticket Type,str,8469,0,0.0,0,5,Technical issue
+dataset_1,Ticket Subject,str,8469,0,0.0,0,16,Product setup
+dataset_1,Ticket Description,str,8469,0,0.0,0,8077,"I'm having an issue with the {product_purchased}. Please assist.
+
+Your billing zip code is: 71701.
+
+We appreciate that y"
+dataset_1,Ticket Status,str,8469,0,0.0,0,3,Pending Customer Response
+dataset_1,Resolution,str,8469,5700,67.3,0,2770,Case maybe show recently my computer follow.
+dataset_1,Ticket Priority,str,8469,0,0.0,0,4,Critical
+dataset_1,Ticket Channel,str,8469,0,0.0,0,4,Social media
+dataset_1,First Response Time,str,8469,2819,33.29,0,5471,2023-06-01 12:15:36
+dataset_1,Time to Resolution,str,8469,5700,67.3,0,2729,2023-06-01 18:05:38
+dataset_1,Customer Satisfaction Rating,float64,8469,5700,67.3,0,6,3.0
+dataset_2,Document,str,47837,0,0.0,0,47837,connection with icon icon dear please setup icon per icon engineers please let other details needed thanks lead
+dataset_2,Topic_group,str,47837,0,0.0,0,8,Hardware
