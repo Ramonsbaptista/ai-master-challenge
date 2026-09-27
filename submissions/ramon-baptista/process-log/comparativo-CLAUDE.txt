@@ -1,0 +1,99 @@
+PROPOSTA DO CLAUDE (Opus 5)
+Unidade de automacao: o ASSUNTO DO TICKET, com percentuais medidos na base.
+Gerada em 2026-09-21, antes de ver a resposta do GPT.
+==============================================================================
+
+
+BASE DE CALCULO
+Os 8.469 tickets se distribuem em 16 assuntos, cada um com cerca de 6% do volume.
+Todos os numeros abaixo sao contagens reais da base, nao premissas.
+
+
+NIVEL 1 - IA RESOLVE SOZINHA  ->  3.181 tickets (37,6%)
+
+  Compatibilidade de produto .......... 567   resposta factual, consultavel
+  Duracao de bateria .................. 542   pergunta informativa, resposta padrao
+  Suporte de instalacao ............... 530   passo a passo padronizado
+  Configuracao de produto ............. 529   passo a passo padronizado
+  Recomendacao de produto ............. 517   regra de catalogo
+  Compatibilidade de perifericos ...... 496   resposta factual
+
+  O que tem em comum: pergunta com resposta conhecida, sem risco financeiro, sem
+  decisao sobre a conta do cliente, sem carga emocional. O pior erro possivel e
+  uma resposta incompleta - e o cliente pede detalhe.
+
+
+NIVEL 2 - IA COPILOTO: SUGERE, HUMANO APROVA  ->  3.225 tickets (38,1%)
+
+  Bug de software ..................... 574   classifica, busca casos similares, rascunha
+  Problema de hardware ................ 547   roteia ao time certo, sugere diagnostico
+  Problema de entrega ................. 561   puxa status e redige resposta
+  Problema de rede .................... 539   sugere roteiro de verificacao
+  Problema de pagamento ............... 526   identifica o caso; humano confirma valor
+  Problema de tela .................... 478   triagem entre defeito e mau uso
+
+  Por que nao automatiza 100%: exige diagnostico tecnico ou toca dinheiro.
+  A IA acelera, mas quem assina e o agente.
+
+
+NIVEL 3 - 100% HUMANO  ->  2.063 tickets (24,4%)
+
+  Pedido de reembolso ................. 576   risco financeiro direto, decisao de excecao
+  Acesso a conta ...................... 509   seguranca: risco de entregar conta a terceiro
+  Perda de dados ...................... 491   impacto grave, cliente em crise, risco juridico
+  Pedido de cancelamento .............. 487   momento de retencao: ganha ou perde o cliente
+
+  A regra por tras: dinheiro, seguranca, perda irreversivel e risco de churn.
+  Em todos, o custo de um erro da IA e muito maior que a hora de trabalho economizada.
+
+
+GATILHOS QUE DERRUBAM QUALQUER TICKET PARA O NIVEL 3
+Mesmo um ticket do nivel 1 vai para humano se:
+  - a confianca do classificador ficar abaixo do limite (sugestao inicial: 85%);
+  - a prioridade for critica;
+  - houver sinal de cliente irritado no texto.
+
+
+BENEFICIOS TANGIVEIS - COMO CALCULAR CADA UM
+
+  1. HORAS ECONOMIZADAS NA TRIAGEM
+     formula: tickets x tempo de triagem manual x % classificado corretamente
+     do dado: volume por categoria, acuracia medida no prototipo
+     premissa: tempo de triagem por ticket
+
+  2. HORAS ECONOMIZADAS NA RESPOSTA
+     formula: tickets do nivel 1 x tempo medio de redacao
+     do dado: volume do nivel 1
+     premissa: tempo de redacao
+
+  3. REDUCAO DE ERRO DE ROTEAMENTO
+     formula: (erro humano - erro da IA) x tickets x custo do retrabalho
+     do dado: taxa de erro da IA, medida na matriz de confusao
+     premissa: taxa de erro humana, custo do retrabalho
+
+  4. QUEDA NO TEMPO DE PRIMEIRA RESPOSTA
+     formula: de horas para segundos, no volume do nivel 1
+     do dado: volume do nivel 1
+     premissa: tempo atual de primeira resposta
+
+  5. CAPACIDADE LIBERADA
+     formula: horas economizadas / jornada = pessoas-equivalente
+     do dado: itens 1 e 2
+     premissa: jornada
+
+
+O QUE E MEDIDO E O QUE E PREMISSA
+
+  MEDIDO:     volume por categoria; acuracia do classificador (sai do prototipo)
+  PREMISSA:   tempo de triagem, tempo de redacao, custo/hora, taxa de erro humana
+  IMPOSSIVEL: tempo de primeira resposta real (a base nao tem data de abertura);
+              custo do erro (nao ha registro de reabertura ou escalonamento)
+
+  O beneficio 3 e o mais forte para convencer um gerente: erro de roteamento custa
+  duas vezes (o ticket anda para o time errado e volta). E e o unico que da para
+  MEDIR de verdade com a matriz de confusao, em vez de estimar.
+
+
+PONTOS EM ABERTO QUE EU MARQUEI PARA DECISAO DO RAMON
+  1. "Problema de pagamento" esta no nivel 2 - da para argumentar que va para o 3.
+  2. Limite de confianca inicial sugerido: 85%.

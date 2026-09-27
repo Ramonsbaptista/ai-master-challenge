@@ -1,0 +1,5 @@
+Rodei o teste limpo fora do sandbox, numa cópia com espaço no nome: passou. Criou o ambiente, instalou e abriu o menu em 52 s (bibliotecas já em cache); os três tickets saíram corretos e com acentos certos.
+
+Mas achei um defeito real: a cópia tinha uma pasta .venv pela metade, sobra da sua tentativa no sandbox (criada sem pip). O run.ps1 viu a pasta, assumiu que estava boa e falhou com 'No module named pip'. Isso vai acontecer com o avaliador se a primeira instalação dele for interrompida no meio: na segunda tentativa, ele fica preso.
+
+Corrija no run.ps1 e no run.sh: se a .venv existir mas estiver incompleta (sem python funcional, sem pip, ou sem as dependências instaláveis), apague e recrie automaticamente, avisando em uma linha simples. Não mexa em mais nada. Teste do jeito que o sandbox permitir e me diga o que eu devo testar fora dele. Regras do AGENTS.md valem. Responda em português, em no máximo 10 linhas.

@@ -1,0 +1,129 @@
+PROPOSTA DO GPT-5.6 SOL (executor)
+Unidade de automacao: a ETAPA DO PROCESSO, nao a categoria do ticket.
+Gerado em 2026-09-21. Extraido das secoes 6 e 7 que ele acrescentou ao diagnostico.md.
+==============================================================================
+
+## 6. Decisão de automação: o que a máquina faz, o que ela recomenda e o que continua humano
+
+A decisão não deve ser tomada apenas pelo nome da categoria do ticket. Um mesmo pedido de
+reembolso pode ser simples e totalmente aderente à política ou envolver fraude, exceção e alto
+valor. Por isso, a unidade de automação é a **etapa do processo**, combinada com risco,
+reversibilidade e confiança.
+
+### Faixa A — automação de ponta a ponta
+
+O sistema executa sem aprovação individual, registra a justificativa e oferece rota de saída para
+um atendente.
+
+| Processo | Escopo autorizado | Controle obrigatório |
+|---|---|---|
+| Receber e validar o ticket | Conferir campos, normalizar texto, detectar idioma e pedir informação ausente | Nunca recusar atendimento por falha do modelo |
+| Classificar, priorizar e rotear | Aplicar taxonomia, identificar urgência e encaminhar para a fila correta | Confiança mínima calibrada; abaixo dela, fila humana |
+| Consultar e entregar informação padronizada | Status, segunda via, política publicada, instrução conhecida e pergunta frequente | Resposta ancorada em fonte aprovada e atualizada |
+| Executar solicitação simples e reversível | Cancelamento ou reembolso dentro de regras objetivas, limite de valor e prazo definidos | Motor de regras determinístico; IA não decide política nem limite |
+| Atualizações operacionais | Confirmação de recebimento, pedido de dados, aviso de andamento e pesquisa pós-atendimento | Opt-out e histórico completo no ticket |
+| Controle de qualidade dos dados | Impedir datas impossíveis, campos incompatíveis e fechamento incompleto | Validação no momento da gravação |
+
+### Faixa B — colaborador assistido por agentes de IA
+
+A IA prepara o trabalho; o colaborador continua responsável pela decisão e pelo envio ou execução.
+
+| Processo | O que o agente de IA faz | O que o colaborador faz |
+|---|---|---|
+| Diagnóstico técnico | Resume o caso, busca artigos, propõe testes e próxima melhor ação | Confirma o diagnóstico, adapta a orientação e acompanha o resultado |
+| Cobrança fora do padrão | Reconcilia informações, destaca divergências e redige resposta | Valida valores, decide ajuste e autoriza qualquer impacto financeiro |
+| Reembolso ou cancelamento com exceção | Verifica critérios, reúne evidências e estima opções | Decide a exceção e autoriza a transação |
+| Resposta a reclamação | Resume histórico, identifica sentimento e sugere texto | Aplica contexto, empatia e responsabilidade; envia a resposta |
+| Escalonamento | Gera resumo estruturado, linha do tempo e itens pendentes | Confirma gravidade, destino e prioridade |
+| Encerramento e documentação | Sugere classificação final, resumo e artigo de conhecimento | Revisa, corrige e aprova o registro |
+
+### Faixa C — execução 100% humana
+
+Permanecem humanas as decisões em que o custo do erro é alto, a política não cobre o caso ou a
+relação com o cliente é parte central do trabalho:
+
+- suspeita de fraude, incidente de segurança, privacidade ou exposição de dados;
+- ameaça, assédio, risco à integridade, cliente vulnerável ou crise reputacional;
+- decisão jurídica, regulatória ou contratual;
+- exceção de alto valor ou ação irreversível fora dos limites predefinidos;
+- reclamação executiva ou cliente estratégico que exige negociação;
+- qualquer caso de baixa confiança, evidência conflitante ou ausência de fonte confiável;
+- definição de políticas, limites, base de conhecimento e auditoria do próprio sistema de IA.
+
+“100% humano” significa que a IA não recomenda a decisão nem redige a comunicação. Ela pode,
+no máximo, transportar dados e registrar o resultado, sem interpretar o caso.
+
+### Regra de roteamento
+
+Um ticket só entra na Faixa A quando **todas** as condições forem verdadeiras: política explícita,
+dados suficientes, ação reversível ou dentro de limite aprovado, fonte vigente, confiança acima do
+limiar e nenhum sinal de risco. Se uma condição falhar, vai para a Faixa B. Se houver alto impacto,
+exceção relevante, tema sensível ou obrigação legal, vai para a Faixa C.
+
+---
+
+## 7. Benefícios tangíveis e business case
+
+### Benefício comprovável imediatamente: qualidade do dado
+
+Dos 2.769 tickets fechados, **1.365 (49,3%) têm resolução registrada antes da primeira resposta**.
+Uma validação determinística no momento da gravação é automação de baixo risco. Se ela prevenir
+90% dessas inconsistências, evita **1.229 registros inválidos** e eleva a cobertura de tempos
+cronologicamente utilizáveis de **50,7% para 95,1%** dos tickets fechados. Isso não é uma promessa
+de IA: é um controle de sistema mensurável sobre um erro observado na base.
+
+### Cenário ilustrativo de capacidade
+
+Como a base não informa tempo ativo por etapa, custo da equipe nem período do volume, o cálculo
+abaixo é um **cenário sobre os 8.469 tickets da base**, e não uma economia anual comprovada.
+
+| Faixa | Participação assumida | Tickets | Minutos humanos atuais por ticket | Minutos humanos futuros | Horas economizadas |
+|---|---:|---:|---:|---:|---:|
+| A — automação de ponta a ponta | 20% | 1.694 | 12 | 2 | 282,3 |
+| B — colaborador assistido | 65% | 5.505 | 20 | 13 | 642,3 |
+| C — 100% humano | 15% | 1.270 | 35 | 35 | 0,0 |
+| **Total** | **100%** | **8.469** | — | — | **924,6** |
+
+Nesse cenário, o esforço cai de **2.914,6 para 1.990,0 horas**, liberando **924,6 horas**, ou
+**31,7% da capacidade atual**. Com custo carregado de **R$ 50 por hora**, o benefício bruto é de
+**R$ 46,2 mil por ciclo de 8.469 tickets**. O valor líquido é:
+
+`benefício líquido = horas liberadas × custo/hora + perdas evitadas − custo da solução`
+
+Logo, não se deve chamar R$ 46,2 mil de ROI antes de levantar implantação, licenças, inferência,
+integração, manutenção e supervisão. O ponto de equilíbrio desse cenário é custo total de solução
+igual a R$ 46,2 mil por ciclo.
+
+### Redução de erros humanos
+
+Erros devem ser medidos como ocorrências, e não como percepção. Para cada processo automatizado,
+o piloto precisa registrar a taxa atual e a taxa futura na mesma amostra:
+
+`erros evitados = volume elegível × (taxa de erro atual − taxa de erro futura)`
+
+`benefício do erro = erros evitados × (minutos de retrabalho/60 × custo/hora + perda média por erro)`
+
+Exemplo estritamente ilustrativo: em 7.199 tickets das Faixas A e B, reduzir erros de 5% para 2%
+evita cerca de **216 erros**. Se cada erro gera 20 minutos de retrabalho a R$ 50/h, são mais
+**72 horas** ou **R$ 3,6 mil** preservados. Esse valor deve ficar fora do caso financeiro até que
+as duas taxas e o custo médio do erro sejam medidos; também não pode ser somado se o retrabalho já
+estiver incluído nos minutos de atendimento, para evitar dupla contagem.
+
+### Indicadores que validam ou derrubam o projeto
+
+O piloto deve comparar grupo assistido/automatizado com grupo de controle durante o mesmo período:
+
+| Indicador | Cálculo | Critério inicial de sucesso |
+|---|---|---|
+| Horas humanas por 100 tickets | minutos ativos registrados / 60 | redução sem piorar qualidade |
+| Taxa de erro | tickets com correção, reabertura ou violação / tickets tratados | menor que o controle |
+| Resolução sem humano | tickets concluídos na Faixa A / tickets elegíveis | crescer com taxa de escape estável |
+| Taxa de escape | automações que deveriam ter sido escaladas / automações concluídas | abaixo do limite de risco definido |
+| Reabertura em 7 dias | tickets reabertos / tickets encerrados | não superior ao controle |
+| Tempo de ciclo | encerramento − abertura | redução por faixa e categoria |
+| Benefício líquido | economia de trabalho + perdas evitadas − custo total | positivo após estabilização |
+
+Antes do rollout, quatro números precisam ser medidos na operação real: minutos ativos por tipo de
+processo, taxa e custo dos erros, percentual elegível em cada faixa e custo total da solução. Uma
+amostra de duas a quatro semanas com apontamento simples já transforma este cenário em business
+case auditável.
